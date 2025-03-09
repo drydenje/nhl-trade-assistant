@@ -1,8 +1,18 @@
 import { Player, columns } from "@/components/containers/table/columns";
+import neo4j from "neo4j-driver";
 import { DataTable } from "@/components/containers/table/data-table";
+
+const driver = neo4j.driver(
+  import.meta.env.PUBLIC_DATABASE_BOLT_URL,
+  neo4j.auth.basic(
+    import.meta.env.PUBLIC_DATABASE_INSTANCE,
+    import.meta.env.PUBLIC_DATABASE_PASSWORD
+  )
+);
 
 async function getData(): Promise<Player[]> {
   // Fetch data from your API here.
+
   const api_result = [
     {
       id: 8474668,
@@ -176,6 +186,13 @@ async function getData(): Promise<Player[]> {
     },
   ];
 
+  const session = driver.session();
+  const response = await session.run(
+    "MATCH (p:Player) RETURN COUNT(p) AS count"
+  );
+
+  console.log(JSON.stringify(response.records, null, 2));
+
   return api_result.map((player) => {
     return {
       playerID: player.id,
@@ -193,8 +210,8 @@ async function getData(): Promise<Player[]> {
 
 const data = await getData();
 
-const PlayerTable = () => {
+const PlayerDashboard = () => {
   return <DataTable columns={columns} data={data} />;
 };
 
-export { PlayerTable };
+export { PlayerDashboard };
