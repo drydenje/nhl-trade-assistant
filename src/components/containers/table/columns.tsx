@@ -1,20 +1,7 @@
 import { ColumnDef } from "@tanstack/react-table";
 import { ArrowUpDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-export type Player = {
-  playerID: number;
-  firstName: string;
-  lastName: string;
-  birthDate: string;
-  birthCity: string;
-  birthCountry: string;
-  hrID: string | null;
-  hdbID: string | null;
-  verified: boolean;
-};
-
-// export const players: Player[] = unfilteredPlayers;
+import { Player } from "@/types/Player";
 
 export const columns: ColumnDef<Player>[] = [
   {

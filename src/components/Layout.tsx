@@ -4,39 +4,89 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 // Component Imports
-// import Button from '../components/Button.astro';
 import { Button } from "@/components/ui/button";
 import { PlayerSelection } from "@/components/PlayerSelection";
+import { PlayerDashboard } from "./containers/table/PlayerDashboard";
 import { PlayerCard } from "@/components/PlayerCard";
 
 const Layout = () => {
   return (
     <ResizablePanelGroup
-      direction="horizontal"
-      className="max-w-md rounded-lg border md:min-w-5/6 m-4"
+      direction="vertical"
+      className="min-h-dvh max-w-md rounded-lg border md:container"
     >
-      <ResizablePanel defaultSize={50}>
-        <div className="flex h-auto items-center justify-center p-6">
-          <span className="font-semibold">One</span>
+      <ResizablePanel defaultSize={30}>
+        <div className="flex h-full items-center justify-center p-2">
+          <PlayerDashboard />
+        </div>
+      </ResizablePanel>
+      {/* <ResizableHandle withHandle /> */}
+      <ResizableHandle />
+      <ResizablePanel defaultSize={35}>
+        <div className="flex h-full items-center justify-center p-6">
+          <Carousel className="w-full max-w-4xl">
+            <CarouselContent>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
         </div>
       </ResizablePanel>
       <ResizableHandle />
-      <ResizablePanel defaultSize={50}>
-        <ResizablePanelGroup direction="vertical">
-          <ResizablePanel defaultSize={50}>
-            {/* <div className="flex h-auto items-center justify-center p-6"> */}
-            <div className="flex h-auto items-center justify-center p-6">
-              <PlayerCard />
-            </div>
-          </ResizablePanel>
-          <ResizableHandle />
-          <ResizablePanel defaultSize={50}>
-            <div className="flex h-auto items-center justify-center p-6">
-              <span className="font-semibold">Three</span>
-            </div>
-          </ResizablePanel>
-        </ResizablePanelGroup>
+      <ResizablePanel defaultSize={35}>
+        <div className="flex h-full items-center justify-center p-6">
+          <Carousel className="w-full max-w-4xl">
+            <CarouselContent>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+              <CarouselItem className="basis-1/3">
+                <PlayerCard />
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
       </ResizablePanel>
     </ResizablePanelGroup>
   );
