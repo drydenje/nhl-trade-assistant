@@ -564,6 +564,12 @@
     "birthCity": "Edmonton"
   },
   {
+    "name": "Matt Climie",
+    "id": "climima01",
+    "birthDate": "1983-02-11",
+    "birthCity": "Leduc"
+  },
+  {
     "name": "Joe Colborne",
     "id": "colbojo01",
     "birthDate": "1990-01-30",
@@ -694,6 +700,12 @@
     "id": "cuttsdo01",
     "birthDate": "1953-02-24",
     "birthCity": "Edmonton"
+  },
+  {
+    "name": "Colton Dach",
+    "id": "dachco01",
+    "birthDate": "2003-01-04",
+    "birthCity": "St. Albert"
   },
   {
     "name": "Kirby Dach",
@@ -2646,6 +2658,12 @@
     "birthCity": "Canmore"
   },
   {
+    "name": "Noah Philp",
+    "id": "philpno01",
+    "birthDate": "1998-08-31",
+    "birthCity": "Canmore"
+  },
+  {
     "name": "Fernando Pisani",
     "id": "pisanfe01",
     "birthDate": "1976-12-27",
@@ -3756,6 +3774,12 @@
     "birthCity": "Calgary"
   },
   {
+    "name": "Ozzy Wiesblatt",
+    "id": "wiesboz01",
+    "birthDate": "2002-03-09",
+    "birthCity": "Calgary"
+  },
+  {
     "name": "Bob Wilkie",
     "id": "wilkibo01",
     "birthDate": "1969-02-11",
@@ -4186,6 +4210,12 @@
     "id": "carrge01",
     "birthDate": "1951-09-17",
     "birthCity": "Nanaimo"
+  },
+  {
+    "name": "Macklin Celebrini",
+    "id": "celebma01",
+    "birthDate": "2006-06-13",
+    "birthCity": "Vancouver"
   },
   {
     "name": "Dennis Cholowski",
@@ -5440,6 +5470,12 @@
     "id": "mcneima01",
     "birthDate": "1993-02-22",
     "birthCity": "Langley"
+  },
+  {
+    "name": "Michael Milne",
+    "id": "milnemi01",
+    "birthDate": "2002-09-21",
+    "birthCity": "Abbotsford"
   },
   {
     "name": "Fraser Minten",
@@ -7062,6 +7098,12 @@
     "birthCity": "Winnipeg"
   },
   {
+    "name": "Conor Geekie",
+    "id": "geekico01",
+    "birthDate": "2004-05-05",
+    "birthCity": "Strathclair"
+  },
+  {
     "name": "Morgan Geekie",
     "id": "geekimo01",
     "birthDate": "1998-07-20",
@@ -7518,6 +7560,12 @@
     "birthCity": "Dauphin"
   },
   {
+    "name": "Tyson Kozak",
+    "id": "kozakty01",
+    "birthDate": "2002-12-29",
+    "birthCity": "Souris"
+  },
+  {
     "name": "Brent Krahn",
     "id": "krahnbr01",
     "birthDate": "1982-04-02",
@@ -7794,6 +7842,12 @@
     "birthCity": "Winnipeg"
   },
   {
+    "name": "Denton Mateychuk",
+    "id": "mateyde01",
+    "birthDate": "2004-07-12",
+    "birthCity": "Winnipeg"
+  },
+  {
     "name": "Frank Mathers",
     "id": "mathefr01",
     "birthDate": "1924-03-29",
@@ -7948,6 +8002,12 @@
     "id": "minarch01",
     "birthDate": "1981-11-18",
     "birthCity": "Thompson"
+  },
+  {
+    "name": "Trent Miner",
+    "id": "minertr01",
+    "birthDate": "2001-02-05",
+    "birthCity": "Brandon"
   },
   {
     "name": "Mike Mitchell",
@@ -8110,6 +8170,12 @@
     "id": "phairly01",
     "birthDate": "1961-08-31",
     "birthCity": "Pilot Mound"
+  },
+  {
+    "name": "Owen Pickering",
+    "id": "pickeow01",
+    "birthDate": "2004-01-27",
+    "birthCity": "St. Adolphe"
   },
   {
     "name": "Alf Pike",
@@ -9636,6 +9702,12 @@
     "birthCity": "Antigonish"
   },
   {
+    "name": "Jacob Melanson",
+    "id": "melanja01",
+    "birthDate": "2003-04-22",
+    "birthCity": "Halifax"
+  },
+  {
     "name": "Kevin Morrison",
     "id": "morrike01",
     "birthDate": "1949-10-28",
@@ -9658,6 +9730,12 @@
     "id": "polizda01",
     "birthDate": "1935-01-08",
     "birthCity": "New Waterford"
+  },
+  {
+    "name": "Jacob Quillan",
+    "id": "quillja01",
+    "birthDate": "2002-02-02",
+    "birthCity": "Dartmouth"
   },
   {
     "name": "Pokey Reddick",
@@ -9718,6 +9796,12 @@
     "id": "stackte01",
     "birthDate": "1894-11-02",
     "birthCity": "Wolfville"
+  },
+  {
+    "name": "Matthew Stienburg",
+    "id": "stienma01",
+    "birthDate": "2000-10-07",
+    "birthCity": "Halifax"
   },
   {
     "name": "Doug Sulliman",
@@ -11640,6 +11724,12 @@
     "birthCity": "Kitchener"
   },
   {
+    "name": "Ethan Cardwell",
+    "id": "cardwet01",
+    "birthDate": "2002-08-30",
+    "birthCity": "Oshawa"
+  },
+  {
     "name": "Steve Cardwell",
     "id": "cardwst01",
     "birthDate": "1950-08-13",
@@ -12294,6 +12384,12 @@
     "birthCity": "Barrie"
   },
   {
+    "name": "Sebastian Cossa",
+    "id": "cossase01",
+    "birthDate": "2002-11-21",
+    "birthCity": "Hamilton"
+  },
+  {
     "name": "Les Costello",
     "id": "costele01",
     "birthDate": "1928-02-16",
@@ -12926,7 +13022,7 @@
   {
     "name": "Alex Delvecchio",
     "id": "delveal01",
-    "birthDate": "1932-12-04",
+    "birthDate": "1931-12-04",
     "birthCity": "Fort William"
   },
   {
@@ -13092,7 +13188,7 @@
     "birthCity": "Barrie"
   },
   {
-    "name": "Michael Dipietro",
+    "name": "Michael DiPietro",
     "id": "dipiemi01",
     "birthDate": "1999-06-09",
     "birthCity": "Windsor"
@@ -13788,6 +13884,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Tye Felhaber",
+    "id": "felhaty01",
+    "birthDate": "1998-08-05",
+    "birthCity": "Pembroke"
+  },
+  {
     "name": "Chris Felix",
     "id": "felixch01",
     "birthDate": "1964-05-27",
@@ -14416,6 +14518,12 @@
     "id": "gelinja01",
     "birthDate": "1924-11-11",
     "birthCity": "Toronto"
+  },
+  {
+    "name": "Isaiah George",
+    "id": "georgis01",
+    "birthDate": "2004-02-15",
+    "birthCity": "Oakville"
   },
   {
     "name": "Eddie Gerard",
@@ -16554,6 +16662,12 @@
     "birthCity": "Sault Ste. Marie"
   },
   {
+    "name": "Rory Kerins",
+    "id": "kerinro01",
+    "birthDate": "2002-04-12",
+    "birthCity": "Caledon"
+  },
+  {
     "name": "Dave Kerr",
     "id": "kerrda01",
     "birthDate": "1910-01-11",
@@ -17445,6 +17559,12 @@
     "name": "Don Luce",
     "id": "lucedo01",
     "birthDate": "1948-10-02",
+    "birthCity": "London"
+  },
+  {
+    "name": "Jett Luchanko",
+    "id": "luchaje01",
+    "birthDate": "2006-08-21",
     "birthCity": "London"
   },
   {
@@ -20946,6 +21066,12 @@
     "birthCity": "Orangeville"
   },
   {
+    "name": "Calum Ritchie",
+    "id": "ritchca01",
+    "birthDate": "2005-01-21",
+    "birthCity": "Oakville"
+  },
+  {
     "name": "Nick Ritchie",
     "id": "ritchni01",
     "birthDate": "1995-12-05",
@@ -21478,6 +21604,12 @@
     "id": "seabrgl01",
     "birthDate": "1967-09-11",
     "birthCity": "Peterborough"
+  },
+  {
+    "name": "Donovan Sebrango",
+    "id": "sebrado01",
+    "birthDate": "2002-01-12",
+    "birthCity": "Ottawa"
   },
   {
     "name": "Al Secord",
@@ -22683,6 +22815,12 @@
     "name": "Nick Suzuki",
     "id": "suzukni01",
     "birthDate": "1999-08-10",
+    "birthCity": "London"
+  },
+  {
+    "name": "Ryan Suzuki",
+    "id": "suzukry01",
+    "birthDate": "2001-05-28",
     "birthCity": "London"
   },
   {
@@ -26304,6 +26442,12 @@
     "birthCity": "Chandler"
   },
   {
+    "name": "Jacob Gaucher",
+    "id": "gauchja01",
+    "birthDate": "2001-03-09",
+    "birthCity": "Longueuil"
+  },
+  {
     "name": "Frederick Gaudreau",
     "id": "gaudrfr01",
     "birthDate": "1993-05-01",
@@ -26868,6 +27012,12 @@
     "birthCity": "Montreal"
   },
   {
+    "name": "Justin Hryckowian",
+    "id": "hryckju01",
+    "birthDate": "2001-02-23",
+    "birthCity": "L'lle-Bizard"
+  },
+  {
     "name": "Jonathan Huberdeau",
     "id": "huberjo01",
     "birthDate": "1993-06-04",
@@ -27003,6 +27153,12 @@
     "name": "Moe L'Abbe",
     "id": "labbemo01",
     "birthDate": "1947-08-12",
+    "birthCity": "Montreal"
+  },
+  {
+    "name": "Zachary L'Heureux",
+    "id": "lheurza01",
+    "birthDate": "2003-05-15",
     "birthCity": "Montreal"
   },
   {
@@ -27190,6 +27346,12 @@
     "id": "lamirje01",
     "birthDate": "1924-08-21",
     "birthCity": "Shawinigan Falls"
+  },
+  {
+    "name": "Maveric Lamoureux",
+    "id": "lamouma01",
+    "birthDate": "2004-01-13",
+    "birthCity": "Laval"
   },
   {
     "name": "Eric Landry",
@@ -27454,6 +27616,12 @@
     "id": "lefebsy01",
     "birthDate": "1967-10-14",
     "birthCity": "Richmond"
+  },
+  {
+    "name": "Nathan Legare",
+    "id": "legarna01",
+    "birthDate": "2001-01-11",
+    "birthCity": "Montreal"
   },
   {
     "name": "Roger Leger",
@@ -29584,6 +29752,12 @@
     "id": "aldcoga01",
     "birthDate": "1935-03-07",
     "birthCity": "Shaunavon"
+  },
+  {
+    "name": "Nolan Allan",
+    "id": "allanno01",
+    "birthDate": "2003-04-28",
+    "birthCity": "Saskatoon"
   },
   {
     "name": "Keith Allen",
@@ -32208,6 +32382,12 @@
     "birthCity": "Regina"
   },
   {
+    "name": "Owen Sillinger",
+    "id": "silliow01",
+    "birthDate": "1997-09-23",
+    "birthCity": "Regina"
+  },
+  {
     "name": "Wade Skolney",
     "id": "skolnwa01",
     "birthDate": "1981-06-24",
@@ -33192,7 +33372,7 @@
     "birthCity": "Oakland"
   },
   {
-    "name": "John St. Ivany",
+    "name": "Jack St. Ivany",
     "id": "stivajo01",
     "birthDate": "1999-07-22",
     "birthCity": "Manhattan Beach"
@@ -33268,6 +33448,12 @@
     "id": "clarkma01",
     "birthDate": "1990-10-17",
     "birthCity": "Lakewood"
+  },
+  {
+    "name": "Nathan Clurman",
+    "id": "clurmna01",
+    "birthDate": "1998-05-08",
+    "birthCity": "Boulder"
   },
   {
     "name": "B.J. Crombeen",
@@ -33616,6 +33802,12 @@
     "id": "carpery01",
     "birthDate": "1991-01-18",
     "birthCity": "Oviedo"
+  },
+  {
+    "name": "Seamus Casey",
+    "id": "caseyse01",
+    "birthDate": "2004-01-08",
+    "birthCity": "Miami"
   },
   {
     "name": "Jakob Chychrun",
@@ -34380,6 +34572,12 @@
     "birthCity": "Odenton"
   },
   {
+    "name": "Patrick Giles",
+    "id": "gilespa01",
+    "birthDate": "2000-01-03",
+    "birthCity": "Chevy Chase"
+  },
+  {
     "name": "Fred Ahern",
     "id": "ahernfr01",
     "birthDate": "1952-02-12",
@@ -34452,7 +34650,7 @@
     "birthCity": "Framingham"
   },
   {
-    "name": "Matthew Beniers",
+    "name": "Matty Beniers",
     "id": "beniema01",
     "birthDate": "2002-11-05",
     "birthCity": "Hingham"
@@ -34554,6 +34752,12 @@
     "birthCity": "Brockton"
   },
   {
+    "name": "Michael Callahan",
+    "id": "callami02",
+    "birthDate": "1999-09-23",
+    "birthCity": "Franklin"
+  },
+  {
     "name": "Jim Campbell",
     "id": "campbji01",
     "birthDate": "1973-02-03",
@@ -34612,6 +34816,12 @@
     "id": "colmami01",
     "birthDate": "1968-08-04",
     "birthCity": "Stoneham"
+  },
+  {
+    "name": "Drew Commesso",
+    "id": "commedr01",
+    "birthDate": "2002-07-19",
+    "birthCity": "Norwell"
   },
   {
     "name": "Mike Condon",
@@ -34810,6 +35020,12 @@
     "id": "garlaco01",
     "birthDate": "1996-03-11",
     "birthCity": "Scituate"
+  },
+  {
+    "name": "Marc Gatcomb",
+    "id": "gatcoma01",
+    "birthDate": "1999-07-22",
+    "birthCity": "Woburn"
   },
   {
     "name": "Adam Gaudette",
@@ -35454,6 +35670,12 @@
     "birthCity": "Cambridge"
   },
   {
+    "name": "William Smith",
+    "id": "smithwi01",
+    "birthDate": "2005-03-17",
+    "birthCity": "Boston"
+  },
+  {
     "name": "Garth Snow",
     "id": "snowga01",
     "birthDate": "1969-07-28",
@@ -35864,7 +36086,7 @@
   {
     "name": "Jalen Chatfield",
     "id": "chatfja01",
-    "birthDate": "1996-05-16",
+    "birthDate": "1996-05-15",
     "birthCity": "Ypsilanti"
   },
   {
@@ -36336,6 +36558,12 @@
     "birthCity": "Bloomfield Hills"
   },
   {
+    "name": "Victor Mancini",
+    "id": "mancivi01",
+    "birthDate": "2002-05-26",
+    "birthCity": "Hancock"
+  },
+  {
     "name": "Peter Mannino",
     "id": "mannipe01",
     "birthDate": "1984-02-17",
@@ -36364,6 +36592,12 @@
     "id": "mayhege01",
     "birthDate": "1992-12-31",
     "birthCity": "Wyandotte"
+  },
+  {
+    "name": "Carter Mazur",
+    "id": "mazurca01",
+    "birthDate": "2002-03-28",
+    "birthCity": "Jackson"
   },
   {
     "name": "Michael McCarron",
@@ -36672,6 +36906,12 @@
     "birthCity": "Huntington Woods"
   },
   {
+    "name": "Max Sasson",
+    "id": "sassoma01",
+    "birthDate": "2000-09-05",
+    "birthCity": "Birmingham"
+  },
+  {
     "name": "Corey Schueneman",
     "id": "schueco01",
     "birthDate": "1995-09-02",
@@ -36688,6 +36928,12 @@
     "id": "sherfjo01",
     "birthDate": "1913-04-08",
     "birthCity": "Calumet"
+  },
+  {
+    "name": "Dominik Shine",
+    "id": "shinedo01",
+    "birthDate": "1993-04-18",
+    "birthCity": "Pinckney"
   },
   {
     "name": "Patrick Sieloff",
@@ -38718,6 +38964,12 @@
     "birthCity": "Rolla"
   },
   {
+    "name": "Chase Bradley",
+    "id": "bradlch01",
+    "birthDate": "2002-01-09",
+    "birthCity": "St. Louis"
+  },
+  {
     "name": "Chris Butler",
     "id": "butlech01",
     "birthDate": "1986-10-27",
@@ -38728,6 +38980,12 @@
     "id": "dunnejo01",
     "birthDate": "1998-12-08",
     "birthCity": "O'Fallon"
+  },
+  {
+    "name": "Jack Finley",
+    "id": "finleja01",
+    "birthDate": "2002-09-02",
+    "birthCity": "St. Louis"
   },
   {
     "name": "Trent Frederic",
@@ -38850,6 +39108,12 @@
     "birthCity": "Whitefish"
   },
   {
+    "name": "Ethen Frank",
+    "id": "franket01",
+    "birthDate": "1998-02-05",
+    "birthCity": "Papillion"
+  },
+  {
     "name": "Jake Guentzel",
     "id": "guentja01",
     "birthDate": "1994-10-06",
@@ -38860,6 +39124,12 @@
     "id": "matzjo01",
     "birthDate": "1891-06-01",
     "birthCity": "Omaha"
+  },
+  {
+    "name": "Rutger McGroarty",
+    "id": "mcgroru01",
+    "birthDate": "2004-03-30",
+    "birthCity": "Lincoln"
   },
   {
     "name": "Jed Ortmeyer",
@@ -39092,7 +39362,7 @@
   {
     "name": "Buddy Robinson",
     "id": "robinbu01",
-    "birthDate": "1991-08-30",
+    "birthDate": "1991-09-30",
     "birthCity": "Bellmawr"
   },
   {
@@ -39996,6 +40266,12 @@
     "birthCity": "Raleigh"
   },
   {
+    "name": "Nikolai Kovalenko",
+    "id": "kovalni01",
+    "birthDate": "1999-10-17",
+    "birthCity": "Raleigh"
+  },
+  {
     "name": "Jake Leschyshyn",
     "id": "leschja01",
     "birthDate": "1999-03-10",
@@ -40156,6 +40432,12 @@
     "id": "dilloce01",
     "birthDate": "1908-04-26",
     "birthCity": "Toledo"
+  },
+  {
+    "name": "Dylan Duke",
+    "id": "dukedy01",
+    "birthDate": "2003-03-04",
+    "birthCity": "Strongsville"
   },
   {
     "name": "Dave Ellett",
@@ -40650,6 +40932,12 @@
     "birthCity": "Cranston"
   },
   {
+    "name": "Brett Berard",
+    "id": "berarbr02",
+    "birthDate": "2002-09-09",
+    "birthCity": "Providence"
+  },
+  {
     "name": "Bryan Berard",
     "id": "berarbr01",
     "birthDate": "1977-03-05",
@@ -40696,6 +40984,12 @@
     "id": "emmada01",
     "birthDate": "1969-01-14",
     "birthCity": "Cranston"
+  },
+  {
+    "name": "Parker Ford",
+    "id": "fordpa01",
+    "birthDate": "2000-07-20",
+    "birthCity": "Wakefield"
   },
   {
     "name": "Rob Gaudreau",
@@ -40792,6 +41086,12 @@
     "id": "colembl01",
     "birthDate": "1991-11-28",
     "birthCity": "Plano"
+  },
+  {
+    "name": "Samuel Helenius",
+    "id": "helensa02",
+    "birthDate": "2002-11-26",
+    "birthCity": "Dallas"
   },
   {
     "name": "Caleb Jones",
@@ -41340,9 +41640,21 @@
     "birthCity": "Mogilev"
   },
   {
+    "name": "Aleksei Kolosov",
+    "id": "kolosal01",
+    "birthDate": "2002-01-04",
+    "birthCity": "Minsk"
+  },
+  {
     "name": "Vladislav Kolyachonok",
     "id": "kolyavl01",
     "birthDate": "2001-05-26",
+    "birthCity": "Minsk"
+  },
+  {
+    "name": "Daniil Misyul",
+    "id": "misyuda01",
+    "birthDate": "2000-10-20",
     "birthCity": "Minsk"
   },
   {
@@ -41430,6 +41742,12 @@
     "birthCity": "Kromeriz"
   },
   {
+    "name": "Jakub Dobes",
+    "id": "dobesja01",
+    "birthDate": "2001-05-27",
+    "birthCity": "Ostrava"
+  },
+  {
     "name": "Lukas Dostal",
     "id": "dostalu01",
     "birthDate": "2000-06-22",
@@ -41476,6 +41794,12 @@
     "id": "hykato01",
     "birthDate": "1993-03-23",
     "birthCity": "Mlada Boleslav"
+  },
+  {
+    "name": "Ivan Ivan",
+    "id": "ivaniv01",
+    "birthDate": "2002-08-20",
+    "birthCity": "Ostrava"
   },
   {
     "name": "Jan Jenik",
@@ -41622,10 +41946,22 @@
     "birthCity": "Prague"
   },
   {
+    "name": "Jakub Skarek",
+    "id": "skareja01",
+    "birthDate": "1999-11-10",
+    "birthCity": "Jihlava"
+  },
+  {
     "name": "Jiri Smejkal",
     "id": "smejkji01",
     "birthDate": "1996-11-05",
     "birthCity": "Ceske Budejovice"
+  },
+  {
+    "name": "Ales Stezka",
+    "id": "stezkal01",
+    "birthDate": "1997-01-06",
+    "birthCity": "Liberec"
   },
   {
     "name": "Libor Sulak",
@@ -43644,6 +43980,12 @@
     "birthCity": "Espoo"
   },
   {
+    "name": "Joel Blomqvist",
+    "id": "blomqjo01",
+    "birthDate": "2002-01-10",
+    "birthCity": "Uusikaarlepyy"
+  },
+  {
     "name": "Timo Blomqvist",
     "id": "blomqti01",
     "birthDate": "1961-01-23",
@@ -43866,6 +44208,12 @@
     "birthCity": "Helsinki"
   },
   {
+    "name": "Arttu Hyry",
+    "id": "hyryar01",
+    "birthDate": "2001-04-06",
+    "birthCity": "Oulu"
+  },
+  {
     "name": "Hannes Hyvonen",
     "id": "hyvonha01",
     "birthDate": "1975-08-29",
@@ -43876,6 +44224,18 @@
     "id": "immonja01",
     "birthDate": "1982-04-19",
     "birthCity": "Rantasalmi"
+  },
+  {
+    "name": "Jere Innala",
+    "id": "innalje01",
+    "birthDate": "1998-03-17",
+    "birthCity": "Hauho"
+  },
+  {
+    "name": "Juha Jaaska",
+    "id": "jaaskju01",
+    "birthDate": "1998-02-09",
+    "birthCity": "Helsinki"
   },
   {
     "name": "Risto Jalo",
@@ -44040,6 +44400,12 @@
     "birthCity": "Tampere"
   },
   {
+    "name": "Joakim Kemell",
+    "id": "kemeljo01",
+    "birthDate": "2004-04-27",
+    "birthCity": "Jyvaskyla"
+  },
+  {
     "name": "Joonas Kemppainen",
     "id": "kemppjo01",
     "birthDate": "1988-04-07",
@@ -44098,6 +44464,12 @@
     "id": "koivuot01",
     "birthDate": "1998-09-01",
     "birthCity": "Nokia"
+  },
+  {
+    "name": "Niklas Kokko",
+    "id": "kokkoni01",
+    "birthDate": "2004-03-14",
+    "birthCity": "Oulu"
   },
   {
     "name": "Joona Koppanen",
@@ -45360,7 +45732,7 @@
     "birthCity": "Berlin"
   },
   {
-    "name": "John-Jason Peterka",
+    "name": "JJ Peterka",
     "id": "peterjo01",
     "birthDate": "2002-01-14",
     "birthCity": "Munich"
@@ -45532,6 +45904,12 @@
     "id": "antipvi01",
     "birthDate": "1992-12-06",
     "birthCity": "Ust-Kamenogorsk"
+  },
+  {
+    "name": "Rodrigo Abols",
+    "id": "abolsro01",
+    "birthDate": "1996-01-05",
+    "birthCity": "Riga"
   },
   {
     "name": "Rudolfs Balcers",
@@ -45870,6 +46248,12 @@
     "birthCity": "Odessa"
   },
   {
+    "name": "Nikita Grebenkin",
+    "id": "grebeni01",
+    "birthDate": "2003-05-02",
+    "birthCity": "Serov"
+  },
+  {
     "name": "Mikhail Grigorenko",
     "id": "grigomi01",
     "birthDate": "1994-05-16",
@@ -46056,6 +46440,12 @@
     "birthCity": "Ryazan"
   },
   {
+    "name": "Matvei Michkov",
+    "id": "michkma01",
+    "birthDate": "2004-12-09",
+    "birthCity": "Perm"
+  },
+  {
     "name": "Ilya Mikheyev",
     "id": "mikheil01",
     "birthDate": "1994-10-10",
@@ -46132,6 +46522,12 @@
     "id": "ponomva01",
     "birthDate": "2002-03-13",
     "birthCity": "Moscow"
+  },
+  {
+    "name": "Nikita Prishchepov",
+    "id": "prishni01",
+    "birthDate": "2004-02-20",
+    "birthCity": "Orenburg"
   },
   {
     "name": "Nikolai Prokhorkin",
@@ -46236,6 +46632,12 @@
     "birthCity": "Nizhny Tagil"
   },
   {
+    "name": "Fedor Svechkov",
+    "id": "svechfe01",
+    "birthDate": "2003-04-05",
+    "birthCity": "Togliatti"
+  },
+  {
     "name": "Andrei Svechnikov",
     "id": "svechan01",
     "birthDate": "2000-03-26",
@@ -46288,6 +46690,12 @@
     "id": "tryamni01",
     "birthDate": "1994-08-30",
     "birthCity": "Yekaterinburg"
+  },
+  {
+    "name": "Maxim Tsyplakov",
+    "id": "tsyplma01",
+    "birthDate": "1998-09-19",
+    "birthCity": "Moskva"
   },
   {
     "name": "Rinat Valiev",
@@ -46398,6 +46806,18 @@
     "birthCity": "Bratislava"
   },
   {
+    "name": "Samuel Honzek",
+    "id": "honzesa01",
+    "birthDate": "2004-11-12",
+    "birthCity": "Trencin"
+  },
+  {
+    "name": "Adam Huska",
+    "id": "huskaad01",
+    "birthDate": "1997-05-12",
+    "birthCity": "Zvolen"
+  },
+  {
     "name": "Christian Jaros",
     "id": "jarosch01",
     "birthDate": "1996-04-02",
@@ -46456,12 +46876,6 @@
     "id": "studema01",
     "birthDate": "1998-10-28",
     "birthCity": "Skalica"
-  },
-  {
-    "name": "Adam Huska",
-    "id": "huskaad01",
-    "birthDate": "1997-05-12",
-    "birthCity": "Zvolen"
   },
   {
     "name": "Anze Kopitar",
@@ -46624,6 +47038,12 @@
     "id": "axelspj01",
     "birthDate": "1975-02-26",
     "birthCity": "Kungalv"
+  },
+  {
+    "name": "Oskar Back",
+    "id": "backos01",
+    "birthDate": "2000-03-12",
+    "birthCity": "Karlstad"
   },
   {
     "name": "Johan Backlund",
@@ -47226,6 +47646,12 @@
     "birthCity": "Gallivare"
   },
   {
+    "name": "Helge Grans",
+    "id": "granshe01",
+    "birthDate": "2002-05-10",
+    "birthCity": "Ljungby"
+  },
+  {
     "name": "Nicklas Grossmann",
     "id": "grossni01",
     "birthDate": "1985-01-22",
@@ -47412,6 +47838,12 @@
     "birthCity": "Uppsala"
   },
   {
+    "name": "Dennis Hildeby",
+    "id": "hildede01",
+    "birthDate": "2001-08-19",
+    "birthCity": "Jarfalla"
+  },
+  {
     "name": "Niklas Hjalmarsson",
     "id": "hjalmni01",
     "birthDate": "1987-06-06",
@@ -47518,6 +47950,12 @@
     "id": "jarnkca01",
     "birthDate": "1991-09-25",
     "birthCity": "Gavle"
+  },
+  {
+    "name": "Albert Johansson",
+    "id": "johanal01",
+    "birthDate": "2001-01-04",
+    "birthCity": "Karlstad"
   },
   {
     "name": "Andreas Johansson",
@@ -47650,6 +48088,12 @@
     "id": "kalluan01",
     "birthDate": "1952-07-06",
     "birthCity": "Ludvika"
+  },
+  {
+    "name": "Oliver Kapanen",
+    "id": "kapanol01",
+    "birthDate": "2003-07-29",
+    "birthCity": "Timra"
   },
   {
     "name": "Kyosti Karjalainen",
@@ -47832,6 +48276,12 @@
     "birthCity": "Lulea"
   },
   {
+    "name": "Andre Lee",
+    "id": "leean02",
+    "birthDate": "2000-07-26",
+    "birthCity": "Karlstad"
+  },
+  {
     "name": "Tommy Lehman",
     "id": "lehmato01",
     "birthDate": "1964-02-03",
@@ -47842,6 +48292,12 @@
     "id": "lehnero01",
     "birthDate": "1991-07-24",
     "birthCity": "Gothenburg"
+  },
+  {
+    "name": "Jonathan Lekkerimaki",
+    "id": "lekkejo01",
+    "birthDate": "2004-07-24",
+    "birthCity": "Tullinge"
   },
   {
     "name": "Nicklas Lidstrom",
@@ -48028,6 +48484,12 @@
     "id": "lycksol01",
     "birthDate": "1999-08-24",
     "birthCity": ""
+  },
+  {
+    "name": "Fabian Lysell",
+    "id": "lyselfa01",
+    "birthDate": "2003-01-19",
+    "birthCity": "Gothenburg"
   },
   {
     "name": "Jacob Markstrom",
@@ -48336,6 +48798,12 @@
     "birthCity": "Sundsvall"
   },
   {
+    "name": "Elias Pettersson",
+    "id": "petteel02",
+    "birthDate": "2004-02-16",
+    "birthCity": "Vasteras"
+  },
+  {
     "name": "Jorgen Pettersson",
     "id": "pettejo01",
     "birthDate": "1956-07-11",
@@ -48358,6 +48826,12 @@
     "id": "popovpe01",
     "birthDate": "1968-02-10",
     "birthCity": "Koping"
+  },
+  {
+    "name": "Erik Portillo",
+    "id": "portier01",
+    "birthDate": "2000-09-03",
+    "birthCity": "Gothenburg"
   },
   {
     "name": "David Printz",
@@ -48882,6 +49356,12 @@
     "birthCity": "Fors"
   },
   {
+    "name": "Adam Wilsby",
+    "id": "wilsbad01",
+    "birthDate": "2000-08-07",
+    "birthCity": "Stockholm"
+  },
+  {
     "name": "Johan Witehall",
     "id": "witehjo01",
     "birthDate": "1972-01-07",
@@ -48946,6 +49426,12 @@
     "id": "bertsch02",
     "birthDate": "1994-04-05",
     "birthCity": "Fribourg"
+  },
+  {
+    "name": "Lian Bichsel",
+    "id": "bichsli01",
+    "birthDate": "2004-05-18",
+    "birthCity": "Olten"
   },
   {
     "name": "Damien Brunner",

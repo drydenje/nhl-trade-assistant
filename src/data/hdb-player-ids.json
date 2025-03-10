@@ -66,6 +66,12 @@
     "birthCity": "Montreal"
   },
   {
+    "name": "Rodrigo Abols",
+    "hdbID": "180663",
+    "birthDate": "1996-01-05",
+    "birthCity": "Riga"
+  },
+  {
     "name": "Thommy Abrahamsson",
     "hdbID": "5933",
     "birthDate": "1947-04-12",
@@ -430,6 +436,12 @@
     "hdbID": "8377",
     "birthDate": "1957-05-17",
     "birthCity": "Toronto"
+  },
+  {
+    "name": "Nolan Allan",
+    "hdbID": "217929",
+    "birthDate": "2003-04-28",
+    "birthCity": "Saskatoon"
   },
   {
     "name": "Frederic Allard",
@@ -1546,6 +1558,12 @@
     "hdbID": "95392",
     "birthDate": "1987-07-25",
     "birthCity": "Salt Lake City"
+  },
+  {
+    "name": "Oskar Back",
+    "hdbID": "207945",
+    "birthDate": "2000-03-12",
+    "birthCity": "Karlstad"
   },
   {
     "name": "David Backes",
@@ -2964,6 +2982,12 @@
     "birthCity": "Litvinov"
   },
   {
+    "name": "Brett Berard",
+    "hdbID": "217360",
+    "birthDate": "2002-09-09",
+    "birthCity": "Providence"
+  },
+  {
     "name": "Bryan Berard",
     "hdbID": "14112",
     "birthDate": "1977-03-05",
@@ -3394,6 +3418,12 @@
     "hdbID": "28498",
     "birthDate": "1978-12-03",
     "birthCity": "Kosice"
+  },
+  {
+    "name": "Lian Bichsel",
+    "hdbID": "238586",
+    "birthDate": "2004-05-18",
+    "birthCity": "Olten"
   },
   {
     "name": "Stu Bickel",
@@ -3828,6 +3858,12 @@
     "birthCity": "Listowel"
   },
   {
+    "name": "Joel Blomqvist",
+    "hdbID": "229784",
+    "birthDate": "2002-01-10",
+    "birthCity": "Uusikaarlepyy"
+  },
+  {
     "name": "Timo Blomqvist",
     "hdbID": "426",
     "birthDate": "1961-01-23",
@@ -4045,15 +4081,15 @@
   },
   {
     "name": "Mike Boland",
-    "hdbID": "10465",
-    "birthDate": "1954-10-29",
-    "birthCity": "London"
-  },
-  {
-    "name": "Mike Boland",
     "hdbID": "6829",
     "birthDate": "1949-12-16",
     "birthCity": "Montreal"
+  },
+  {
+    "name": "Mike Boland",
+    "hdbID": "10465",
+    "birthDate": "1954-10-29",
+    "birthCity": "London"
   },
   {
     "name": "Ivan Boldirev",
@@ -4882,6 +4918,12 @@
     "hdbID": "542",
     "birthDate": "1965-01-21",
     "birthCity": "Kitchener"
+  },
+  {
+    "name": "Chase Bradley",
+    "hdbID": "217298",
+    "birthDate": "2002-01-09",
+    "birthCity": "St. Louis"
   },
   {
     "name": "Lyle Bradley",
@@ -6414,6 +6456,12 @@
     "birthCity": "Abington"
   },
   {
+    "name": "Mike Callahan",
+    "hdbID": "202505",
+    "birthDate": "1999-09-23",
+    "birthCity": "Franklin"
+  },
+  {
     "name": "Mitch Callahan",
     "hdbID": "116116",
     "birthDate": "1991-08-17",
@@ -6694,6 +6742,12 @@
     "hdbID": "10825",
     "birthDate": "1941-02-17",
     "birthCity": "Sorel"
+  },
+  {
+    "name": "Ethan Cardwell",
+    "hdbID": "211362",
+    "birthDate": "2002-08-30",
+    "birthCity": "Oshawa"
   },
   {
     "name": "Steve Cardwell",
@@ -7080,6 +7134,12 @@
     "birthCity": "Grand Rapids"
   },
   {
+    "name": "Seamus Casey",
+    "hdbID": "238267",
+    "birthDate": "2004-01-08",
+    "birthCity": "Miami"
+  },
+  {
     "name": "Wayne Cashman",
     "hdbID": "855",
     "birthDate": "1945-06-24",
@@ -7192,6 +7252,12 @@
     "hdbID": "164498",
     "birthDate": "1995-08-02",
     "birthCity": "Zilina"
+  },
+  {
+    "name": "Mack Celebrini",
+    "hdbID": "261744",
+    "birthDate": "2006-06-13",
+    "birthCity": "North Vancouver"
   },
   {
     "name": "Sebastien Centomo",
@@ -8160,6 +8226,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Nathan Clurman",
+    "hdbID": "194134",
+    "birthDate": "1998-05-08",
+    "birthCity": "Boulder"
+  },
+  {
     "name": "Cal Clutterbuck",
     "hdbID": "76786",
     "birthDate": "1987-11-18",
@@ -8380,6 +8452,12 @@
     "hdbID": "1061",
     "birthDate": "1948-10-25",
     "birthCity": "Montreal"
+  },
+  {
+    "name": "Drew Commesso",
+    "hdbID": "217414",
+    "birthDate": "2002-07-19",
+    "birthCity": "Norwell"
   },
   {
     "name": "Mike Commodore",
@@ -8860,6 +8938,12 @@
     "hdbID": "7543",
     "birthDate": "1957-02-04",
     "birthCity": "Calgary"
+  },
+  {
+    "name": "Sebastian Cossa",
+    "hdbID": "228233",
+    "birthDate": "2002-11-21",
+    "birthCity": "Hamilton"
   },
   {
     "name": "Jacques Cossette",
@@ -9748,6 +9832,12 @@
     "hdbID": "182232",
     "birthDate": "1996-08-19",
     "birthCity": "Boston"
+  },
+  {
+    "name": "Colton Dach",
+    "hdbID": "227279",
+    "birthDate": "2003-01-04",
+    "birthCity": "St. Albert"
   },
   {
     "name": "Kirby Dach",
@@ -11130,6 +11220,12 @@
     "birthCity": "Petrolia"
   },
   {
+    "name": "Jakub Dobes",
+    "hdbID": "224483",
+    "birthDate": "2001-05-27",
+    "birthCity": "Ostrava"
+  },
+  {
     "name": "Jim Dobson",
     "hdbID": "7464",
     "birthDate": "1960-02-29",
@@ -11199,7 +11295,7 @@
     "name": "Louis Domingue",
     "hdbID": "122607",
     "birthDate": "1992-03-06",
-    "birthCity": "Saint-Hyacinthe"
+    "birthCity": "St-Hyacinthe"
   },
   {
     "name": "Gary Donaldson",
@@ -11832,6 +11928,12 @@
     "birthCity": "Coral Springs"
   },
   {
+    "name": "Dylan Duke",
+    "hdbID": "228211",
+    "birthDate": "2003-03-04",
+    "birthCity": "Strongsville"
+  },
+  {
     "name": "Loudus Dukowski",
     "hdbID": "1500",
     "birthDate": "1902-08-31",
@@ -12420,7 +12522,7 @@
     "birthCity": "Stockholm"
   },
   {
-    "name": "Oliver Ekman-Larsson",
+    "name": "Oliver Ekman Larsson",
     "hdbID": "120283",
     "birthDate": "1991-07-17",
     "birthCity": "Karlskrona"
@@ -13317,7 +13419,7 @@
     "name": "Ivan Fedotov",
     "hdbID": "180671",
     "birthDate": "1996-11-28",
-    "birthCity": ""
+    "birthCity": "Lappeenranta"
   },
   {
     "name": "Taylor Fedun",
@@ -13342,6 +13444,12 @@
     "hdbID": "55352",
     "birthDate": "1985-09-07",
     "birthCity": "Winkler"
+  },
+  {
+    "name": "Tye Felhaber",
+    "hdbID": "170451",
+    "birthDate": "1998-08-05",
+    "birthCity": "Pembroke"
   },
   {
     "name": "Chris Felix",
@@ -13618,6 +13726,12 @@
     "hdbID": "31770",
     "birthDate": "1981-07-03",
     "birthCity": "Sault Ste. Marie"
+  },
+  {
+    "name": "Jack Finley",
+    "hdbID": "210391",
+    "birthDate": "2002-09-02",
+    "birthCity": "St. Louis"
   },
   {
     "name": "Jeff Finley",
@@ -14100,6 +14214,12 @@
     "birthCity": "Edmonton"
   },
   {
+    "name": "Parker Ford",
+    "hdbID": "210424",
+    "birthDate": "2000-07-20",
+    "birthCity": "Wakefield"
+  },
+  {
     "name": "Connie Forey",
     "hdbID": "8779",
     "birthDate": "1950-10-18",
@@ -14386,6 +14506,12 @@
     "hdbID": "115982",
     "birthDate": "1990-06-03",
     "birthCity": "Plzen"
+  },
+  {
+    "name": "Ethen Frank",
+    "hdbID": "179667",
+    "birthDate": "1998-02-05",
+    "birthCity": "Aurora"
   },
   {
     "name": "Jimmy Franks",
@@ -15168,6 +15294,12 @@
     "birthCity": "Quesnel"
   },
   {
+    "name": "Marc Gatcomb",
+    "hdbID": "217777",
+    "birthDate": "1999-07-22",
+    "birthCity": "Woburn"
+  },
+  {
     "name": "Dave Gatherum",
     "hdbID": "11419",
     "birthDate": "1932-03-28",
@@ -15178,6 +15310,12 @@
     "hdbID": "6445",
     "birthDate": "1961-06-22",
     "birthCity": "Toronto"
+  },
+  {
+    "name": "Jacob Gaucher",
+    "hdbID": "209523",
+    "birthDate": "2001-03-09",
+    "birthCity": "Longueui"
   },
   {
     "name": "Tyler Gaudet",
@@ -15378,6 +15516,12 @@
     "birthCity": "Stratford"
   },
   {
+    "name": "Conor Geekie",
+    "hdbID": "227534",
+    "birthDate": "2004-05-05",
+    "birthCity": "Strathclair"
+  },
+  {
     "name": "Morgan Geekie",
     "hdbID": "172640",
     "birthDate": "1998-07-20",
@@ -15448,6 +15592,12 @@
     "hdbID": "1883",
     "birthDate": "1958-01-24",
     "birthCity": "Montreal"
+  },
+  {
+    "name": "Isaiah George",
+    "hdbID": "232424",
+    "birthDate": "2004-02-15",
+    "birthCity": "Oakville"
   },
   {
     "name": "Alexandar Georgiev",
@@ -15664,6 +15814,12 @@
     "hdbID": "1906",
     "birthDate": "1958-11-30",
     "birthCity": "The Pas"
+  },
+  {
+    "name": "Patrick Giles",
+    "hdbID": "196114",
+    "birthDate": "2000-01-03",
+    "birthCity": "Chevy Chase"
   },
   {
     "name": "Randy Gilhen",
@@ -16482,6 +16638,12 @@
     "birthCity": "Oulu"
   },
   {
+    "name": "Helge Grans",
+    "hdbID": "218310",
+    "birthDate": "2002-05-10",
+    "birthCity": "Ljungby"
+  },
+  {
     "name": "Alex Grant",
     "hdbID": "89676",
     "birthDate": "1989-01-20",
@@ -16624,6 +16786,12 @@
     "hdbID": "217320",
     "birthDate": "2001-03-30",
     "birthCity": "Cambridge"
+  },
+  {
+    "name": "Nikita Grebenkin",
+    "hdbID": "241769",
+    "birthDate": "2003-05-02",
+    "birthCity": "Serov"
   },
   {
     "name": "Denis Grebeshkov",
@@ -17598,7 +17766,7 @@
     "birthCity": "Toronto"
   },
   {
-    "name": "Hardy Haman-Aktell",
+    "name": "Hardy Haman Aktell",
     "hdbID": "194126",
     "birthDate": "1998-07-04",
     "birthCity": "Kage"
@@ -18738,6 +18906,12 @@
     "birthCity": "Helsinki"
   },
   {
+    "name": "Samuel Helenius",
+    "hdbID": "235342",
+    "birthDate": "2002-11-26",
+    "birthCity": "Dallas"
+  },
+  {
     "name": "Seth Helgeson",
     "hdbID": "107596",
     "birthDate": "1990-10-08",
@@ -19228,6 +19402,12 @@
     "hdbID": "2275",
     "birthDate": "1927-05-27",
     "birthCity": "Winnipeg"
+  },
+  {
+    "name": "Dennis Hildeby",
+    "hdbID": "223784",
+    "birthDate": "2001-08-19",
+    "birthCity": "Jarfalla"
   },
   {
     "name": "Adin Hill",
@@ -19950,6 +20130,12 @@
     "birthCity": "Jyvaskyla"
   },
   {
+    "name": "Samuel Honzek",
+    "hdbID": "238384",
+    "birthDate": "2004-11-12",
+    "birthCity": "Trencin"
+  },
+  {
     "name": "Ron Hoover",
     "hdbID": "2348",
     "birthDate": "1966-10-28",
@@ -20302,6 +20488,12 @@
     "hdbID": "2390",
     "birthDate": "1961-01-13",
     "birthCity": "Edmonton"
+  },
+  {
+    "name": "Justin Hryckowian",
+    "hdbID": "227810",
+    "birthDate": "2001-02-23",
+    "birthCity": "L'ile- Bizard"
   },
   {
     "name": "Jim Hrycuik",
@@ -20796,6 +20988,12 @@
     "birthCity": "Montreal"
   },
   {
+    "name": "Arttu Hyry",
+    "hdbID": "237659",
+    "birthDate": "2001-04-06",
+    "birthCity": "Oulu"
+  },
+  {
     "name": "Hannes Hyvonen",
     "hdbID": "40220",
     "birthDate": "1975-08-29",
@@ -20910,6 +21108,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Jere Innala",
+    "hdbID": "199345",
+    "birthDate": "1998-03-17",
+    "birthCity": "Hauho"
+  },
+  {
     "name": "Gary Inness",
     "hdbID": "2467",
     "birthDate": "1949-05-28",
@@ -21018,10 +21222,22 @@
     "birthCity": "Regina"
   },
   {
+    "name": "Ivan Ivan",
+    "hdbID": "227324",
+    "birthDate": "2002-08-20",
+    "birthCity": "Ostrava"
+  },
+  {
     "name": "Raitis Ivanans",
     "hdbID": "30112",
     "birthDate": "1979-01-03",
     "birthCity": "Riga"
+  },
+  {
+    "name": "Juha Jaaska",
+    "hdbID": "191113",
+    "birthDate": "1998-02-09",
+    "birthCity": "Helsinki"
   },
   {
     "name": "Pat Jablonski",
@@ -21628,6 +21844,12 @@
     "hdbID": "2546",
     "birthDate": "1957-03-30",
     "birthCity": "Thunder Bay"
+  },
+  {
+    "name": "Albert Johansson",
+    "hdbID": "218279",
+    "birthDate": "2001-01-04",
+    "birthCity": "Karlstad"
   },
   {
     "name": "Andreas Johansson",
@@ -22656,6 +22878,12 @@
     "birthCity": "Hattula"
   },
   {
+    "name": "Oliver Kapanen",
+    "hdbID": "241782",
+    "birthDate": "2003-07-29",
+    "birthCity": "Timra"
+  },
+  {
     "name": "Sami Kapanen",
     "hdbID": "2628",
     "birthDate": "1973-06-14",
@@ -23130,6 +23358,12 @@
     "birthCity": "Vancouver"
   },
   {
+    "name": "Joakim Kemell",
+    "hdbID": "241535",
+    "birthDate": "2004-04-27",
+    "birthCity": "Jyvaskylan mlk"
+  },
+  {
     "name": "Kevin Kemp",
     "hdbID": "7411",
     "birthDate": "1954-03-05",
@@ -23268,6 +23502,12 @@
     "birthCity": "Vancouver"
   },
   {
+    "name": "Rory Kerins",
+    "hdbID": "216268",
+    "birthDate": "2002-04-12",
+    "birthCity": "Caledon"
+  },
+  {
     "name": "Tanner Kero",
     "hdbID": "127312",
     "birthDate": "1992-07-24",
@@ -23313,7 +23553,7 @@
     "name": "Matt Kessel",
     "hdbID": "209430",
     "birthDate": "2000-06-23",
-    "birthCity": "Phoenix"
+    "birthCity": "Bloomfield Hills"
   },
   {
     "name": "Phil Kessel",
@@ -24006,6 +24246,12 @@
     "birthCity": "Nokia"
   },
   {
+    "name": "Niklas Kokko",
+    "hdbID": "250995",
+    "birthDate": "2004-03-14",
+    "birthCity": "Oulu"
+  },
+  {
     "name": "Krys Kolanos",
     "hdbID": "49628",
     "birthDate": "1981-07-27",
@@ -24046,6 +24292,12 @@
     "hdbID": "43906",
     "birthDate": "1980-11-13",
     "birthCity": "Nitra"
+  },
+  {
+    "name": "Aleksei Kolosov",
+    "hdbID": "237650",
+    "birthDate": "2002-01-04",
+    "birthCity": "Minsk"
   },
   {
     "name": "Dean Kolstad",
@@ -24387,7 +24639,7 @@
     "name": "Nikolai Kovalenko",
     "hdbID": "213172",
     "birthDate": "1999-10-17",
-    "birthCity": ""
+    "birthCity": "Raleigh"
   },
   {
     "name": "Alexei Kovalev",
@@ -24412,6 +24664,12 @@
     "hdbID": "10636",
     "birthDate": "1940-10-28",
     "birthCity": ""
+  },
+  {
+    "name": "Tyson Kozak",
+    "hdbID": "219210",
+    "birthDate": "2002-12-29",
+    "birthCity": "Souris"
   },
   {
     "name": "Viktor Kozlov",
@@ -25062,6 +25320,12 @@
     "birthCity": "Brighton"
   },
   {
+    "name": "Zachary L'Heureux",
+    "hdbID": "227328",
+    "birthDate": "2003-05-15",
+    "birthCity": "Montreal"
+  },
+  {
     "name": "Teemu Laakso",
     "hdbID": "83090",
     "birthDate": "1987-08-27",
@@ -25606,6 +25870,12 @@
     "hdbID": "12737",
     "birthDate": "1916-10-01",
     "birthCity": "Espanola"
+  },
+  {
+    "name": "Maveric Lamoureux",
+    "hdbID": "235312",
+    "birthDate": "2004-01-13",
+    "birthCity": "Laval"
   },
   {
     "name": "Mitch Lamoureux",
@@ -26496,6 +26766,12 @@
     "birthCity": "Edina"
   },
   {
+    "name": "Andre Lee",
+    "hdbID": "217063",
+    "birthDate": "2000-07-26",
+    "birthCity": "Karlstad"
+  },
+  {
     "name": "Brian Lee",
     "hdbID": "83000",
     "birthDate": "1987-03-26",
@@ -26572,6 +26848,12 @@
     "hdbID": "3081",
     "birthDate": "1973-02-04",
     "birthCity": "Toronto"
+  },
+  {
+    "name": "Nathan Legare",
+    "hdbID": "208993",
+    "birthDate": "2001-01-11",
+    "birthCity": "Montreal"
   },
   {
     "name": "Roger Leger",
@@ -26746,6 +27028,12 @@
     "hdbID": "130558",
     "birthDate": "1993-05-26",
     "birthCity": "Innisfil"
+  },
+  {
+    "name": "Jonathan Lekkerimaki",
+    "hdbID": "244123",
+    "birthDate": "2004-07-24",
+    "birthCity": "Tullinge"
   },
   {
     "name": "Jacques Lemaire",
@@ -27894,6 +28182,12 @@
     "birthCity": "London"
   },
   {
+    "name": "Jett Luchanko",
+    "hdbID": "262249",
+    "birthDate": "2006-08-21",
+    "birthCity": "London"
+  },
+  {
     "name": "Milan Lucic",
     "hdbID": "83957",
     "birthDate": "1988-06-07",
@@ -28192,6 +28486,12 @@
     "hdbID": "29245",
     "birthDate": "1980-12-30",
     "birthCity": "St. Albert"
+  },
+  {
+    "name": "Fabian Lysell",
+    "hdbID": "238748",
+    "birthDate": "2003-01-19",
+    "birthCity": "Gothenburg"
   },
   {
     "name": "Tom Lysiak",
@@ -29082,6 +29382,12 @@
     "birthCity": "London"
   },
   {
+    "name": "Victor Mancini",
+    "hdbID": "219756",
+    "birthDate": "2002-05-26",
+    "birthCity": "Hancock"
+  },
+  {
     "name": "Felix Mancuso",
     "hdbID": "14314",
     "birthDate": "1914-04-01",
@@ -29808,6 +30114,12 @@
     "birthCity": "Winnipeg"
   },
   {
+    "name": "Denton Mateychuk",
+    "hdbID": "230322",
+    "birthDate": "2004-07-12",
+    "birthCity": "Winnipeg"
+  },
+  {
     "name": "Frank Mathers",
     "hdbID": "3454",
     "birthDate": "1924-03-29",
@@ -30046,6 +30358,12 @@
     "hdbID": "122743",
     "birthDate": "1991-07-18",
     "birthCity": "Pisek"
+  },
+  {
+    "name": "Carter Mazur",
+    "hdbID": "218463",
+    "birthDate": "2002-03-28",
+    "birthCity": "Jackson"
   },
   {
     "name": "Eddie Mazur",
@@ -30768,6 +31086,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Rutger McGroarty",
+    "hdbID": "238284",
+    "birthDate": "2004-03-30",
+    "birthCity": "Lincoln"
+  },
+  {
     "name": "Frank McGuire",
     "hdbID": "22877",
     "birthDate": "1898-07-07",
@@ -31070,8 +31394,8 @@
   {
     "name": "Jack McLean",
     "hdbID": "14553",
-    "birthDate": "Invalid Date",
-    "birthCity": ""
+    "birthDate": "1923-01-31",
+    "birthCity": "Winnipeg"
   },
   {
     "name": "Jeff McLean",
@@ -31548,6 +31872,12 @@
     "birthCity": "Antigonish"
   },
   {
+    "name": "Jacob Melanson",
+    "hdbID": "223681",
+    "birthDate": "2003-04-22",
+    "birthCity": "Amherst"
+  },
+  {
     "name": "Rollie Melanson",
     "hdbID": "3662",
     "birthDate": "1960-06-28",
@@ -31926,6 +32256,12 @@
     "birthCity": "Hibbing"
   },
   {
+    "name": "Matvei Michkov",
+    "hdbID": "241596",
+    "birthDate": "2004-12-09",
+    "birthCity": "Perm"
+  },
+  {
     "name": "Larry Mickey",
     "hdbID": "3702",
     "birthDate": "1943-10-21",
@@ -32262,6 +32598,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Michael Milne",
+    "hdbID": "218586",
+    "birthDate": "2002-09-21",
+    "birthCity": "Abbotsford"
+  },
+  {
     "name": "Duncan Milroy",
     "hdbID": "46437",
     "birthDate": "1983-02-08",
@@ -32284,6 +32626,12 @@
     "hdbID": "6233",
     "birthDate": "1965-08-28",
     "birthCity": "Moose Jaw"
+  },
+  {
+    "name": "Trent Miner",
+    "hdbID": "212566",
+    "birthDate": "2001-02-05",
+    "birthCity": "Brandon"
   },
   {
     "name": "Graham Mink",
@@ -32343,13 +32691,19 @@
     "name": "Ivan Miroshnichenko",
     "hdbID": "254379",
     "birthDate": "2004-02-04",
-    "birthCity": "Primorsky Krai"
+    "birthCity": "Ussuriysk"
   },
   {
     "name": "Hunter Miska",
     "hdbID": "145523",
     "birthDate": "1995-07-07",
     "birthCity": "North Branch"
+  },
+  {
+    "name": "Daniil Misyul",
+    "hdbID": "223327",
+    "birthDate": "2000-10-20",
+    "birthCity": "Minsk"
   },
   {
     "name": "John Miszuk",
@@ -33648,7 +34002,7 @@
     "birthCity": "Kitimat"
   },
   {
-    "name": "Bradley Nadeau",
+    "name": "Bradly Nadeau",
     "hdbID": "248818",
     "birthDate": "2005-05-05",
     "birthCity": "St.-Francois de Madawaska"
@@ -34239,7 +34593,7 @@
     "name": "Frank Nighbor",
     "hdbID": "3970",
     "birthDate": "1893-01-26",
-    "birthCity": ""
+    "birthCity": "Pembroke"
   },
   {
     "name": "Frank Nigro",
@@ -34662,7 +35016,7 @@
     "birthCity": "Toronto"
   },
   {
-    "name": "Alexander Nylander",
+    "name": "Alex Nylander",
     "hdbID": "187435",
     "birthDate": "1998-03-02",
     "birthCity": "Calgary"
@@ -35132,7 +35486,7 @@
   {
     "name": "Danny Olesevich",
     "hdbID": "10639",
-    "birthDate": "Invalid Date",
+    "birthDate": "1937-09-16",
     "birthCity": "Port Colborne"
   },
   {
@@ -35258,7 +35612,7 @@
   {
     "name": "Bill Orban",
     "hdbID": "4083",
-    "birthDate": "1939-09-10",
+    "birthDate": "1944-02-20",
     "birthCity": "Regina"
   },
   {
@@ -36750,6 +37104,12 @@
     "birthCity": "Sundsvall"
   },
   {
+    "name": "Elias Pettersson",
+    "hdbID": "245665",
+    "birthDate": "2004-02-16",
+    "birthCity": "Vasteras"
+  },
+  {
     "name": "Jorgen Pettersson",
     "hdbID": "4270",
     "birthDate": "1956-07-11",
@@ -36864,16 +37224,22 @@
     "birthCity": "Canmore"
   },
   {
-    "name": "Alexandre Picard",
-    "hdbID": "70731",
-    "birthDate": "1985-10-09",
-    "birthCity": "Les Saules"
+    "name": "Noah Philp",
+    "hdbID": "176622",
+    "birthDate": "1998-08-31",
+    "birthCity": "Canmore"
   },
   {
     "name": "Alexandre Picard",
     "hdbID": "62277",
     "birthDate": "1985-07-05",
     "birthCity": "Gatineau"
+  },
+  {
+    "name": "Alexandre Picard",
+    "hdbID": "70731",
+    "birthDate": "1985-10-09",
+    "birthCity": "Les Saules"
   },
   {
     "name": "Michel Picard",
@@ -36910,6 +37276,12 @@
     "hdbID": "110237",
     "birthDate": "1992-04-15",
     "birthCity": "Moncton"
+  },
+  {
+    "name": "Owen Pickering",
+    "hdbID": "240695",
+    "birthDate": "2004-01-27",
+    "birthCity": "St. Adolphe"
   },
   {
     "name": "Hal Picketts",
@@ -37560,6 +37932,12 @@
     "birthCity": "Detroit"
   },
   {
+    "name": "Erik Portillo",
+    "hdbID": "225158",
+    "birthDate": "2000-09-03",
+    "birthCity": "Goteborg"
+  },
+  {
     "name": "Jack Portland",
     "hdbID": "14180",
     "birthDate": "1912-07-30",
@@ -37912,6 +38290,12 @@
     "hdbID": "56821",
     "birthDate": "1980-07-24",
     "birthCity": "Stockholm"
+  },
+  {
+    "name": "Nikita Prishchepov",
+    "hdbID": "247963",
+    "birthDate": "2004-02-20",
+    "birthCity": "Orenburg"
   },
   {
     "name": "Chase Priskie",
@@ -38272,6 +38656,12 @@
     "hdbID": "95374",
     "birthDate": "1988-03-29",
     "birthCity": "Buffalo"
+  },
+  {
+    "name": "Jacob Quillan",
+    "hdbID": "241456",
+    "birthDate": "2002-02-02",
+    "birthCity": "Dartmouth"
   },
   {
     "name": "John Quilty",
@@ -39640,6 +40030,12 @@
     "hdbID": "19200",
     "birthDate": "1977-04-24",
     "birthCity": "Burnaby"
+  },
+  {
+    "name": "Calum Ritchie",
+    "hdbID": "248742",
+    "birthDate": "2005-01-21",
+    "birthCity": "Oakville"
   },
   {
     "name": "Dave Ritchie",
@@ -41322,6 +41718,12 @@
     "birthCity": "Portland"
   },
   {
+    "name": "Max Sasson",
+    "hdbID": "208440",
+    "birthDate": "2000-09-05",
+    "birthCity": "Birmingham"
+  },
+  {
     "name": "Miroslav Satan",
     "hdbID": "16367",
     "birthDate": "1974-10-22",
@@ -42010,6 +42412,12 @@
     "hdbID": "4842",
     "birthDate": "1967-09-11",
     "birthCity": "Peterborough"
+  },
+  {
+    "name": "Donovan Sebrango",
+    "hdbID": "209054",
+    "birthDate": "2002-01-12",
+    "birthCity": "Ottawa"
   },
   {
     "name": "Al Secord",
@@ -42720,6 +43128,12 @@
     "birthCity": "Toronto"
   },
   {
+    "name": "Dominik Shine",
+    "hdbID": "123403",
+    "birthDate": "1993-04-18",
+    "birthCity": "Detroit"
+  },
+  {
     "name": "Hunter Shinkaruk",
     "hdbID": "130701",
     "birthDate": "1994-10-13",
@@ -42945,6 +43359,12 @@
     "name": "Mike Sillinger",
     "hdbID": "721",
     "birthDate": "1971-06-29",
+    "birthCity": "Regina"
+  },
+  {
+    "name": "Owen Sillinger",
+    "hdbID": "180961",
+    "birthDate": "1997-09-23",
     "birthCity": "Regina"
   },
   {
@@ -43228,6 +43648,12 @@
     "hdbID": "4992",
     "birthDate": "1968-05-05",
     "birthCity": "West St. Paul"
+  },
+  {
+    "name": "Jakub Skarek",
+    "hdbID": "197787",
+    "birthDate": "1999-11-10",
+    "birthCity": "Jihlava"
   },
   {
     "name": "Paul Skidmore",
@@ -43908,6 +44334,12 @@
     "birthCity": "Kamsack"
   },
   {
+    "name": "William Smith",
+    "hdbID": "248133",
+    "birthDate": "2005-03-17",
+    "birthCity": "Boston"
+  },
+  {
     "name": "Wyatt Smith",
     "hdbID": "14462",
     "birthDate": "1977-02-13",
@@ -44120,7 +44552,7 @@
   {
     "name": "Doug Soetaert",
     "hdbID": "5079",
-    "birthDate": "1956-04-21",
+    "birthDate": "1955-04-21",
     "birthCity": "Edmonton"
   },
   {
@@ -44442,7 +44874,7 @@
     "birthCity": "Greenfield Park"
   },
   {
-    "name": "John St. Ivany",
+    "name": "Jack St. Ivany",
     "hdbID": "196276",
     "birthDate": "1999-07-22",
     "birthCity": "Manhattan Beach"
@@ -44751,7 +45183,7 @@
     "name": "Spencer Stastney",
     "hdbID": "196146",
     "birthDate": "2000-01-04",
-    "birthCity": "Woodbridge"
+    "birthCity": "Woodridge"
   },
   {
     "name": "Anton Stastny",
@@ -45166,6 +45598,18 @@
     "hdbID": "6196",
     "birthDate": "1967-06-01",
     "birthCity": "Kelowna"
+  },
+  {
+    "name": "Ales Stezka",
+    "hdbID": "182217",
+    "birthDate": "1997-01-06",
+    "birthCity": "Liberec"
+  },
+  {
+    "name": "Matthew Stienburg",
+    "hdbID": "219751",
+    "birthDate": "2000-10-07",
+    "birthCity": "Halifax"
   },
   {
     "name": "Trevor Stienburg",
@@ -45846,6 +46290,12 @@
     "birthCity": "London"
   },
   {
+    "name": "Ryan Suzuki",
+    "hdbID": "208485",
+    "birthDate": "2001-05-28",
+    "birthCity": "London"
+  },
+  {
     "name": "Per Svartvadet",
     "hdbID": "15992",
     "birthDate": "1975-05-17",
@@ -45856,6 +46306,12 @@
     "hdbID": "55379",
     "birthDate": "1982-06-17",
     "birthCity": "Kosice"
+  },
+  {
+    "name": "Fedor Svechkov",
+    "hdbID": "241830",
+    "birthDate": "2003-04-05",
+    "birthCity": "Tolyatti"
   },
   {
     "name": "Andrei Svechnikov",
@@ -47608,6 +48064,12 @@
     "hdbID": "10162",
     "birthDate": "1971-02-26",
     "birthCity": "Chelyabinsk"
+  },
+  {
+    "name": "Maxim Tsyplakov",
+    "hdbID": "207683",
+    "birthDate": "1998-09-19",
+    "birthCity": "Moscow"
   },
   {
     "name": "Vladimir Tsyplakov",
@@ -49890,6 +50352,12 @@
     "birthCity": "Burnaby"
   },
   {
+    "name": "Ozzy Wiesblatt",
+    "hdbID": "212572",
+    "birthDate": "2002-03-09",
+    "birthCity": "Calgary"
+  },
+  {
     "name": "Adam Wilcox",
     "hdbID": "131016",
     "birthDate": "1992-11-26",
@@ -50086,6 +50554,12 @@
     "hdbID": "22583",
     "birthDate": "1976-10-24",
     "birthCity": "Central Butte"
+  },
+  {
+    "name": "Adam Wilsby",
+    "hdbID": "223783",
+    "birthDate": "2000-08-07",
+    "birthCity": "Stockholm"
   },
   {
     "name": "Behn Wilson",
