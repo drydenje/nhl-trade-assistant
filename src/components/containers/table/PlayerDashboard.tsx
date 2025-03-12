@@ -1,4 +1,5 @@
-import { Player, columns } from "@/components/containers/table/columns";
+import { columns } from "@/components/containers/table/columns";
+import { Player } from "@/types/Player";
 import neo4j from "neo4j-driver";
 import { DataTable } from "@/components/containers/table/data-table";
 
@@ -47,8 +48,14 @@ const data = await getData();
 
 console.log("Players remaining:", data.length);
 
-const PlayerDashboard = () => {
-  return <DataTable columns={columns} data={data} />;
+const PlayerDashboard = (setSelectedPlayer) => {
+  return (
+    <DataTable
+      columns={columns}
+      data={data}
+      setSelectedPlayer={setSelectedPlayer}
+    />
+  );
 };
 
 export { PlayerDashboard };

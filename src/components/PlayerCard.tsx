@@ -25,16 +25,16 @@ const PlayerCard = ({ player }) => {
           <span>Birth Date: </span>
           {player.birthDate}
         </p>
-        {player?.hdbID && (
+        {player?.id && (
           <p>
             <span>HdbID: </span>
-            {player.hdbID}
+            {player.id}
           </p>
         )}
-        {player?.hrID && (
+        {player?.id && (
           <p>
             <span>HrID: </span>
-            {player.hrID}
+            {player.id}
           </p>
         )}
       </CardContent>
