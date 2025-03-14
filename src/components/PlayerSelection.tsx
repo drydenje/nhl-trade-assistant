@@ -15,11 +15,12 @@ const PlayerSelection = ({ player, site }) => {
   // const hdbPlayers = JSON.parse(
   //   await fs.readFile(fileToParse, { encoding: "utf8" })
   // );
+
   if (player === null) return <h2>No Player Selected</h2>;
 
   // console.log(site);
   const possibleMatches = site.filter((x) => {
-    return x.name.includes(player.lastName);
+    return x.name.includes(player?.lastName);
   });
 
   // console.log("P:", possibleMatches);

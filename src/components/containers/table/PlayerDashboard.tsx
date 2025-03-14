@@ -48,14 +48,8 @@ const data = await getData();
 
 console.log("Players remaining:", data.length);
 
-const PlayerDashboard = (setSelectedPlayer) => {
-  return (
-    <DataTable
-      columns={columns}
-      data={data}
-      setSelectedPlayer={setSelectedPlayer}
-    />
-  );
+const PlayerDashboard = () => {
+  return <DataTable columns={columns} data={data} />;
 };
 
 export { PlayerDashboard };

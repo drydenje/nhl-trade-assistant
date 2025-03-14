@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import * as React from "react";
+import { useState, useEffect } from "react";
 
 import {
   ColumnDef,
@@ -24,20 +24,30 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+// adding https://github.com/TanStack/table/discussions/2155
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
+  onRowSelectionChange: (rows: unknown) => void;
 }
 
 export function DataTable<TData, TValue>({
   columns,
   data,
 }: DataTableProps<TData, TValue>) {
-  const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
-    []
-  );
-  const [rowSelection, setRowSelection] = React.useState<RowSelectionState>({});
-  const [sorting, setSorting] = React.useState<SortingState>([]);
+  const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
+
+  const [rowSelection, setRowSelection] = useState<RowSelectionState>({});
+
+  // const handleRowSelectionChange: OnChangeFn<RowSelectionState> = (state) => {
+  //   setRowSelection(state);
+  // };
+
+  const [sorting, setSorting] = useState<SortingState>([]);
+
+  // useEffect(() => {
+  //   onRowSelectionChange(rowSelection);
+  // }, [rowSelection, onRowSelectionChange]);
 
   const table = useReactTable({
     data,
@@ -52,6 +62,7 @@ export function DataTable<TData, TValue>({
     onSortingChange: setSorting,
     getSortedRowModel: getSortedRowModel(),
     onColumnFiltersChange: setColumnFilters,
+    enableMultiRowSelection: false,
     onRowSelectionChange: setRowSelection,
     getFilteredRowModel: getFilteredRowModel(),
     state: {
@@ -122,7 +133,12 @@ export function DataTable<TData, TValue>({
                     // console.log(
                     //   row.getValue("playerID") + " has been selected"
                     // );
-                    console.log(JSON.stringify(row.original));
+                    row.toggleSelected();
+                    console.log(
+                      "table.getState:",
+                      JSON.stringify(table.getState().rowSelection, null, 2)
+                    );
+                    // console.log(JSON.stringify(row.original));
                   }}
                 >
                   {row.getVisibleCells().map((cell) => (

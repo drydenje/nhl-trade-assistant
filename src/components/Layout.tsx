@@ -28,13 +28,14 @@ import hdbPlayers from "@/data/hdb-player-ids.json";
 import hrPlayers from "@/data/hr-player-ids.json";
 
 const Layout = () => {
-  const [selectedPlayer, setSelectedPlayer] = useState(pettersson);
+  const [selectedPlayer, setSelectedPlayer] = useState(null);
+  // setSelectedPlayer(pettersson);
   return (
     <ResizablePanelGroup
       direction="vertical"
       className="min-h-dvh max-w-md rounded-lg border md:container"
     >
-      <SelectorContext value={(hdbPlayers, hrPlayers, selectedPlayer)}>
+      <SelectorContext value={selectedPlayer}>
         <ResizablePanel defaultSize={60}>
           <div className="flex h-full items-center justify-center p-2">
             <PlayerDashboard setSelectedPlayer={setSelectedPlayer} />
@@ -43,13 +44,13 @@ const Layout = () => {
         <ResizableHandle />
         <ResizablePanel defaultSize={20}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection player={selectedPlayer} site={hrPlayers} />
+            <PlayerSelection site={hrPlayers} />
           </div>
         </ResizablePanel>
         <ResizableHandle />
         <ResizablePanel defaultSize={20}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection player={selectedPlayer} site={hdbPlayers} />
+            <PlayerSelection site={hdbPlayers} />
           </div>
         </ResizablePanel>
       </SelectorContext>
