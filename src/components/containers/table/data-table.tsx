@@ -160,6 +160,16 @@ export function DataTable<TData, TValue>({
             )}
           </TableBody>
         </Table>
+        {/* <div className="flex-1 text-sm text-muted-foreground">
+          {table.getFilteredSelectedRowModel().rows.length} of{" "}
+          {table.getFilteredRowModel().rows.length} row(s) selected.
+          <strong>
+            S:
+            {table
+              .getFilteredSelectedRowModel()
+              .rows.map((t) => console.log(t.original))}
+          </strong>
+        </div> */}
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import { SitePlayer } from "@/types/SitePlayer";
+
 import {
   Card,
   CardContent,
@@ -6,10 +8,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-// import { Player } from "@/types/Player";
 
-const PlayerCard = ({ player }) => {
-  // console.log("Player:", player);
+const PlayerCard = (player: SitePlayer) => {
   return (
     <Card className="place-self-center">
       <CardHeader>
@@ -17,10 +17,6 @@ const PlayerCard = ({ player }) => {
         <CardDescription>{player.birthCity}</CardDescription>
       </CardHeader>
       <CardContent>
-        {/* name: 'Elias Pettersson'
-        hdbID: '186266' 
-        birthDate: '1998-11-12'
-        birthCity: 'Sundsvall' */}
         <p>
           <span>Birth Date: </span>
           {player.birthDate}
