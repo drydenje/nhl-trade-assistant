@@ -10,7 +10,8 @@ import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
-const PlayerSelection = (player: Player, site: SitePlayer[]) => {
+// const PlayerSelection = ({ player }: Player, { site }: SitePlayer[]) => {
+const PlayerSelection = ({ player, site }) => {
   // const fileToParse = `./src/data/${site}-player-ids.json`;
   // console.log(fileToParse);
   // const hdbPlayers = JSON.parse(

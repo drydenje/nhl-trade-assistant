@@ -1,6 +1,6 @@
-import { columns } from "@/components/containers/table/columns";
-import { Player } from "@/types/Player";
 import neo4j from "neo4j-driver";
+import { Player } from "@/types/Player";
+import { columns } from "@/components/containers/table/columns";
 import { DataTable } from "@/components/containers/table/data-table";
 
 const driver = neo4j.driver(

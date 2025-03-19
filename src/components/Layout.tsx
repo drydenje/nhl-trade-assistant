@@ -4,7 +4,8 @@ import {
   ResizablePanelGroup,
 } from "@/components/ui/resizable";
 
-const pettersson = {
+import { Player } from "@/types/Player";
+const pettersson: Player = {
   playerID: 8483678,
   firstName: "Elias",
   lastName: "Pettersson",
@@ -28,7 +29,7 @@ import hdbPlayers from "@/data/hdb-player-ids.json";
 import hrPlayers from "@/data/hr-player-ids.json";
 
 const Layout = () => {
-  console.log(hdbPlayers.length);
+  console.log("LEN:", hdbPlayers[0]);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
   // setSelectedPlayer(pettersson);
   return (
@@ -45,7 +46,7 @@ const Layout = () => {
         <ResizableHandle />
         <ResizablePanel defaultSize={20}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection site={hrPlayers} />
+            <PlayerSelection player={pettersson} site={hrPlayers} />
           </div>
         </ResizablePanel>
         <ResizableHandle />
