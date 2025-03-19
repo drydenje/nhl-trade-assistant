@@ -28,12 +28,14 @@ import {
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
   data: TData[];
+  test: String;
   onRowSelectionChange: (rows: unknown) => void;
 }
 
 export function DataTable<TData, TValue>({
   columns,
   data,
+  test
 }: DataTableProps<TData, TValue>) {
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
 

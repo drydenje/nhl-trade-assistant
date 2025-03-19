@@ -16,11 +16,11 @@ const PlayerSelection = (player: Player, site: SitePlayer[]) => {
   // const hdbPlayers = JSON.parse(
   //   await fs.readFile(fileToParse, { encoding: "utf8" })
   // );
+  console.log("S:", site);
 
   if (player === null) return <h2>No Player Selected</h2>;
 
-  // console.log(site);
-  const possibleMatches = site.filter((x: SitePlayer) => {
+  const possibleMatches = site?.filter((x: SitePlayer) => {
     return x.name.includes(player?.lastName);
   });
 
@@ -30,7 +30,7 @@ const PlayerSelection = (player: Player, site: SitePlayer[]) => {
     <div>
       <Carousel className="w-full min-w-4xl">
         <CarouselContent>
-          {possibleMatches.map((p: SitePlayer) => {
+          {possibleMatches?.map((p: SitePlayer) => {
             // console.log(p);
             return (
               <CarouselItem className="basis-1/3" key={p.id}>

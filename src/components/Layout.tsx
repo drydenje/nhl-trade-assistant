@@ -28,6 +28,7 @@ import hdbPlayers from "@/data/hdb-player-ids.json";
 import hrPlayers from "@/data/hr-player-ids.json";
 
 const Layout = () => {
+  console.log(hdbPlayers.length);
   const [selectedPlayer, setSelectedPlayer] = useState(null);
   // setSelectedPlayer(pettersson);
   return (
