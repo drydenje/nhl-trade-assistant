@@ -10,15 +10,15 @@ import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
-// const PlayerSelection = ({ player }: Player, { site }: SitePlayer[]) => {
-const PlayerSelection = ({ player, site }) => {
+const PlayerSelection = ({ site }: SitePlayer[]) => {
+  // const PlayerSelection = ({ player, site }) => {
   // const fileToParse = `./src/data/${site}-player-ids.json`;
   // console.log(fileToParse);
   // const hdbPlayers = JSON.parse(
   //   await fs.readFile(fileToParse, { encoding: "utf8" })
   // );
-  console.log("S:", site);
-
+  console.log("S:", site[0]);
+  const player = null;
   if (player === null) return <h2>No Player Selected</h2>;
 
   const possibleMatches = site?.filter((x: SitePlayer) => {
