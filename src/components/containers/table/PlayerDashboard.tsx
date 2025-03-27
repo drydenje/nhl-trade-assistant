@@ -6,7 +6,7 @@ import { DataTable } from "@/components/containers/table/data-table";
 const driver = neo4j.driver(
   import.meta.env.PUBLIC_DATABASE_BOLT_URL,
   neo4j.auth.basic(
-    import.meta.env.PUBLIC_DATABASE_INSTANCE,
+    import.meta.env.PUBLIC_DATABASE_USER,
     import.meta.env.PUBLIC_DATABASE_PASSWORD
   ),
   { disableLosslessIntegers: true }
@@ -14,18 +14,20 @@ const driver = neo4j.driver(
 
 async function getData(): Promise<Player[]> {
   // Fetch data from your API here.
-  const session = driver.session();
+  const session = driver.session({
+    database: import.meta.env.PUBLIC_DATABASE_INSTANCE,
+  });
+
   const response = await session.run(
     `MATCH (p:Player) 
-      WHERE p.hdbID = 'undefined'
-      OR p.hrID = 'undefined'
+      WHERE p.hdbId IS NULL
+      OR p.hrId IS NULL
       RETURN p AS player 
-      ORDER BY p.birthDate DESC`
+      ORDER BY p.birthDate DESC;`
   );
 
   const records = response.records.map((record) => {
     const p = record.get("player");
-
     return p.properties;
   });
 

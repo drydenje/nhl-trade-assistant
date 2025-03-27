@@ -28,8 +28,8 @@ import { PlayerSelection } from "@/components/PlayerSelection";
 import { PlayerDashboard } from "./containers/table/PlayerDashboard";
 import Test from "@/components/elements/Test";
 
-// import hdbPlayers from "@/data/hdb-player-ids.json";
-// import hrPlayers from "@/data/hr-player-ids.json";
+import hdbPlayers from "@/data/hdb-player-ids.json";
+import hrPlayers from "@/data/hr-player-ids.json";
 
 const Layout = () => {
   // console.log("LEN:", hdbPlayers[0]);
@@ -54,12 +54,12 @@ const Layout = () => {
       className="min-h-dvh max-w-md rounded-lg border md:container"
     >
       <SelectionContext value={selectedPlayer}>
-        <Test />
+        {/* <Test /> */}
         {/* <ResizablePanel defaultSize={100}>
           <div className="flex h-full items-center justify-center p-2">
             <PlayerDashboard setSelectedPlayer={setSelectedPlayer} />
           </div>
-        </ResizablePanel>
+        </ResizablePanel> */}
         <ResizablePanel defaultSize={60}>
           <div className="flex h-full items-center justify-center p-2">
             <PlayerDashboard setSelectedPlayer={setSelectedPlayer} />
@@ -76,7 +76,7 @@ const Layout = () => {
           <div className="flex h-full items-center justify-center p-6">
             <PlayerSelection site={hdbPlayers} />
           </div>
-        </ResizablePanel> */}
+        </ResizablePanel>
       </SelectionContext>
     </ResizablePanelGroup>
   );
