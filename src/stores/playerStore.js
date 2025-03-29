@@ -12,6 +12,15 @@ const pettersson = {
   verified: false,
 };
 
+// {
+//   "firstName": "Zach",
+//   "lastName": "Benson",
+//   "birthDate": "2005-05-12",
+//   "birthCity": "Chilliwack",
+//   "birthCountry": "CAN",
+//   "verified": false
+// }
+
 // export const currentPlayer = atom(pettersson);
 export const currentPlayer = atom(null);
 

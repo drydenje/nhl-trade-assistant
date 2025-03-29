@@ -1,5 +1,5 @@
 export type Player = {
-  playerID: number;
+  playerId: number;
   firstName: string;
   lastName: string;
   birthDate: string;

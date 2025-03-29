@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState, useEffect } from "react";
+import { useStore } from "@nanostores/react";
+import { currentPlayer } from "@/stores/playerStore";
 
 import {
   ColumnDef,
@@ -24,6 +26,13 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+const handleRowClick = (row) => {
+  const rowData = row.original;
+  // const jsonData = JSON.stringify(rowData, null, 2);
+
+  return rowData;
+};
+
 // adding https://github.com/TanStack/table/discussions/2155
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -35,21 +44,12 @@ interface DataTableProps<TData, TValue> {
 export function DataTable<TData, TValue>({
   columns,
   data,
-  test
 }: DataTableProps<TData, TValue>) {
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
 
   const [rowSelection, setRowSelection] = useState<RowSelectionState>({});
 
-  // const handleRowSelectionChange: OnChangeFn<RowSelectionState> = (state) => {
-  //   setRowSelection(state);
-  // };
-
   const [sorting, setSorting] = useState<SortingState>([]);
-
-  // useEffect(() => {
-  //   onRowSelectionChange(rowSelection);
-  // }, [rowSelection, onRowSelectionChange]);
 
   const table = useReactTable({
     data,
@@ -74,9 +74,10 @@ export function DataTable<TData, TValue>({
     },
   });
 
+  const $currentPlayer = useStore(currentPlayer);
+
   return (
     <div>
-      {/* <div className="flex items-center py-4"></div> */}
       <div className="flex items-center justify-end space-x-2 py-4">
         <Input
           placeholder="Filter last name..."
@@ -132,15 +133,11 @@ export function DataTable<TData, TValue>({
                   key={row.id}
                   data-state={row.getIsSelected() && "selected"}
                   onClick={() => {
-                    // console.log(
-                    //   row.getValue("playerID") + " has been selected"
-                    // );
-                    row.toggleSelected();
-                    console.log(
-                      "table.getState:",
-                      JSON.stringify(table.getState().rowSelection, null, 2)
-                    );
-                    // console.log(JSON.stringify(row.original));
+                    const temp = handleRowClick(row);
+                    console.log("TEMP:", temp);
+
+                    currentPlayer.set(temp);
+                    console.log("CURRENT:", $currentPlayer);
                   }}
                 >
                   {row.getVisibleCells().map((cell) => (
@@ -162,16 +159,6 @@ export function DataTable<TData, TValue>({
             )}
           </TableBody>
         </Table>
-        {/* <div className="flex-1 text-sm text-muted-foreground">
-          {table.getFilteredSelectedRowModel().rows.length} of{" "}
-          {table.getFilteredRowModel().rows.length} row(s) selected.
-          <strong>
-            S:
-            {table
-              .getFilteredSelectedRowModel()
-              .rows.map((t) => console.log(t.original))}
-          </strong>
-        </div> */}
       </div>
     </div>
   );

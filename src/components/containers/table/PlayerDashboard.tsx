@@ -31,16 +31,18 @@ async function getData(): Promise<Player[]> {
     return p.properties;
   });
 
+  console.log(records[0]);
+
   return records.map((player) => {
     return {
-      playerID: player.id,
+      playerId: player.playerId,
       firstName: player.firstName,
       lastName: player.lastName,
       birthDate: player.birthDate,
       birthCity: player.birthCity,
       birthCountry: player.birthCountry,
-      hrID: player.hrID,
-      hdbID: player.hdbID,
+      hrId: player.hrId,
+      hdbId: player.hdbId,
       verified: player.verified,
     };
   });

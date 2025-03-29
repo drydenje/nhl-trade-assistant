@@ -5,7 +5,7 @@ import { Player } from "@/types/Player";
 
 export const columns: ColumnDef<Player>[] = [
   {
-    accessorKey: "playerID",
+    accessorKey: "playerId",
     header: ({ column }) => {
       return (
         <Button
@@ -19,7 +19,7 @@ export const columns: ColumnDef<Player>[] = [
       );
     },
     cell: ({ row }) => {
-      return <div>{row.getValue("playerID")}</div>;
+      return <div>{row.getValue("playerId")}</div>;
     },
   },
   {
@@ -93,28 +93,28 @@ export const columns: ColumnDef<Player>[] = [
     },
   },
   {
-    accessorKey: "hrID",
+    accessorKey: "hrId",
     header: ({ column }) => {
       return (
         <Button
           variant="ghost"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
-          hrID
+          hrId
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
     },
   },
   {
-    accessorKey: "hdbID",
+    accessorKey: "hdbId",
     header: ({ column }) => {
       return (
         <Button
           variant="ghost"
           onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
         >
-          hdbID
+          hdbId
           <ArrowUpDown className="ml-2 h-4 w-4" />
         </Button>
       );
