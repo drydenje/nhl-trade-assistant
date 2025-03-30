@@ -1,4 +1,5 @@
 import { SitePlayer } from "@/types/SitePlayer";
+import { Button } from "@/components/ui/button";
 
 import {
   Card,
@@ -17,6 +18,7 @@ const PlayerCard = (player: SitePlayer) => {
         <CardTitle>{name}</CardTitle>
         <CardDescription>{birthCity}</CardDescription>
       </CardHeader>
+
       <CardContent>
         <p>
           <span>Birth Date: </span>
@@ -29,9 +31,10 @@ const PlayerCard = (player: SitePlayer) => {
           </p>
         )}
       </CardContent>
-      {/* <CardFooter>
-        <p>Card Footer</p>
-      </CardFooter> */}
+
+      <CardFooter className="self-center">
+        <Button onClick={() => console.log(name)}>Select</Button>
+      </CardFooter>
     </Card>
   );
 };

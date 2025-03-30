@@ -20,19 +20,19 @@ const Layout = () => {
       direction="vertical"
       className="min-h-dvh max-w-md rounded-lg border md:container"
     >
-      <ResizablePanel defaultSize={60}>
+      <ResizablePanel defaultSize={50}>
         <div className="flex h-full items-center justify-center p-2">
           <PlayerDashboard />
         </div>
       </ResizablePanel>
       <ResizableHandle />
-      <ResizablePanel defaultSize={20}>
+      <ResizablePanel defaultSize={25}>
         <div className="flex h-full items-center justify-center p-6">
           <PlayerSelection site={hrPlayers} />
         </div>
       </ResizablePanel>
       <ResizableHandle />
-      <ResizablePanel defaultSize={20}>
+      <ResizablePanel defaultSize={25}>
         <div className="flex h-full items-center justify-center p-6">
           <PlayerSelection site={hdbPlayers} />
         </div>
