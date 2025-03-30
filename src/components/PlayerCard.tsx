@@ -10,27 +10,22 @@ import {
 } from "@/components/ui/card";
 
 const PlayerCard = (player: SitePlayer) => {
+  const { id, name, birthCity, birthDate } = player.player;
   return (
     <Card className="place-self-center">
       <CardHeader>
-        <CardTitle>{player.name}</CardTitle>
-        <CardDescription>{player.birthCity}</CardDescription>
+        <CardTitle>{name}</CardTitle>
+        <CardDescription>{birthCity}</CardDescription>
       </CardHeader>
       <CardContent>
         <p>
           <span>Birth Date: </span>
-          {player.birthDate}
+          {birthDate}
         </p>
-        {player?.id && (
+        {id && (
           <p>
-            <span>HdbID: </span>
-            {player.id}
-          </p>
-        )}
-        {player?.id && (
-          <p>
-            <span>HrID: </span>
-            {player.id}
+            <span>ID: </span>
+            {id}
           </p>
         )}
       </CardContent>

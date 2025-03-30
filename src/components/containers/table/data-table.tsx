@@ -134,10 +134,10 @@ export function DataTable<TData, TValue>({
                   data-state={row.getIsSelected() && "selected"}
                   onClick={() => {
                     const temp = handleRowClick(row);
-                    console.log("TEMP:", temp);
+                    // console.log("TEMP:", temp);
 
                     currentPlayer.set(temp);
-                    console.log("CURRENT:", $currentPlayer);
+                    // console.log("CURRENT:", $currentPlayer);
                   }}
                 >
                   {row.getVisibleCells().map((cell) => (

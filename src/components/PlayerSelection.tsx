@@ -5,14 +5,18 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useStore } from "@nanostores/react";
 import { PlayerCard } from "@/components/PlayerCard";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
+import { currentPlayer } from "@/stores/playerStore";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
 const PlayerSelection = ({ site }: SitePlayer[]) => {
   // const player: Player =
-  const player = null;
+  const player = useStore(currentPlayer);
+  // console.log("SELECT:", player);
+
   // const PlayerSelection = ({ player, site }) => {
   // const fileToParse = `./src/data/${site}-player-ids.json`;
   // console.log(fileToParse);
