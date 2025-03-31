@@ -40,16 +40,13 @@ export const currentPlayer = atom(null);
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
 export const playersToUpdate = map();
 
-export function addPlayerToUpdate({
-  playerId,
-  firstName,
-  lastName,
-  birthDate,
-  birthCity,
-  birthCountry,
-  hrID,
-  hdbID,
-  verified,
-}) {
-  //
+export function addPlayerToUpdate(playerId, id) {
+  console.log("addPlayer:", playerId);
+  if (!isNaN(id)) {
+    console.log("hdb:", id);
+  } else {
+    console.log("hr:", id);
+  }
+
+  // playersToUpdate.setKey(playerId, { playerId, hrId, hdbId });
 }

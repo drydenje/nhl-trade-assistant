@@ -10,8 +10,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import { useStore } from "@nanostores/react";
+import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
+
 const PlayerCard = (player: SitePlayer) => {
   const { id, name, birthCity, birthDate } = player.player;
+  const nhlPlayer = useStore(currentPlayer);
   return (
     <Card className="place-self-center">
       <CardHeader>
@@ -33,7 +37,14 @@ const PlayerCard = (player: SitePlayer) => {
       </CardContent>
 
       <CardFooter className="self-center">
-        <Button onClick={() => console.log(name)}>Select</Button>
+        <Button
+          onClick={() => {
+            // console.log("C:", typeof id);
+            addPlayerToUpdate(nhlPlayer.playerId, id);
+          }}
+        >
+          Select
+        </Button>
       </CardFooter>
     </Card>
   );
