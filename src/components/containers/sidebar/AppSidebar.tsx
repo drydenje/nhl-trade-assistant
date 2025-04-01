@@ -45,12 +45,12 @@ const items = [
 export function AppSidebar() {
   // console.log(playersToUpdate.get());
   // const players = useMemo(playersToUpdate.get().reverse(), []);
-  const players = useStore(playersToUpdate).reverse();
+  const players = useStore(playersToUpdate);
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Application</SidebarGroupLabel>
+          <SidebarGroupLabel>Players</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {players.map((player) => (

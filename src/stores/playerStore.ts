@@ -63,5 +63,5 @@ export function addPlayerToUpdate(
     p.hr = id;
   }
 
-  playersToUpdate.set([...playersToUpdate.get(), p]);
+  playersToUpdate.set([p, ...playersToUpdate.get()]);
 }
