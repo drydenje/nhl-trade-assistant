@@ -31,8 +31,6 @@ async function getData(): Promise<Player[]> {
     return p.properties;
   });
 
-  console.log(records[0]);
-
   return records.map((player) => {
     return {
       playerId: player.playerId,

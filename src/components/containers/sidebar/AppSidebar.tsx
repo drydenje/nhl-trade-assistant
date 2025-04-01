@@ -1,77 +1,48 @@
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react";
-import { playersToUpdate } from "@/stores/playerStore";
+import { Calendar, Home, Inbox, Search, Settings, CircleX } from "lucide-react";
+import { playersToUpdate, removePlayerToUpdate } from "@/stores/playerStore";
 import { useStore } from "@nanostores/react";
 
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
 import {
   Sidebar,
   SidebarContent,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
+  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 
-// Menu items.
-const items = [
-  {
-    title: "Home",
-    url: "#",
-    icon: Home,
-  },
-  {
-    title: "Inbox",
-    url: "#",
-    icon: Inbox,
-  },
-  {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
-  },
-  {
-    title: "Search",
-    url: "#",
-    icon: Search,
-  },
-  {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
-  },
-];
-
 export function AppSidebar() {
-  // console.log(playersToUpdate.get());
-  // const players = useMemo(playersToUpdate.get().reverse(), []);
   const players = useStore(playersToUpdate);
+
   return (
     <Sidebar>
+      <SidebarHeader>
+        <Progress value={players.length / 1533} />
+        <h3>{players.length} players</h3>
+        <Button>Update</Button>
+      </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Players</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {players.map((player) => (
-                <SidebarMenuItem key={player.playerId}>
+                <SidebarMenuItem key={player.uuid}>
                   <SidebarMenuButton asChild>
-                    <a href={player.playerId}>
+                    <div className="flex-1/2 justify-between">
                       <span>{player.name}</span>
-                    </a>
+                      <CircleX
+                        onClick={() => removePlayerToUpdate(player.uuid)}
+                      />
+                    </div>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
-              {/* {items.map((item) => (
-                <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild>
-                    <a href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
-                    </a>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))} */}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

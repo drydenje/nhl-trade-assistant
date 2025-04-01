@@ -1,5 +1,6 @@
 import { atom, map } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
+import { v4 as uuidv4 } from "uuid";
 
 const pettersson = {
   playerId: 8483678,
@@ -51,6 +52,7 @@ export function addPlayerToUpdate(
   { id, name, birthCity, birthDate }
 ) {
   let p = {
+    uuid: uuidv4(),
     playerId,
     name,
     birthCity,
@@ -64,4 +66,9 @@ export function addPlayerToUpdate(
   }
 
   playersToUpdate.set([p, ...playersToUpdate.get()]);
+}
+
+export function removePlayerToUpdate(uuid) {
+  const remainingPlayers = playersToUpdate.get().filter((p) => p.uuid != uuid);
+  playersToUpdate.set([...remainingPlayers]);
 }
