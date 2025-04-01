@@ -40,7 +40,7 @@ const PlayerCard = (player: SitePlayer) => {
         <Button
           onClick={() => {
             // console.log("C:", typeof id);
-            addPlayerToUpdate(nhlPlayer.playerId, id);
+            addPlayerToUpdate(nhlPlayer.playerId, player.player);
           }}
         >
           Select

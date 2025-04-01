@@ -1,4 +1,5 @@
 import { atom, map } from "nanostores";
+import { persistentAtom } from "@nanostores/persistent";
 
 const pettersson = {
   playerId: 8483678,
@@ -38,15 +39,29 @@ export const currentPlayer = atom(null);
  */
 
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
-export const playersToUpdate = map();
+// export const playersToUpdate = map();
 
-export function addPlayerToUpdate(playerId, id) {
-  console.log("addPlayer:", playerId);
+export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
+  encode: JSON.stringify,
+  decode: JSON.parse,
+});
+
+export function addPlayerToUpdate(
+  playerId,
+  { id, name, birthCity, birthDate }
+) {
+  let p = {
+    playerId,
+    name,
+    birthCity,
+    birthDate,
+  };
+  // console.log("addPlayer:", playerId);
   if (!isNaN(id)) {
-    console.log("hdb:", id);
+    p.hdb = id;
   } else {
-    console.log("hr:", id);
+    p.hr = id;
   }
 
-  // playersToUpdate.setKey(playerId, { playerId, hrId, hdbId });
+  playersToUpdate.set([...playersToUpdate.get(), p]);
 }
