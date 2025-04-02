@@ -1,29 +1,26 @@
-import { atom, map } from "nanostores";
+import { atom } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
 import { v4 as uuidv4 } from "uuid";
 
-const pettersson = {
-  playerId: 8483678,
-  firstName: "Elias",
-  lastName: "Pettersson",
-  birthDate: "2004-02-16",
-  birthCity: "Vasteras",
-  birthCountry: "SWE",
-  hrID: null,
-  hdbID: null,
-  verified: false,
-};
+[
+  {
+    uuid: "88163eda-17d4-4da9-9030-972fa327a798",
+    playerId: 8482918,
+    name: "Sergei Klimovich",
+    birthCity: "Novosibirsk",
+    birthDate: "1974-03-08",
+    hr: "klimose01",
+  },
+  {
+    uuid: "2da48a98-23cc-4073-9588-f9ba2adbcc6c",
+    playerId: 8482460,
+    name: "Matt Rempe",
+    birthCity: "Calgary",
+    birthDate: "2002-06-29",
+    hr: "rempema01",
+  },
+];
 
-// {
-//   "firstName": "Zach",
-//   "lastName": "Benson",
-//   "birthDate": "2005-05-12",
-//   "birthCity": "Chilliwack",
-//   "birthCountry": "CAN",
-//   "verified": false
-// }
-
-// export const currentPlayer = atom(pettersson);
 export const currentPlayer = atom(null);
 
 /**
@@ -40,7 +37,6 @@ export const currentPlayer = atom(null);
  */
 
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
-// export const playersToUpdate = map();
 
 export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
   encode: JSON.stringify,

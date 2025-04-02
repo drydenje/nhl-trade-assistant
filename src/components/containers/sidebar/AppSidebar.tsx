@@ -1,4 +1,12 @@
-import { Calendar, Home, Inbox, Search, Settings, CircleX } from "lucide-react";
+import {
+  Calendar,
+  Home,
+  Inbox,
+  Search,
+  Settings,
+  CircleX,
+  Copy,
+} from "lucide-react";
 import { playersToUpdate, removePlayerToUpdate } from "@/stores/playerStore";
 import { useStore } from "@nanostores/react";
 
@@ -23,7 +31,15 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader>
         <Progress value={players.length / 1533} />
-        <h3>{players.length} players</h3>
+        <div className="flex justify-around">
+          <span>{players.length} players</span>
+          <Copy
+            className="inline-block"
+            onClick={() => {
+              navigator.clipboard.writeText(JSON.stringify(players));
+            }}
+          />
+        </div>
         <Button>Update</Button>
       </SidebarHeader>
       <SidebarContent>
