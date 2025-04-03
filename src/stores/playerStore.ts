@@ -2,24 +2,26 @@ import { atom } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
 import { v4 as uuidv4 } from "uuid";
 
-[
-  {
-    uuid: "88163eda-17d4-4da9-9030-972fa327a798",
-    playerId: 8482918,
-    name: "Sergei Klimovich",
-    birthCity: "Novosibirsk",
-    birthDate: "1974-03-08",
-    hr: "klimose01",
-  },
-  {
-    uuid: "2da48a98-23cc-4073-9588-f9ba2adbcc6c",
-    playerId: 8482460,
-    name: "Matt Rempe",
-    birthCity: "Calgary",
-    birthDate: "2002-06-29",
-    hr: "rempema01",
-  },
-];
+// 8482460 Matt	Rempe	2002-06-29	Calgary	CAN	rempema01	216250	false
+
+// [
+//   {
+//     uuid: "88163eda-17d4-4da9-9030-972fa327a798",
+//     playerId: 8482918,
+//     name: "Sergei Klimovich",
+//     birthCity: "Novosibirsk",
+//     birthDate: "1974-03-08",
+//     hr: "klimose01",
+//   },
+//   {
+//     uuid: "2da48a98-23cc-4073-9588-f9ba2adbcc6c",
+//     playerId: 8482460,
+//     name: "Matt Rempe",
+//     birthCity: "Calgary",
+//     birthDate: "2002-06-29",
+//     hr: "rempema01",
+//   },
+// ];
 
 export const currentPlayer = atom(null);
 
@@ -54,7 +56,7 @@ export function addPlayerToUpdate(
     birthCity,
     birthDate,
   };
-  // console.log("addPlayer:", playerId);
+
   if (!isNaN(id)) {
     p.hdb = id;
   } else {

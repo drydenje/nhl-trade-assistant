@@ -42,7 +42,7 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
           {possibleMatches?.map((p: SitePlayer) => {
             // console.log(p);
             return (
-              <CarouselItem className="basis-1/3" key={p.id}>
+              <CarouselItem className="basis-1/3  w-3.5" key={p.id}>
                 <PlayerCard player={p} />
               </CarouselItem>
             );
