@@ -1,12 +1,4 @@
-import {
-  Calendar,
-  Home,
-  Inbox,
-  Search,
-  Settings,
-  CircleX,
-  Copy,
-} from "lucide-react";
+import { CircleX, Copy } from "lucide-react";
 import { playersToUpdate, removePlayerToUpdate } from "@/stores/playerStore";
 import { useStore } from "@nanostores/react";
 
@@ -26,11 +18,12 @@ import {
 
 export function AppSidebar() {
   const players = useStore(playersToUpdate);
+  const remainingPercentage = Math.round((players.length / 1533) * 100);
 
   return (
     <Sidebar>
       <SidebarHeader>
-        <Progress value={players.length / 1533} />
+        <Progress value={remainingPercentage} />
         <div className="flex justify-around">
           <span>{players.length} players</span>
           <Copy

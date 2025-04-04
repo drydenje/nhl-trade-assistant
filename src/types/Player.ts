@@ -1,11 +1,12 @@
 export type Player = {
+  uuid: string;
   playerId: number;
   firstName: string;
   lastName: string;
   birthDate: string;
   birthCity: string;
   birthCountry: string;
-  hrID: string | null;
-  hdbID: string | null;
+  hrId: string | null;
+  hdbId: string | null;
   verified: boolean;
 };

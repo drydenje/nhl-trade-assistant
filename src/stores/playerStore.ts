@@ -1,6 +1,8 @@
 import { atom } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
 import { v4 as uuidv4 } from "uuid";
+import { SitePlayer } from "@/types/SitePlayer";
+import { Player } from "@/types/Player";
 
 // 8482460 Matt	Rempe	2002-06-29	Calgary	CAN	rempema01	216250	false
 
@@ -26,16 +28,13 @@ import { v4 as uuidv4 } from "uuid";
 export const currentPlayer = atom(null);
 
 /**
- * @typedef {Object} PlayerObject
- * @property {number} playerId
- * @property {string} firstName
- * @property {string} lastName
- * @property {string} birthDate
+ * @typedef {Object} Player
  * @property {string} birthCity
- * @property {string} birthCountry
- * @property {string} hrID
- * @property {string} hdbID
- * @property {string} verified
+ * @property {string} birthDate
+ * @property {string} hdb
+ * @property {string} name
+ * @property {number} playerId
+ * @property {string} uuid
  */
 
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
@@ -46,10 +45,10 @@ export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
 });
 
 export function addPlayerToUpdate(
-  playerId,
-  { id, name, birthCity, birthDate }
+  playerId: number,
+  { id, name, birthCity, birthDate }: SitePlayer
 ) {
-  let p = {
+  let p: Player = {
     uuid: uuidv4(),
     playerId,
     name,
@@ -58,9 +57,9 @@ export function addPlayerToUpdate(
   };
 
   if (!isNaN(id)) {
-    p.hdb = id;
+    p.hdbId = id;
   } else {
-    p.hr = id;
+    p.hrId = id;
   }
 
   playersToUpdate.set([p, ...playersToUpdate.get()]);

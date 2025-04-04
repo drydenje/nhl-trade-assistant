@@ -1,5 +1,5 @@
 export type SitePlayer = {
-  id: string;
+  id: number | string;
   name: string;
   birthDate: string;
   birthCity: string;

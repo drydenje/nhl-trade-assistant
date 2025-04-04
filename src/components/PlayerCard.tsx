@@ -39,7 +39,6 @@ const PlayerCard = (player: SitePlayer) => {
       <CardFooter className="self-center">
         <Button
           onClick={() => {
-            // console.log("C:", typeof id);
             addPlayerToUpdate(nhlPlayer.playerId, player.player);
           }}
         >
