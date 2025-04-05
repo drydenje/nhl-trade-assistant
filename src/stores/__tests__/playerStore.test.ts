@@ -1,4 +1,4 @@
-import { it, expect, test, beforeAll, afterEach } from "vitest";
+import { it, expect, test, beforeAll, beforeEach, afterEach } from "vitest";
 
 import { cleanStores, keepMount } from "nanostores";
 import {
@@ -8,9 +8,10 @@ import {
   getTestStorage,
 } from "@nanostores/persistent";
 
-import { playersToUpdate } from "../playerStore";
+import { currentPlayer, playersToUpdate } from "../playerStore";
 
-beforeAll(() => {
+// beforeAll runs once, beforeEach resets each time
+beforeAll(async (context) => {
   useTestStorageEngine();
 });
 
@@ -19,7 +20,13 @@ afterEach(() => {
 });
 
 it("listens for changes", () => {
-  // setTestStorageKey()
+  setTestStorageKey("settings:locale", "ru");
+  expect(currentPlayer.get()).toEqual({ locale: "ru" });
+});
+
+it("listens for changes", () => {
+  setTestStorageKey("playersToUpdate", "woof");
+
   expect(playersToUpdate.get()).toEqual([
     {
       uuid: "0c7db5c1-a21c-42a9-ad09-5c55927a68dd",
