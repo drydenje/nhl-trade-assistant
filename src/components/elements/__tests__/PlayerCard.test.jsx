@@ -7,6 +7,7 @@ import {
   beforeEach,
   afterEach,
 } from "vitest";
+import React from "react";
 import { render, screen } from "@testing-library/react";
 import { PlayerCard } from "../PlayerCard";
 
