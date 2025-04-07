@@ -27,6 +27,29 @@ afterEach(() => {
   cleanTestStorage();
 });
 
+describe("currentPlayer", () => {
+  it("checks if the current player is null on initialization", () => {
+    expect(currentPlayer.get()).toBe(null);
+  });
+
+  it("checks that a player can be set", () => {
+    const rempe = {
+      uuid: "26e81d12-692f-47f1-8542-043629280a88",
+      playerId: 8482460,
+      firstName: "Matt",
+      lastName: "Rempe",
+      birthDate: "2002-06-29",
+      birthCity: "Calgary",
+      birthCountry: "CAN",
+      hrId: null,
+      hdbId: null,
+      verified: false,
+    };
+    currentPlayer.set(rempe);
+    expect(currentPlayer.get()).toBe(rempe);
+  });
+});
+
 describe("playersToUpdate", () => {
   // it("listens for changes", () => {
   //   setTestStorageKey("settings:locale", "ru");
@@ -59,10 +82,9 @@ describe("playersToUpdate", () => {
         hdb: "216250",
       },
     ];
-    // setTestStorageKey("playersToUpdate", "test");
     setTestStorageKey("playersToUpdate", JSON.stringify(players));
     const p = JSON.parse(getTestStorage().playersToUpdate);
-    console.log("P:", p);
+    // console.log("P:", p);
     expect(p).toEqual(players);
   });
 });

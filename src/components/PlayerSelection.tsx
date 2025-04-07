@@ -6,27 +6,15 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useStore } from "@nanostores/react";
-import { PlayerCard } from "@/components/PlayerCard";
+import { PlayerCard } from "@/components/elements/PlayerCard";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
 const PlayerSelection = ({ site }: SitePlayer[]) => {
-  // const player: Player =
   const player = useStore(currentPlayer);
-  // console.log("SELECT:", player);
 
-  // const PlayerSelection = ({ player, site }) => {
-  // const fileToParse = `./src/data/${site}-player-ids.json`;
-  // console.log(fileToParse);
-  // const hdbPlayers = JSON.parse(
-  //   await fs.readFile(fileToParse, { encoding: "utf8" })
-  // );
-  // console.log("S:", site[0]);
-
-  // console.log("PLAYER:", player);
-  // const player = null;
   if (player === null) return <h2>No Player Selected</h2>;
 
   const possibleMatches = site?.filter((x: SitePlayer) => {
