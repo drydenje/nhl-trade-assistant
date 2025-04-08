@@ -16,6 +16,7 @@ import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 const PlayerCard = (player: SitePlayer) => {
   const { id, name, birthCity, birthDate } = player.player;
   const nhlPlayer = useStore(currentPlayer);
+
   return (
     <Card className="place-self-center">
       <CardHeader>

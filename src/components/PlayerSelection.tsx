@@ -28,7 +28,7 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
       <Carousel className="w-full min-w-4xl">
         <CarouselContent>
           {possibleMatches?.map((p: SitePlayer) => {
-            // console.log(p);
+            console.log("P:", p);
             return (
               <CarouselItem className="basis-1/3  w-3.5" key={p.id}>
                 <PlayerCard player={p} />
