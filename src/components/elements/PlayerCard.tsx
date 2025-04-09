@@ -26,8 +26,8 @@ const PlayerCard = (player: SitePlayer) => {
 
       <CardContent>
         <p>
-          <span>Birth Date: </span>
-          {birthDate}
+          {/* <span>Birth Date: </span> */}
+          Birth Date: {birthDate}
         </p>
         {id && (
           <p>
