@@ -13,8 +13,20 @@ import {
 import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 
-const PlayerCard = (player: SitePlayer) => {
-  const { id, name, birthCity, birthDate } = player.player;
+const PlayerCard = ({ player }: SitePlayer) => {
+  console.log("P:", player);
+
+  // make sure the player exists
+  if (!player)
+    return (
+      <Card className="place-self-center">
+        <CardHeader>
+          <CardTitle>No Player Selected</CardTitle>
+        </CardHeader>
+      </Card>
+    );
+
+  const { id, name, birthCity, birthDate } = player;
   const nhlPlayer = useStore(currentPlayer);
 
   return (
@@ -40,7 +52,7 @@ const PlayerCard = (player: SitePlayer) => {
       <CardFooter className="self-center">
         <Button
           onClick={() => {
-            addPlayerToUpdate(nhlPlayer.playerId, player.player);
+            addPlayerToUpdate(nhlPlayer.playerId, player);
           }}
         >
           Select
