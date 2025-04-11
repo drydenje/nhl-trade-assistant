@@ -21,7 +21,7 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
     return x.name.includes(player?.lastName);
   });
 
-  // console.log("P:", possibleMatches);
+  console.log("Players:", possibleMatches);
 
   return (
     <div>

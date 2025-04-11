@@ -1,3 +1,4 @@
+import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 import { Button } from "@/components/ui/button";
 
@@ -14,7 +15,7 @@ import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 
 const PlayerCard = ({ player }: SitePlayer) => {
-  console.log("P:", player);
+  // console.log("P:", player);
 
   // make sure the player exists
   if (!player)
