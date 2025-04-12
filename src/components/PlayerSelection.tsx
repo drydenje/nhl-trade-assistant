@@ -5,8 +5,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import { v4 as uuidv4 } from "uuid";
 import { useStore } from "@nanostores/react";
 import { PlayerCard } from "@/components/elements/PlayerCard";
+import { SearchCard } from "@/components/elements/SearchCard";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
@@ -28,13 +30,16 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
       <Carousel className="w-full min-w-4xl">
         <CarouselContent>
           {possibleMatches?.map((p: SitePlayer) => {
-            console.log("P:", p);
+            // console.log("P:", p);
             return (
               <CarouselItem className="basis-1/3  w-3.5" key={p.id}>
                 <PlayerCard player={p} />
               </CarouselItem>
             );
           })}
+          <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
+            <SearchCard />
+          </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
