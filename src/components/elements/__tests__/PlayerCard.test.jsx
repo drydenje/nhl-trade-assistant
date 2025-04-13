@@ -15,7 +15,7 @@ import { PlayerCard } from "../PlayerCard";
 configure({ testIdAttribute: "data-slot" });
 
 describe("PlayerCard", () => {
-  test.only("renders a PlayerCard when passed a HockeyReference id (eg: rempema01)", () => {
+  test("renders a PlayerCard when passed a HockeyReference id (eg: rempema01)", () => {
     const rempe = {
       id: "rempema01",
       name: "Matt Rempe",
@@ -68,7 +68,6 @@ describe("PlayerCard", () => {
 
   it("renders nothing when passed a null player", () => {
     render(<PlayerCard player={null} />);
-    screen.debug(screen.getByTestId("card"));
     expect(screen.getByTestId("card")).toHaveTextContent("No Player Selected");
 
     // expect(screen.getByTestId("card")).toHaveTextContent("Calgary");
