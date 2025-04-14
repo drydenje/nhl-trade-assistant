@@ -6,11 +6,44 @@ import { currentPlayer } from "@/stores/playerStore";
 import { axe } from "vitest-axe";
 import { render, screen } from "@testing-library/react";
 
+function InaccessibleForm() {
+  // Form inputs must have an accessible name
+  // Ref: 4.1.1 of W3C HTML Accessibility API Mappings 1.0
+  return (
+    <form>
+      {/* <img src="#" /> */}
+      <input id="username" />
+    </form>
+  );
+}
+
+function AccessibleForm() {
+  return (
+    <form>
+      <label htmlFor="username">Username</label>
+      <input id="username" placeholder="username" />
+    </form>
+  );
+}
+
+const temp = `
+  <form>
+    <input placeholder="email" />
+  </form>
+`;
+
 afterEach(() => {
   cleanStores(currentPlayer);
 });
 
 describe("PlayerCard", () => {
+  beforeAll(() => {
+    // JSDom does not implement this and an error was being
+    // thrown from vite-axe because of it.
+    // "Error: Not implemented: window.getComputedStyle(elt, pseudoElt)"
+    // window.getComputedStyle = () => {};
+  });
+
   test.only("renders a SearchCard", async () => {
     currentPlayer.set({
       playerId: 8483669,
@@ -22,15 +55,25 @@ describe("PlayerCard", () => {
       verified: false,
     });
     keepMount(currentPlayer);
-    // console.log("current:", currentPlayer.get());
-    render(<SearchCard />);
 
-    expect(await axe(screen.getByTestId("card"))).toHaveNoViolations();
-    // expect(
-    //   await axe("<html><!-- accessible markup! --></html>")
-    // ).toHaveNoViolations();
-    expect(screen.getByTestId("card")).toHaveTextContent(/adam sykora/i);
-    expect(screen.getByTestId("card")).toHaveTextContent(/peistany/i);
+    // const { container } = render(temp);
+    // // console.log(InaccessibleForm());
+    // expect(await axe(temp)).toHaveNoViolations();
+
+    // const render = () => '<main><img src="#" alt="text thing"/></main>';
+    // // pass anything that outputs html to axe
+    // const html = render();
+    // expect(await axe(html)).toHaveNoViolations();
+
+    // console.log("current:", currentPlayer.get());
+
+    // const { container } = render(<SearchCard />);
+    // const { container } = render(<InaccessibleForm />);
+    const { container } = render(<AccessibleForm />);
+    expect(await axe(container)).toHaveNoViolations();
+
+    // expect(screen.getByTestId("card")).toHaveTextContent(/adam sykora/i);
+    // expect(screen.getByTestId("card")).toHaveTextContent(/piestany/i);
 
     // screen.debug();
 

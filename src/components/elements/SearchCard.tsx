@@ -29,9 +29,7 @@ const SearchCard = () => {
 
   return (
     <Card className="place-self-center">
-      <form
-      // ref
-      >
+      <form>
         <CardHeader>
           <CardTitle>{`${firstName} ${lastName}`}</CardTitle>
           <CardDescription>{birthCity}</CardDescription>
@@ -45,7 +43,13 @@ const SearchCard = () => {
           <a href={hrLink} target="_blank">
             HockeyReference
           </a>
-          <Input id="site-id" name="site-id" type="text" />
+
+          <Input
+            id="site-id"
+            name="site-id"
+            type="text"
+            placeholder="Site Id"
+          />
         </CardContent>
 
         <CardFooter className="self-center">
