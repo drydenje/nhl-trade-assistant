@@ -15,6 +15,7 @@ import { Input } from "@/components/ui/input";
 
 import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
+import { Form, FormLabel } from "../ui/form";
 
 const SearchCard = () => {
   const [siteId, setSiteId] = useState(null);
@@ -29,40 +30,36 @@ const SearchCard = () => {
 
   return (
     <Card className="place-self-center">
-      <form>
-        <CardHeader>
-          <CardTitle>{`${firstName} ${lastName}`}</CardTitle>
-          <CardDescription>{birthCity}</CardDescription>
-        </CardHeader>
+      <CardHeader>
+        <CardTitle>{`${firstName} ${lastName}`}</CardTitle>
+        <CardDescription>{birthCity}</CardDescription>
+      </CardHeader>
 
-        <CardContent>
-          <a href={hdbLink} target="_blank">
-            HockeyDB
-          </a>
-          <br />
-          <a href={hrLink} target="_blank">
-            HockeyReference
-          </a>
+      <CardContent>
+        <a href={hdbLink} target="_blank">
+          HockeyDB
+        </a>
+        <br />
+        <a href={hrLink} target="_blank">
+          HockeyReference
+        </a>
+        {/* <Form> */}
+        {/* <FormLabel>Site Id</FormLabel> */}
+        {/* <label for="site-id">Site Id</label> */}
+        <Input id="site-id" name="site-id" type="text" placeholder="Site Id" />
+        {/* </Form> */}
+      </CardContent>
 
-          <Input
-            id="site-id"
-            name="site-id"
-            type="text"
-            placeholder="Site Id"
-          />
-        </CardContent>
-
-        <CardFooter className="self-center">
-          <Button
-            onClick={() => {
-              // addPlayerToUpdate(nhlPlayer.playerId, player);
-              console.log(`${firstName} ${lastName}: ${playerId} -> `);
-            }}
-          >
-            Select
-          </Button>
-        </CardFooter>
-      </form>
+      <CardFooter className="self-center">
+        <Button
+          onClick={() => {
+            // addPlayerToUpdate(nhlPlayer.playerId, player);
+            console.log(`${firstName} ${lastName}: ${playerId} -> `);
+          }}
+        >
+          Select
+        </Button>
+      </CardFooter>
     </Card>
   );
 };
