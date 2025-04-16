@@ -19,9 +19,10 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
 
   if (player === null) return <h2>No Player Selected</h2>;
 
-  const possibleMatches = site?.filter((x: SitePlayer) => {
-    return x.name.includes(player?.lastName);
-  });
+  const possibleMatches =
+    site?.filter((x: SitePlayer) => {
+      return x.name.includes(player?.lastName);
+    }) || null;
 
   console.log("Players:", possibleMatches);
 
@@ -37,9 +38,9 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
               </CarouselItem>
             );
           })}
-          <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
+          {/* <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
             <SearchCard />
-          </CarouselItem>
+          </CarouselItem> */}
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />
