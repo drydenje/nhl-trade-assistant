@@ -19,12 +19,11 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
 
   if (player === null) return <h2>No Player Selected</h2>;
 
-  const possibleMatches =
-    site?.filter((x: SitePlayer) => {
-      return x.name.includes(player?.lastName);
-    }) || null;
+  const possibleMatches = site?.filter((x: SitePlayer) => {
+    return x.name.includes(player?.lastName);
+  });
 
-  console.log("Players:", possibleMatches);
+  // console.log("Players:", possibleMatches);
 
   return (
     <div>
@@ -33,7 +32,7 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
           {possibleMatches?.map((p: SitePlayer) => {
             // console.log("P:", p);
             return (
-              <CarouselItem className="basis-1/3  w-3.5" key={p.id}>
+              <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
                 <PlayerCard player={p} />
               </CarouselItem>
             );
