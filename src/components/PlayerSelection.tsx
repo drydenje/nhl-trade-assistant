@@ -12,6 +12,7 @@ import { SearchCard } from "@/components/elements/SearchCard";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
+import latinize from "latinize";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
 const PlayerSelection = ({ site }: SitePlayer[]) => {
@@ -19,8 +20,14 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
 
   if (player === null) return <h2>No Player Selected</h2>;
 
+  const selectedPlayer = player?.lastName.toLowerCase();
+
   const possibleMatches = site?.filter((x: SitePlayer) => {
-    return x.name.includes(player?.lastName);
+    // const tempName = x.name.toLowerCase();
+    // console.log("1:", tempName);
+    // const selectedPlayer = player?.lastName.toLowerCase();
+    // console.log("2:", selectedPlayer);
+    return x.name.includes(latinize(player?.lastName));
   });
 
   // console.log("Players:", possibleMatches);
