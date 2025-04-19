@@ -30,7 +30,7 @@ const PlayerSelection = ({ site }: SitePlayer[]) => {
     return x.name.includes(latinize(player?.lastName));
   });
 
-  // console.log("Players:", possibleMatches);
+  console.log("Players:", possibleMatches);
 
   return (
     <div>
