@@ -33,7 +33,21 @@ export function AppSidebar() {
             }}
           />
         </div>
-        <Button>Update</Button>
+        <Button
+          onClick={() => {
+            const q = `
+              WITH ${players[0]} AS players
+                UNWIND players AS h
+                MATCH (player:Player {playerId: h.playerId })
+                SET player.hrId = coalesce(player.hrId, h.hrId),
+                    player.hdbId = coalesce(player.hdbId, h.hdbId)
+                RETURN player;
+            `;
+            console.log(q);
+          }}
+        >
+          Update
+        </Button>
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
