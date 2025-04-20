@@ -40,7 +40,7 @@ describe("PlayerCard", () => {
 
     expect(screen.getByTestId("card")).toHaveTextContent(/adam sykora/i);
     expect(screen.getByTestId("card")).toHaveTextContent(/piestany/i);
-    screen.debug();
+    // screen.debug();
 
     // expect(screen.getByLabelText("site-id")).toHaveAttribute("type", "text");
   });
