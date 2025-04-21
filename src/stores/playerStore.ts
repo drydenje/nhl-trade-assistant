@@ -9,11 +9,13 @@ export const currentPlayer = atom<null | Player>(null);
 
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
 
+// The list of updates on the left side of the screen
 export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
   encode: JSON.stringify,
   decode: JSON.parse,
 });
 
+// Add a player to the left menu for connecting the nhl id with another site id
 export function addPlayerToUpdate(
   playerId: number,
   { id, name, birthCity, birthDate }: SitePlayer
@@ -26,6 +28,7 @@ export function addPlayerToUpdate(
     birthDate,
   };
 
+  // Used to descide which site the update is for
   if (!isNaN(id)) {
     p.hdbId = id;
   } else {
@@ -35,11 +38,14 @@ export function addPlayerToUpdate(
   playersToUpdate.set([p, ...playersToUpdate.get()]);
 }
 
+// Clicking on the 'X' in the sidebar removes the single player update
 export function removePlayerToUpdate(uuid) {
   const remainingPlayers = playersToUpdate.get().filter((p) => p.uuid != uuid);
   playersToUpdate.set([...remainingPlayers]);
 }
 
+// Used to update the entire list of player updates in localStorage
+// Not called by the user, just for quick bulk fix of locally stored players
 export function updateLocalStorage() {
   const players = [
     {
@@ -894,34 +900,3 @@ export function updateLocalStorage() {
 
   playersToUpdate.set(players);
 }
-
-// 8482460 Matt	Rempe	2002-06-29	Calgary	CAN	rempema01	216250	false
-
-// [
-//   {
-//     uuid: "88163eda-17d4-4da9-9030-972fa327a798",
-//     playerId: 8482918,
-//     name: "Sergei Klimovich",
-//     birthCity: "Novosibirsk",
-//     birthDate: "1974-03-08",
-//     hr: "klimose01",
-//   },
-//   {
-//     uuid: "2da48a98-23cc-4073-9588-f9ba2adbcc6c",
-//     playerId: 8482460,
-//     name: "Matt Rempe",
-//     birthCity: "Calgary",
-//     birthDate: "2002-06-29",
-//     hr: "rempema01",
-//   },
-// ];
-
-// /**
-//  * @typedef {Object} Player
-//  * @property {string} birthCity
-//  * @property {string} birthDate
-//  * @property {string} hdb
-//  * @property {string} name
-//  * @property {number} playerId
-//  * @property {string} uuid
-//  */
