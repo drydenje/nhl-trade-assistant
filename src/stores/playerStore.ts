@@ -1,3 +1,4 @@
+import neo4j from "neo4j-driver";
 import { atom } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
 import { v4 as uuidv4 } from "uuid";
@@ -6,8 +7,17 @@ import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 
 export const currentPlayer = atom<null | Player>(null);
-
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
+export const playersMissingIds = atom<null | Player[]>(null);
+
+const driver = neo4j.driver(
+  import.meta.env.PUBLIC_DATABASE_BOLT_URL,
+  neo4j.auth.basic(
+    import.meta.env.PUBLIC_DATABASE_USER,
+    import.meta.env.PUBLIC_DATABASE_PASSWORD
+  ),
+  { disableLosslessIntegers: true }
+);
 
 // The list of updates on the left side of the screen
 export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
