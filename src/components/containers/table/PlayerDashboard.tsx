@@ -49,11 +49,11 @@ import { DataTable } from "@/components/containers/table/data-table";
 
 // const data = await getData();
 
-const data = playersMissingIds.get();
+const PlayerDashboard = async () => {
+  const data = await playersMissingIds.get();
 
-console.log("Players remaining:", data?.length);
+  console.log("Players remaining:", data?.length);
 
-const PlayerDashboard = () => {
   return data ? <DataTable columns={columns} data={data} /> : null;
 };
 
