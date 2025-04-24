@@ -4,16 +4,9 @@ const db_url = import.meta.env.PUBLIC_DATABASE_BOLT_URL;
 const db_user = import.meta.env.PUBLIC_DATABASE_USER;
 const db_password = import.meta.env.PUBLIC_DATABASE_PASSWORD;
 
-const driver = neo4j.driver(
-  db_url,
-  neo4j.auth.basic(
-    // process.env.PUBLIC_DATABASE_USER,
-    // process.env.PUBLIC_DATABASE_PASSWORD
-    db_user,
-    db_password
-  ),
-  { disableLosslessIntegers: true }
-);
+const driver = neo4j.driver(db_url, neo4j.auth.basic(db_user, db_password), {
+  disableLosslessIntegers: true,
+});
 
 export async function getData(): Promise<Player[]> {
   // Fetch data from your API here.
