@@ -1,5 +1,4 @@
 export type Player = {
-  uuid: string;
   playerId: number;
   firstName: string;
   lastName: string;

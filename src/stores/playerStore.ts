@@ -32,7 +32,7 @@ export function addPlayerToUpdate(
   playerId: number,
   { id, name, birthCity, birthDate }: SitePlayer
 ) {
-  let p: Player = {
+  let p: SitePlayer = {
     uuid: uuidv4(),
     playerId,
     name,
