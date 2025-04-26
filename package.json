@@ -11,8 +11,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.1.0",
-    "@astrojs/react": "^4.2.1",
+    "@astrojs/mdx": "^4.2.5",
+    "@astrojs/react": "^4.2.5",
     "@hookform/resolvers": "^5.0.1",
     "@nanostores/persistent": "^0.10.2",
     "@nanostores/query": "^0.3.4",
@@ -27,7 +27,7 @@
     "@tailwindcss/vite": "^4.0.9",
     "@tanstack/react-table": "^8.21.2",
     "@types/canvas-confetti": "^1.9.0",
-    "astro": "^5.4.2",
+    "astro": "^5.7.5",
     "canvas-confetti": "^1.9.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

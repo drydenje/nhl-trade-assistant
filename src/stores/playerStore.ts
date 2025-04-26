@@ -22,10 +22,14 @@ onMount(playersMissingIds, () => {
 });
 
 // The list of updates on the left side of the screen
-export const playersToUpdate = persistentAtom<Player[]>("playersToUpdate", [], {
-  encode: JSON.stringify,
-  decode: JSON.parse,
-});
+export const playersToUpdate = persistentAtom<SitePlayer[]>(
+  "playersToUpdate",
+  [],
+  {
+    encode: JSON.stringify,
+    decode: JSON.parse,
+  }
+);
 
 // Add a player to the left menu for connecting the nhl id with another site id
 export function addPlayerToUpdate(
