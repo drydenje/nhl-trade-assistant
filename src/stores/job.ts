@@ -1,3 +1,4 @@
+import { $currentJob } from "@/stores/job";
 // import { $currentJob } from '@/stores/job';
 import { createFetcherStore } from "./fetcher";
 import { atom } from "nanostores";
@@ -14,7 +15,5 @@ export type Job = {
 };
 //https://hacker-news.firebaseio.com/v0/item/192327.json?print=pretty
 export const $currentJobId = atom(192327);
-export const $currentJob = createFetcherStore<Job>([
-  "/api/post/",
-  $currentJobId,
-]);
+console.log($currentJobId.get());
+export const $currentJob = createFetcherStore<Job>($currentJobId.get());
