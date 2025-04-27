@@ -1,7 +1,8 @@
 ---
 import "../styles/global.css";
 import { Layout } from "@/components/Layout";
-import { useStore } from "@nanostores/react";
+// import { useStore } from "@nanostores/react";
+import { Job } from "@/components/elements/Job";
 ---
 
 <html lang="en">
@@ -17,8 +18,11 @@ import { useStore } from "@nanostores/react";
     <!-- <div class="grid h-48 w-full place-content-center"> -->
     <div class="h-auto">
       <!-- <div class="h-screen flex items-center justify-center m-4"> -->
-      <Layout client:only="react" />
-      <!-- <Layout client:load /> -->
+
+      <!-- this one -->
+      <!-- <Layout client:only="react" /> -->
+
+      <Job client:only="react" />
     </div>
     <!-- </div> -->
   </body>
