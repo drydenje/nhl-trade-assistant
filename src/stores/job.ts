@@ -1,5 +1,3 @@
-import { $currentJob } from "@/stores/job";
-// import { $currentJob } from '@/stores/job';
 import { createFetcherStore } from "./fetcher";
 import { atom } from "nanostores";
 
@@ -13,7 +11,13 @@ export type Job = {
   type: string;
   url: string;
 };
-//https://hacker-news.firebaseio.com/v0/item/192327.json?print=pretty
+
+// https://hacker-news.firebaseio.com/v0/item/192327.json?print=pretty
+
 export const $currentJobId = atom(192327);
-console.log($currentJobId.get());
-export const $currentJob = createFetcherStore<Job>($currentJobId.get());
+// const q = `https://hacker-news.firebaseio.com/v0/item/${$currentJobId.get()}.json?print=pretty`;
+// export const $currentJob = createFetcherStore(new URL(q), $currentJobId.get());
+// export const $currentJob = createFetcherStore<Job>(url, $currentJobId.get());
+export const $currentJob = createFetcherStore<Job>(
+  `https://hacker-news.firebaseio.com/v0/item/${$currentJobId.get()}.json?print=pretty`
+);

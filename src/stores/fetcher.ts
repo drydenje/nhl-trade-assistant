@@ -1,12 +1,14 @@
+import { Job } from "./job";
 import { nanoquery } from "@nanostores/query";
 
 export const [createFetcherStore, createMutatorStore] = nanoquery({
-  fetcher: async (id) => {
-    const response = await fetch(
-      `https://hacker-news.firebaseio.com/v0/item/${id}.json?print=pretty`
-    );
+  // fetcher: async (id) => {
+  fetcher: async (url: URL) => {
+    console.log(url);
+    const response = await fetch(url);
+
     if (!response.ok) {
-      throw new Error(`Failed to fetch item ${id}`);
+      throw new Error(`Failed to fetch item ${url}`);
     }
 
     return response.json();
