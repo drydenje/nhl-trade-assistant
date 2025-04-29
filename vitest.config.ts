@@ -5,10 +5,15 @@ import { loadEnv } from "vite";
 
 export default defineConfig(({ mode }) => {
   // Load env files based on mode
-  process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
-  // console.log("ENV:", process.env);
+  // process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
+  console.log("ENV:", process.env);
+  // console.log("URL:", import.meta.url);
   return {
-    // Your vitest config
+    resolve: {
+      alias: {
+        "@": new URL("./src/", import.meta.url).pathname,
+      },
+    },
     test: {
       environment: "node",
       globals: true, // This allows using globals without imports

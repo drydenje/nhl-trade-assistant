@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 
-import { getData } from "@/lib/db_fetch";
+import { getData } from "@/lib/db_fetch.ts";
 
 export const currentPlayer = atom<null | Player>(null);
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
