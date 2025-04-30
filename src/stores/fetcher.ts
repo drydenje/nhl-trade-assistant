@@ -3,7 +3,7 @@ import { nanoquery } from "@nanostores/query";
 
 export const [createFetcherStore, createMutatorStore] = nanoquery({
   // fetcher: async (id) => {
-  fetcher: async (url: URL) => {
+  fetcher: async (url: string) => {
     console.log(url);
     const response = await fetch(url);
 

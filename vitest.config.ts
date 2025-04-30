@@ -6,8 +6,6 @@ import { loadEnv } from "vite";
 export default defineConfig(({ mode }) => {
   // Load env files based on mode
   // process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
-  console.log("ENV:", process.env);
-  // console.log("URL:", import.meta.url);
   return {
     resolve: {
       alias: {
@@ -15,7 +13,9 @@ export default defineConfig(({ mode }) => {
       },
     },
     test: {
-      environment: "node",
+      env: loadEnv(mode, process.cwd(), ""),
+      // environment: "node",
+      environment: "happy-dom",
       globals: true, // This allows using globals without imports
     },
   };

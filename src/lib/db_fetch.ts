@@ -1,12 +1,12 @@
 import neo4j from "neo4j-driver";
 import { Player } from "@/types/Player";
-const db_url = import.meta.env.VITE_DATABASE_BOLT_URL;
-const db_user = import.meta.env.VITE_DATABASE_USER;
-const db_password = import.meta.env.VITE_DATABASE_PASSWORD;
-// const db_url = import.meta.env.PUBLIC_DATABASE_BOLT_URL;
-// const db_user = import.meta.env.PUBLIC_DATABASE_USER;
-// const db_password = import.meta.env.PUBLIC_DATABASE_PASSWORD;
+const db_url = import.meta.env.PUBLIC_DATABASE_BOLT_URL;
+const db_user = import.meta.env.PUBLIC_DATABASE_USER;
+const db_password = import.meta.env.PUBLIC_DATABASE_PASSWORD;
 import { v4 as uuidv4 } from "uuid";
+
+// console.log(import.meta.env);
+console.log("VITEDBURL:", db_url);
 
 const driver = neo4j.driver(db_url, neo4j.auth.basic(db_user, db_password), {
   disableLosslessIntegers: true,
