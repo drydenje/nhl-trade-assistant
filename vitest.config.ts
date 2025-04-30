@@ -16,6 +16,8 @@ export default defineConfig(({ mode }) => {
       env: loadEnv(mode, process.cwd(), ""),
       // environment: "node",
       environment: "happy-dom",
+      // environment: "jsdom",
+      setupFiles: ["./config/setupTests.ts"],
       globals: true, // This allows using globals without imports
     },
   };
