@@ -5,15 +5,13 @@ const db_user = import.meta.env.PUBLIC_DATABASE_USER;
 const db_password = import.meta.env.PUBLIC_DATABASE_PASSWORD;
 import { v4 as uuidv4 } from "uuid";
 
-// console.log(import.meta.env);
-console.log("VITEDBURL:", db_url);
-
 const driver = neo4j.driver(db_url, neo4j.auth.basic(db_user, db_password), {
   disableLosslessIntegers: true,
 });
 
 export async function getData(): Promise<Player[]> {
   // Fetch data from your API here.
+
   const session = driver.session({
     database: import.meta.env.PUBLIC_DATABASE_INSTANCE,
   });
@@ -32,6 +30,7 @@ export async function getData(): Promise<Player[]> {
   });
 
   return records.map((player) => {
+    // console.log(player);
     return {
       // uuid: uuidv4(),
       playerId: player.playerId,

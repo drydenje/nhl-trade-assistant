@@ -16,7 +16,7 @@ export const playersMissingIds = atom<null | Player[]>(null);
 
 onMount(playersMissingIds, () => {
   task(async () => {
-    console.log("trying to load players");
+    // console.log("trying to load players");
     playersMissingIds.set(await getData());
   });
 });
