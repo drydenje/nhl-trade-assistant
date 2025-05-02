@@ -5,12 +5,12 @@ import { columns } from "@/components/containers/table/columns";
 import { DataTable } from "@/components/containers/table/data-table";
 
 const PlayerDashboard = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState();
 
   useEffect(() => {
-    const resp = playersMissingIds.get();
-    console.log(data);
-    setData(resp);
+    const resp = playersMissingIds.listen((value) => {
+      setData(value);
+    });
   }, []);
 
   console.log("Players remaining:", data?.length);

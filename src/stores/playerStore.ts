@@ -11,12 +11,9 @@ export const currentPlayer = atom<null | Player>(null);
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
 
 export const playersMissingIds = atom<null | Player[]>(null);
-// export const playersMissingIds = atom<null | Player[]>(null);
-// export const playersMissingIds = computed()
 
 onMount(playersMissingIds, () => {
   task(async () => {
-    // console.log("trying to load players");
     playersMissingIds.set(await getData());
   });
 });
