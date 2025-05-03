@@ -8,7 +8,7 @@ const PlayerDashboard = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    const resp = playersMissingIds.listen((value) => {
+    playersMissingIds.listen((value) => {
       setData(value);
     });
   }, []);
