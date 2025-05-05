@@ -3,12 +3,14 @@ import {
   it,
   expect,
   test,
+  vi,
   beforeAll,
   beforeEach,
   afterEach,
 } from "vitest";
 
 import { cleanStores, keepMount } from "nanostores";
+import { v4 as uuidv4 } from "uuid";
 import {
   useTestStorageEngine,
   setTestStorageKey,
@@ -55,6 +57,10 @@ describe("currentPlayer", () => {
 });
 
 describe("addPlayerToUpdate", () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   it.only("takes a player object (hockeyDB) and adds it to the playersToUpdate store", () => {
     const rempe = {
       uuid: "26e81d12-692f-47f1-8542-043629280a88",
@@ -66,18 +72,23 @@ describe("addPlayerToUpdate", () => {
       id: 216250,
     };
 
-    const expected = [
+    vi.mock("uuid", () => ({
+      v4: () => "26e81d12-692f-47f1-8542-043629280a88",
+    }));
+
+    addPlayerToUpdate(rempe.playerId, rempe);
+    const result = playersToUpdate.get();
+    expect(result).toMatchInlineSnapshot([
       {
-        uuid: "bdce13e4-6a85-4948-ade6-18a41a920e47",
+        uuid: "26e81d12-692f-47f1-8542-043629280a88",
         playerId: 8482460,
         name: "Matt Rempe",
         birthCity: "Calgary",
         birthDate: "2002-06-29",
         hdbId: 216250,
       },
-    ];
-    addPlayerToUpdate(rempe.playerId, rempe);
-    expect(playersToUpdate.get()).toBe(expected);
+    ]);
+    expect(result).toHaveLength(1);
   });
 
   // it("takes a player object (hockey reference) and adds it to the playersToUpdate store", () => {
