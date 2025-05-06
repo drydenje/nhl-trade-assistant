@@ -39,6 +39,7 @@ export function addPlayerToUpdate(
     name,
     birthCity,
     birthDate,
+    id: null,
   };
 
   // Used to descide which site the update is for
@@ -52,7 +53,7 @@ export function addPlayerToUpdate(
 }
 
 // Clicking on the 'X' in the sidebar removes the single player update
-export function removePlayerToUpdate(uuid) {
+export function removePlayerToUpdate(uuid: String) {
   const remainingPlayers = playersToUpdate.get().filter((p) => p.uuid != uuid);
   playersToUpdate.set([...remainingPlayers]);
 }
@@ -60,7 +61,7 @@ export function removePlayerToUpdate(uuid) {
 // Used to update the entire list of player updates in localStorage
 // Not called by the user, just for quick bulk fix of locally stored players
 export function updateLocalStorage() {
-  const players = [
+  const players: SitePlayer[] = [
     {
       uuid: "f0abd6cc-3d2a-480a-97e5-7092ea0fa6a7",
       playerId: 8480328,
