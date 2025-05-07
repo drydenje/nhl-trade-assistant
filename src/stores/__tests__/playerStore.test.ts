@@ -61,7 +61,7 @@ describe("addPlayerToUpdate", () => {
     vi.restoreAllMocks();
   });
 
-  it("takes a player object (hockeyDB) and adds it to the playersToUpdate store", () => {
+  it.only("takes a player object (hockeyDB) and adds it to the playersToUpdate store", () => {
     const rempe = {
       uuid: "26e81d12-692f-47f1-8542-043629280a88",
       playerId: 8482460,
@@ -92,19 +92,7 @@ describe("addPlayerToUpdate", () => {
     // expect(result).toHaveLength(1);
   });
 
-  // it("takes a player object (hockey reference) and adds it to the playersToUpdate store", () => {
-  //   const rempe = {
-  //     uuid: "26e81d12-692f-47f1-8542-043629280a88",
-  //     playerId: 8482460,
-  //     name: "Matt Rempe",
-  //     birthCity: "Calgary",
-  //     birthDate: "2002-06-29",
-  //     birthCountry: "CAN",
-  //     hrId: "rempema01",
-  //   };
-  // });
-
-  it.only("removes a player object from playersToUpdate when passed a uuid", () => {
+  it("takes a player object (hockey reference) and adds it to the playersToUpdate store", () => {
     const rempe = {
       uuid: "26e81d12-692f-47f1-8542-043629280a88",
       playerId: 8482460,
@@ -114,6 +102,22 @@ describe("addPlayerToUpdate", () => {
       birthCountry: "CAN",
       hrId: "rempema01",
     };
+
+    expect(1).toBe(0);
+  });
+
+  it("removes a player object from playersToUpdate when passed a uuid", () => {
+    const rempe = {
+      uuid: "26e81d12-692f-47f1-8542-043629280a88",
+      playerId: 8482460,
+      name: "Matt Rempe",
+      birthCity: "Calgary",
+      birthDate: "2002-06-29",
+      birthCountry: "CAN",
+      hrId: "rempema01",
+    };
+
+    expect(1).toBe(0);
   });
 });
 

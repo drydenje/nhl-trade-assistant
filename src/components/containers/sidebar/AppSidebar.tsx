@@ -55,12 +55,14 @@ export function AppSidebar() {
           <SidebarGroupContent>
             <SidebarMenu>
               {players.map((player) => (
-                <SidebarMenuItem key={player.uuid}>
+                <SidebarMenuItem key={player.uuid.toString()}>
                   <SidebarMenuButton asChild>
                     <div className="flex-1/2 justify-between">
                       <span>{player.name}</span>
                       <CircleX
-                        onClick={() => removePlayerToUpdate(player.uuid)}
+                        onClick={() =>
+                          removePlayerToUpdate(player.uuid.toString())
+                        }
                       />
                     </div>
                   </SidebarMenuButton>
