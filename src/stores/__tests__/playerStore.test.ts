@@ -1,3 +1,4 @@
+import { UpdatePlayer } from "@/types/UpdatePlayer";
 import {
   describe,
   it,
@@ -62,13 +63,12 @@ describe("addPlayerToUpdate", () => {
   });
 
   it.only("takes a player object (hockeyDB) and adds it to the playersToUpdate store", () => {
-    const rempe = {
+    const rempe: UpdatePlayer = {
       uuid: "26e81d12-692f-47f1-8542-043629280a88",
       playerId: 8482460,
       name: "Matt Rempe",
       birthCity: "Calgary",
       birthDate: "2002-06-29",
-      birthCountry: "CAN",
       id: 216250,
     };
 

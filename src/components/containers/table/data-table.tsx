@@ -3,9 +3,12 @@ import { Input } from "@/components/ui/input";
 import { useState, useEffect } from "react";
 import { useStore } from "@nanostores/react";
 import { currentPlayer } from "@/stores/playerStore";
+import { Player } from "@/types/Player";
 
 import {
   ColumnDef,
+  Row,
+  RowData,
   ColumnFiltersState,
   SortingState,
   RowSelectionState,
@@ -26,9 +29,9 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-const handleRowClick = (row) => {
+// const handleRowClick = (row: Row<TData>) => {
+const handleRowClick = (row: Row<RowData>) => {
   const rowData = row.original;
-  // const jsonData = JSON.stringify(rowData, null, 2);
 
   return rowData;
 };

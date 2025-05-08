@@ -1,14 +1,14 @@
 import { UUIDTypes } from "uuid";
 
 export type UpdatePlayer = {
-  playerId: number | string | null;
+  playerId: number;
   uuid: UUIDTypes; // might have to switch back to string
   name: string;
   birthDate: string;
   birthCity: string;
   id: number | string | null;
-  hdbId: string | undefined;
-  hrId: string | undefined;
+  hdbId: null;
+  hrId: null;
 };
 
 // {
