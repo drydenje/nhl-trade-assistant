@@ -30,10 +30,15 @@ import {
 } from "@/components/ui/table";
 
 // const handleRowClick = (row: Row<TData>) => {
-const handleRowClick = (row: Row<RowData>) => {
-  const rowData = row.original;
+// const handleRowClick = (row: Row<RowData>): Player => {
+// const handleRowClick = (row: Row<Player>): Player => {
+const handleRowClick = ({ original }: Row<Player>): Player => {
+  // const rowData:Player = row.original;
+  // return rowData;
+  // const rowData = row.original;
+  // return rowData;
 
-  return rowData;
+  return original;
 };
 
 // adding https://github.com/TanStack/table/discussions/2155
@@ -136,10 +141,12 @@ export function DataTable<TData, TValue>({
                   key={row.id}
                   data-state={row.getIsSelected() && "selected"}
                   onClick={() => {
-                    const temp = handleRowClick(row);
+                    // const temp = handleRowClick(row);
                     // console.log("TEMP:", temp);
+                    // currentPlayer.set(temp);
 
-                    currentPlayer.set(temp);
+                    currentPlayer.set(handleRowClick(row));
+
                     // console.log("CURRENT:", $currentPlayer);
                   }}
                 >
