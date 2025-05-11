@@ -1,7 +1,6 @@
 export type SitePlayer = {
-  id: number | string | null;
-  playerId: number | string | null;
-  uuid: string;
+  id: string;
+  uuid: string | null | undefined;
   name: string;
   birthDate: string;
   birthCity: string;

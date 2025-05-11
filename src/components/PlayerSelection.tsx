@@ -15,7 +15,9 @@ import { currentPlayer } from "@/stores/playerStore";
 import latinize from "latinize";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
-const PlayerSelection = ({ site }: SitePlayer[]) => {
+// const PlayerSelection = ({ site }: SitePlayer[]) => {
+const PlayerSelection = ({ site }: { site: SitePlayer[] }) => {
+  // const PlayerSelection = (site: SitePlayer[]) => {
   const player = useStore(currentPlayer);
 
   if (player === null) return <h2>No Player Selected</h2>;

@@ -6,6 +6,7 @@ import {
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 import { Player } from "@/types/Player";
+import { SitePlayer } from "@/types/SitePlayer";
 import { useStore } from "@nanostores/react";
 
 // Component Imports
