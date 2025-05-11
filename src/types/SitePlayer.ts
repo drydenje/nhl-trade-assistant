@@ -1,6 +1,8 @@
+import { UUIDTypes } from "uuid";
+
 export type SitePlayer = {
   id: string;
-  uuid: string | null | undefined;
+  uuid: UUIDTypes;
   name: string;
   birthDate: string;
   birthCity: string;
