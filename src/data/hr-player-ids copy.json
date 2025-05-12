@@ -5870,7 +5870,7 @@
     "uuid": "1ee1cc7d-e222-4d40-b237-f83e4d4fdee1",
     "name": "Al Karlander",
     "birthDate": "1946-11-05",
-    "birthCity": "Lac La Hache"
+    "birthCity": "Lac La H'ache"
   },
   {
     "id": "kearnbr01",
@@ -6589,7 +6589,7 @@
   {
     "id": "obyrnry01",
     "uuid": "da016105-5904-4599-8db6-ac9a2cef3793",
-    "name": "Ryan OByrne",
+    "name": "Ryan O'Byrne",
     "birthDate": "1984-07-19",
     "birthCity": "Victoria"
   },
@@ -10600,7 +10600,7 @@
   {
     "id": "oreewi01",
     "uuid": "b223621a-6f1c-449e-beb4-03984614d8a8",
-    "name": "Willie ORee",
+    "name": "Willie O'Ree",
     "birthDate": "1935-10-15",
     "birthCity": "Fredericton"
   },
@@ -10700,14 +10700,14 @@
     "uuid": "6c618c89-e371-4b7b-a1ba-9e264387902e",
     "name": "Luke Adam",
     "birthDate": "1990-06-18",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "bishocl01",
     "uuid": "866a55c7-f14d-48c4-9c41-942a3fadd969",
     "name": "Clark Bishop",
     "birthDate": "1996-03-29",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "brownbr01",
@@ -10735,14 +10735,14 @@
     "uuid": "570d883d-d9d5-4a2c-90dc-bec27d1e2904",
     "name": "Ryane Clowe",
     "birthDate": "1982-09-30",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "drukeha01",
     "uuid": "ba49b814-8ac5-475f-a455-2ac697636b80",
     "name": "Harold Druken",
     "birthDate": "1979-01-26",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "faulkal01",
@@ -10777,7 +10777,7 @@
     "uuid": "1c382678-1e8c-44e0-912c-06dea162c784",
     "name": "Colin Greening",
     "birthDate": "1986-03-09",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "howsedo01",
@@ -10826,7 +10826,7 @@
     "uuid": "b11c1965-7796-4431-b97b-931338ddb18e",
     "name": "Jason Morgan",
     "birthDate": "1976-10-09",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "newhoal01",
@@ -10840,14 +10840,14 @@
     "uuid": "5d471156-f718-4531-b234-ba16fe5f6825",
     "name": "Dwayne Norris",
     "birthDate": "1970-01-08",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "obriedo01",
     "uuid": "219fed14-9809-4748-9223-6beaf0ea1975",
-    "name": "Doug OBrien",
+    "name": "Doug O'Brien",
     "birthDate": "1984-02-16",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "pardyad01",
@@ -10882,14 +10882,14 @@
     "uuid": "e35b12a3-8bec-46ff-b801-f0cc2312cac8",
     "name": "Teddy Purcell",
     "birthDate": "1985-09-08",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "ryante01",
     "uuid": "84bbdbe4-59a0-4b3a-ae3a-b82bb46d763c",
     "name": "Terry Ryan",
     "birthDate": "1977-01-14",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "rydermi01",
@@ -10903,7 +10903,7 @@
     "uuid": "0cac1009-756b-4257-9c42-6b9b2e44a476",
     "name": "John Slaney",
     "birthDate": "1972-02-07",
-    "birthCity": "St. Johns"
+    "birthCity": "St. John's"
   },
   {
     "id": "whiteto01",
@@ -11337,7 +11337,7 @@
     "uuid": "639a25c6-edfb-473a-a0cb-1e482e36294e",
     "name": "Thomas McCarthy",
     "birthDate": "1893-04-12",
-    "birthCity": "St. Peters"
+    "birthCity": "St. Peter's"
   },
   {
     "id": "mcgibir01",
@@ -11391,7 +11391,7 @@
   {
     "id": "obrieli01",
     "uuid": "53b32136-27bf-4b45-b415-749cedebb76e",
-    "name": "Liam OBrien",
+    "name": "Liam O'Brien",
     "birthDate": "1994-07-29",
     "birthCity": "Halifax"
   },
@@ -13120,7 +13120,7 @@
   {
     "id": "brindro01",
     "uuid": "df30f8a8-2ce3-4229-b7b3-cc4f69672d0b",
-    "name": "Rod BrindAmour",
+    "name": "Rod Brind'Amour",
     "birthDate": "1970-08-09",
     "birthCity": "Ottawa"
   },
@@ -14541,7 +14541,7 @@
   {
     "id": "coulsda01",
     "uuid": "a93b052e-a2bd-4bb0-901d-9b5786b2a364",
-    "name": "Darcy Coulson",
+    "name": "D'arcy Coulson",
     "birthDate": "1908-02-17",
     "birthCity": "Sudbury"
   },
@@ -14926,28 +14926,28 @@
   {
     "id": "dagosma01",
     "uuid": "2e12546a-f50f-4d3c-a83b-b1e2262ee58c",
-    "name": "Matt DAgostini",
+    "name": "Matt D'Agostini",
     "birthDate": "1986-10-23",
     "birthCity": "Sault Ste. Marie"
   },
   {
     "id": "dalesco01",
     "uuid": "aabe01de-0f05-4b02-ae08-792bda3f3b97",
-    "name": "Corrie DAlessio",
+    "name": "Corrie D'Alessio",
     "birthDate": "1969-09-09",
     "birthCity": "Cornwall"
   },
   {
     "id": "damorha01",
     "uuid": "627821c9-bb82-4615-b221-7f47b8a57bc5",
-    "name": "Hank DAmore",
+    "name": "Hank D'Amore",
     "birthDate": "1919-07-17",
     "birthCity": "Niagara Falls"
   },
   {
     "id": "damouma01",
     "uuid": "2f0f07a3-a396-4891-b034-ad55706b2eea",
-    "name": "Marc DAmour",
+    "name": "Marc D'Amour",
     "birthDate": "1961-05-29",
     "birthCity": "Sudbury"
   },
@@ -15271,7 +15271,7 @@
     "uuid": "8d6db173-c97e-4dbe-b9da-54c87b28d25a",
     "name": "Cy Denneny",
     "birthDate": "1891-12-23",
-    "birthCity": "Farrans Point"
+    "birthCity": "Farran's Point"
   },
   {
     "id": "dennino01",
@@ -15600,7 +15600,7 @@
     "uuid": "0dbe17b1-73f6-4667-8db5-327b1ebde187",
     "name": "Dave Downie",
     "birthDate": "1909-03-11",
-    "birthCity": "Burkes Falls"
+    "birthCity": "Burke's Falls"
   },
   {
     "id": "downist01",
@@ -23004,133 +23004,133 @@
   {
     "id": "obriede01",
     "uuid": "6335a3af-592a-4dd8-86af-566ad03062ff",
-    "name": "Dennis OBrien",
+    "name": "Dennis O'Brien",
     "birthDate": "1949-06-10",
     "birthCity": "Port Hope"
   },
   {
     "id": "obrieel01",
     "uuid": "4ec6fb77-9e24-45cd-957a-e98c6235886e",
-    "name": "Ellard OBrien",
+    "name": "Ellard O'Brien",
     "birthDate": "1930-05-27",
     "birthCity": "St. Catharines"
   },
   {
     "id": "obriesh01",
     "uuid": "95948ddd-6999-47ca-af3f-2e05a9d2f4dd",
-    "name": "Shane OBrien",
+    "name": "Shane O'Brien",
     "birthDate": "1983-08-09",
     "birthCity": "Port Hope"
   },
   {
     "id": "oconnma01",
     "uuid": "3183e615-1663-4b91-836b-1d05a052e3fd",
-    "name": "Matt OConnor",
+    "name": "Matt O'Connor",
     "birthDate": "1992-02-14",
     "birthCity": "Sault Ste. Marie"
   },
   {
     "id": "oconnmy01",
     "uuid": "ad20d967-8532-4e78-93e2-15c3ba70047e",
-    "name": "Myles OConnor",
+    "name": "Myles O'Connor",
     "birthDate": "1967-04-02",
     "birthCity": "Toronto"
   },
   {
     "id": "odeller01",
     "uuid": "201f04af-2c0b-457a-b185-b9cee410fa55",
-    "name": "Eric ODell",
+    "name": "Eric O'Dell",
     "birthDate": "1990-06-21",
     "birthCity": "Ottawa"
   },
   {
     "id": "odonnfr01",
     "uuid": "44c8efb9-fd5b-4ced-8141-ea0e71b90cbf",
-    "name": "Fred ODonnell",
+    "name": "Fred O'Donnell",
     "birthDate": "1949-12-06",
     "birthCity": "Kingston"
   },
   {
     "id": "odonnse01",
     "uuid": "aa51c5bb-42aa-4741-b455-aabd28374005",
-    "name": "Sean ODonnell",
+    "name": "Sean O'Donnell",
     "birthDate": "1971-10-13",
     "birthCity": "Ottawa"
   },
   {
     "id": "odonodo01",
     "uuid": "3218eb45-18f8-43b9-8f3c-fccd083037d0",
-    "name": "Don ODonoghue",
+    "name": "Don O'Donoghue",
     "birthDate": "1949-08-27",
     "birthCity": "Kingston"
   },
   {
     "id": "oflahpe01",
     "uuid": "41937493-e3d9-450d-b8d9-7e05550a27e2",
-    "name": "Peanuts OFlaherty",
+    "name": "Peanuts O'Flaherty",
     "birthDate": "1918-04-10",
     "birthCity": "Toronto"
   },
   {
     "id": "oneilje01",
     "uuid": "dc60030e-e2f8-421d-be20-d148c44fb7c3",
-    "name": "Jeff ONeill",
+    "name": "Jeff O'Neill",
     "birthDate": "1976-02-23",
     "birthCity": "Richmond Hill"
   },
   {
     "id": "oneilto01",
     "uuid": "48dd1faf-61d0-4688-af83-5590aaece4ed",
-    "name": "Tom ONeill",
+    "name": "Tom O'Neill",
     "birthDate": "1923-09-28",
     "birthCity": "Deseronto"
   },
   {
     "id": "oneilwe01",
     "uuid": "7367899d-3fe9-4b20-9d36-b03d0a903f37",
-    "name": "Wes ONeill",
+    "name": "Wes O'Neill",
     "birthDate": "1986-03-03",
     "birthCity": "Windsor"
   },
   {
     "id": "oreilca01",
     "uuid": "832104e0-43e6-467b-9476-315b74dc0afc",
-    "name": "Cal OReilly",
+    "name": "Cal O'Reilly",
     "birthDate": "1986-09-30",
     "birthCity": "Toronto"
   },
   {
     "id": "oreilry01",
     "uuid": "6280df68-4448-41da-bc09-1f356b0f09ce",
-    "name": "Ryan OReilly",
+    "name": "Ryan O'Reilly",
     "birthDate": "1991-02-07",
     "birthCity": "Clinton"
   },
   {
     "id": "oreilte01",
     "uuid": "b264ece3-df87-47a6-9cc6-d8a4e8bd4301",
-    "name": "Terry OReilly",
+    "name": "Terry O'Reilly",
     "birthDate": "1951-06-07",
     "birthCity": "Niagara Falls"
   },
   {
     "id": "osheada01",
     "uuid": "65826d20-3dca-43dd-b405-9ee0cdf0f2d0",
-    "name": "Danny OShea",
+    "name": "Danny O'Shea",
     "birthDate": "1945-06-15",
     "birthCity": "Toronto"
   },
   {
     "id": "osheake01",
     "uuid": "26068584-6fea-4c8d-bc06-2f21818fe3a6",
-    "name": "Kevin OShea",
+    "name": "Kevin O'Shea",
     "birthDate": "1947-05-28",
     "birthCity": "Toronto"
   },
   {
     "id": "osullpa01",
     "uuid": "2a6e2ffb-c603-4d69-9528-f1911029cef0",
-    "name": "Patrick OSullivan",
+    "name": "Patrick O'Sullivan",
     "birthDate": "1985-02-01",
     "birthCity": "Toronto"
   },
@@ -26338,7 +26338,7 @@
     "uuid": "92be426a-557e-4556-b5f1-05602e3181a6",
     "name": "Brad Staubitz",
     "birthDate": "1984-07-28",
-    "birthCity": "Brights Grove"
+    "birthCity": "Bright's Grove"
   },
   {
     "id": "steelfr01",
@@ -27192,7 +27192,7 @@
     "uuid": "a09f1a86-9769-4141-8585-3d9c9d7c043a",
     "name": "Larry Trader",
     "birthDate": "1963-07-07",
-    "birthCity": "Barrys Bay"
+    "birthCity": "Barry's Bay"
   },
   {
     "id": "trappbo01",
@@ -28676,7 +28676,7 @@
     "uuid": "8b90e67c-a80a-4b7d-905b-b487003cd8d9",
     "name": "Serge Aubin",
     "birthDate": "1975-02-15",
-    "birthCity": "Val-dOr"
+    "birthCity": "Val-d'Or"
   },
   {
     "id": "aubrypi01",
@@ -29082,7 +29082,7 @@
     "uuid": "88616414-7e33-4b23-abb0-dce2c60e7bc3",
     "name": "Russ Blinco",
     "birthDate": "1908-03-12",
-    "birthCity": "GrandMere"
+    "birthCity": "Grand'Mere"
   },
   {
     "id": "blouisy01",
@@ -29222,7 +29222,7 @@
     "uuid": "46e677b9-edd9-409b-ad72-4c120c3ea8fe",
     "name": "Dan Bouchard",
     "birthDate": "1950-12-12",
-    "birthCity": "Val-dOr"
+    "birthCity": "Val-d'Or"
   },
   {
     "id": "bouched01",
@@ -29453,7 +29453,7 @@
     "uuid": "a7e916f2-540e-4632-be37-4de2e0315613",
     "name": "Bucky Buchanan",
     "birthDate": "1922-12-28",
-    "birthCity": "Bout-de-LIsle"
+    "birthCity": "Bout-de-L'Isle"
   },
   {
     "id": "bucharo01",
@@ -29894,7 +29894,7 @@
     "uuid": "13ed7068-b05e-42e5-b95f-a111d949de11",
     "name": "Andre Corriveau",
     "birthDate": "1928-05-15",
-    "birthCity": "GrandMere"
+    "birthCity": "Grand'Mere"
   },
   {
     "id": "corsiji01",
@@ -31469,7 +31469,7 @@
     "uuid": "d1066031-8ffe-4247-9206-c8f4ba3a9012",
     "name": "Samuel Henley",
     "birthDate": "1993-07-25",
-    "birthCity": "Val-dOr"
+    "birthCity": "Val-d'Or"
   },
   {
     "id": "henryca01",
@@ -31588,7 +31588,7 @@
     "uuid": "88c15592-c2b3-48eb-843f-ed83ac9b9bbe",
     "name": "Justin Hryckowian",
     "birthDate": "2001-02-23",
-    "birthCity": "Llle-Bizard"
+    "birthCity": "L'lle-Bizard"
   },
   {
     "id": "huberjo01",
@@ -31747,14 +31747,14 @@
   {
     "id": "labbemo01",
     "uuid": "57e2d149-c646-46c3-b581-c6e2b9e56e10",
-    "name": "Moe LAbbe",
+    "name": "Moe L'Abbe",
     "birthDate": "1947-08-12",
     "birthCity": "Montreal"
   },
   {
     "id": "lheurza01",
     "uuid": "c06de54b-14b0-40d4-b141-d9583334b0c1",
-    "name": "Zachary LHeureux",
+    "name": "Zachary L'Heureux",
     "birthDate": "2003-05-15",
     "birthCity": "Montreal"
   },
@@ -31763,7 +31763,7 @@
     "uuid": "cf1eea73-e9ad-46e4-9ad5-79de922f6bab",
     "name": "Mike Labadie",
     "birthDate": "1932-08-17",
-    "birthCity": "St-Francis DAssisi"
+    "birthCity": "St-Francis D'Assisi"
   },
   {
     "id": "labbeje01",
@@ -31910,7 +31910,7 @@
     "uuid": "0bb0abc4-e18b-43ed-8257-e592a334e926",
     "name": "Jean-Guy Lagace",
     "birthDate": "1945-02-05",
-    "birthCity": "LAbord-a-Plouffe"
+    "birthCity": "L'Abord-a-Plouffe"
   },
   {
     "id": "lagacma01",
@@ -32155,7 +32155,7 @@
     "uuid": "254a7fa4-4b96-4d5c-9b34-f4d4d9cc1e64",
     "name": "Jeremy Lauzon",
     "birthDate": "1997-04-28",
-    "birthCity": "Val Dor"
+    "birthCity": "Val D'or"
   },
   {
     "id": "laviger01",
@@ -32302,7 +32302,7 @@
     "uuid": "c57327e4-457e-499f-a522-09f8b76b409a",
     "name": "Roger Leger",
     "birthDate": "1919-03-26",
-    "birthCity": "LAnnonciation"
+    "birthCity": "L'Annonciation"
   },
   {
     "id": "legricl01",
@@ -33119,21 +33119,21 @@
   {
     "id": "oconnbu01",
     "uuid": "18539845-dc2f-4276-abfd-b9bda66fd025",
-    "name": "Buddy OConnor",
+    "name": "Buddy O'Connor",
     "birthDate": "1916-06-21",
     "birthCity": "Montreal"
   },
   {
     "id": "ogradge01",
     "uuid": "7c423b95-492a-430d-aa2f-b61e3a709435",
-    "name": "George OGrady",
+    "name": "George O'Grady",
     "birthDate": "1891-06-08",
     "birthCity": "Montreal"
   },
   {
     "id": "oneilmi01",
     "uuid": "c7f2cce4-1f50-422e-88ad-91096d0fa145",
-    "name": "Mike ONeill",
+    "name": "Mike O'Neill",
     "birthDate": "1967-11-03",
     "birthCity": "LaSalle"
   },
@@ -33800,7 +33800,7 @@
     "uuid": "d6e5a1b3-f366-4bec-87fc-986f7d66ab73",
     "name": "Fern Rivard",
     "birthDate": "1946-01-18",
-    "birthCity": "GrandMere"
+    "birthCity": "Grand'Mere"
   },
   {
     "id": "roberma01",
@@ -34010,7 +34010,7 @@
     "uuid": "51ce1e89-a068-4896-817a-35601835cfb0",
     "name": "Dany Sabourin",
     "birthDate": "1980-09-02",
-    "birthCity": "Val-dOr"
+    "birthCity": "Val-d'Or"
   },
   {
     "id": "samsoje01",
@@ -34612,7 +34612,7 @@
     "uuid": "40e28197-77c3-4efa-9520-7661d31f4bd5",
     "name": "Jeffrey Viel",
     "birthDate": "1997-01-28",
-    "birthCity": "Lange-Gardien"
+    "birthCity": "L'ange-Gardien"
   },
   {
     "id": "vigneal01",
@@ -37298,7 +37298,7 @@
   {
     "id": "oneilji01",
     "uuid": "0b08a409-c20e-4631-831d-2e12190e8848",
-    "name": "Jim ONeil",
+    "name": "Jim O'Neil",
     "birthDate": "1913-04-03",
     "birthCity": "Semans"
   },
@@ -37846,7 +37846,7 @@
     "uuid": "b7b72786-5135-4e9e-9caa-a4ae4591dcaa",
     "name": "Eddie Shore",
     "birthDate": "1902-11-25",
-    "birthCity": "Fort QuAppelle"
+    "birthCity": "Fort Qu'Appelle"
   },
   {
     "id": "siklemi01",
@@ -38231,7 +38231,7 @@
     "uuid": "7462c48d-850b-411d-9ee8-ac96b1c51fd8",
     "name": "Frank Waite",
     "birthDate": "1905-04-09",
-    "birthCity": "Fort QuAppelle"
+    "birthCity": "Fort Qu'Appelle"
   },
   {
     "id": "wallije01",
@@ -40049,7 +40049,7 @@
   {
     "id": "oconnmi01",
     "uuid": "ea737d0e-00d3-4c7a-a0ed-19d0e5484fa8",
-    "name": "Mike OConnell",
+    "name": "Mike O'Connell",
     "birthDate": "1955-11-25",
     "birthCity": "Chicago"
   },
@@ -41505,42 +41505,42 @@
   {
     "id": "ocallja01",
     "uuid": "b0c64ef6-6621-43cc-a571-55a5b31782bd",
-    "name": "Jack OCallahan",
+    "name": "Jack O'Callahan",
     "birthDate": "1957-07-24",
     "birthCity": "Charlestown"
   },
   {
     "id": "odwyebi01",
     "uuid": "df512093-0e03-40d6-91f3-fe03e1d68b9d",
-    "name": "Bill ODwyer",
+    "name": "Bill O'Dwyer",
     "birthDate": "1960-01-25",
     "birthCity": "Boston"
   },
   {
     "id": "oneilpa01",
     "uuid": "354fb3a3-b556-4a8e-b517-39ad2ac7e8fd",
-    "name": "Paul ONeil",
+    "name": "Paul O'Neil",
     "birthDate": "1953-08-24",
     "birthCity": "Charlestown"
   },
   {
     "id": "oneilwi01",
     "uuid": "be29a97e-dc4a-427f-be3a-b04f5126ef84",
-    "name": "Will ONeill",
+    "name": "Will O'Neill",
     "birthDate": "1988-04-28",
     "birthCity": "Boston"
   },
   {
     "id": "oregato01",
     "uuid": "19b559e8-c824-465f-9845-e50a3bc0a3d5",
-    "name": "Tom ORegan",
+    "name": "Tom O'Regan",
     "birthDate": "1961-12-29",
     "birthCity": "Cambridge"
   },
   {
     "id": "osullch01",
     "uuid": "0d0da430-8beb-4526-b5e0-e5814b39fa30",
-    "name": "Chris OSullivan",
+    "name": "Chris O'Sullivan",
     "birthDate": "1974-05-15",
     "birthCity": "Dorchester"
   },
@@ -42709,7 +42709,7 @@
   {
     "id": "lespejo01",
     "uuid": "ee1e2472-5c72-4a82-bb20-24df854f649a",
-    "name": "Joel LEsperance",
+    "name": "Joel L'Esperance",
     "birthDate": "1995-08-18",
     "birthCity": "Brighton"
   },
@@ -44711,7 +44711,7 @@
   {
     "id": "milleka01",
     "uuid": "6dacb3f5-b306-44ee-b8a9-5d28512dcf97",
-    "name": "KAndre Miller",
+    "name": "K'Andre Miller",
     "birthDate": "2000-01-21",
     "birthCity": "St. Paul"
   },
@@ -44823,7 +44823,7 @@
   {
     "id": "obrieji01",
     "uuid": "abf94a5d-45fe-41e6-9d0d-efe134ff92a2",
-    "name": "Jim OBrien",
+    "name": "Jim O'Brien",
     "birthDate": "1989-01-29",
     "birthCity": "Maplewood"
   },
@@ -45644,7 +45644,7 @@
     "uuid": "a9db479f-9e37-4d4c-aead-65da181f25c1",
     "name": "Joshua Dunne",
     "birthDate": "1998-12-08",
-    "birthCity": "OFallon"
+    "birthCity": "O'Fallon"
   },
   {
     "id": "finleja01",
@@ -46097,7 +46097,7 @@
   {
     "id": "oconndr01",
     "uuid": "b164ad55-9f7b-48e2-a9ac-2344a4378c3e",
-    "name": "Drew OConnor",
+    "name": "Drew O'Connor",
     "birthDate": "1998-06-09",
     "birthCity": "Wayne"
   },
@@ -46370,7 +46370,7 @@
   {
     "id": "damigje01",
     "uuid": "8721bdba-12d0-46d8-9179-31a2deeff7ff",
-    "name": "Jerry DAmigo",
+    "name": "Jerry D'Amigo",
     "birthDate": "1991-02-19",
     "birthCity": "Binghamton"
   },
@@ -46853,7 +46853,7 @@
   {
     "id": "ogararo01",
     "uuid": "ba7520ab-d7b8-4723-a4ac-a3bc74e26d99",
-    "name": "Rob OGara",
+    "name": "Rob O'Gara",
     "birthDate": "1993-07-06",
     "birthCity": "Massapequa"
   },
@@ -47168,7 +47168,7 @@
   {
     "id": "brindsk01",
     "uuid": "fbc20c4e-bcf7-4679-96a6-ba29bfdc7adc",
-    "name": "Skyler BrindAmour",
+    "name": "Skyler Brind'Amour",
     "birthDate": "1999-07-27",
     "birthCity": "Raleigh"
   },
@@ -47826,14 +47826,14 @@
   {
     "id": "oflahge01",
     "uuid": "91349cd4-e496-48cf-95d8-f00e77063bd2",
-    "name": "Gerry OFlaherty",
+    "name": "Gerry O'Flaherty",
     "birthDate": "1950-08-31",
     "birthCity": "Pittsburgh"
   },
   {
     "id": "oneilbr01",
     "uuid": "bec9fb2e-9f0a-43bb-a318-adbfa96da378",
-    "name": "Brian ONeill",
+    "name": "Brian O'Neill",
     "birthDate": "1988-06-01",
     "birthCity": "Yardley"
   },
@@ -48197,7 +48197,7 @@
   {
     "id": "oconnlo01",
     "uuid": "faa6bc8f-ff7b-426b-a5d6-f8d145b6b017",
-    "name": "Logan OConnor",
+    "name": "Logan O'Connor",
     "birthDate": "1996-08-14",
     "birthCity": "Missouri City"
   },
@@ -53393,7 +53393,7 @@
     "uuid": "ed52c8cb-d7ac-4bc9-9f78-1f21fa836296",
     "name": "Cristobal Huet",
     "birthDate": "1975-09-03",
-    "birthCity": "St. Martin dHeres"
+    "birthCity": "St. Martin d'Heres"
   },
   {
     "id": "maclepa01",
@@ -53435,7 +53435,7 @@
     "uuid": "a55024b5-b682-4de7-b47c-cc98d50f0864",
     "name": "Alexandre Texier",
     "birthDate": "1999-09-13",
-    "birthCity": "St. Martin Dheres"
+    "birthCity": "St. Martin D'heres"
   },
   {
     "id": "alexani01",
@@ -53608,7 +53608,7 @@
   {
     "id": "oregada01",
     "uuid": "652cdeb6-cfe4-49a9-b9f7-50de5a1802f5",
-    "name": "Danny ORegan",
+    "name": "Danny O'Regan",
     "birthDate": "1994-01-30",
     "birthCity": "Berlin"
   },
@@ -53804,7 +53804,7 @@
   {
     "id": "omarrry01",
     "uuid": "24c0870f-5656-4a5d-a439-ce1c8597626c",
-    "name": "Ryan OMarra",
+    "name": "Ryan O'Marra",
     "birthDate": "1987-06-09",
     "birthCity": "Tokyo"
   },
