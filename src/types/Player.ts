@@ -8,4 +8,4 @@ export type Player = {
   hrId: string | null;
   hdbId: string | null;
   verified: boolean;
-};
+} | null;

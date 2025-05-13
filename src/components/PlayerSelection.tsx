@@ -10,13 +10,17 @@ import { useStore } from "@nanostores/react";
 import { PlayerCard } from "@/components/elements/PlayerCard";
 import { SearchCard } from "@/components/elements/SearchCard";
 import { Player } from "@/types/Player";
+import { Site } from "@/types/Site";
 import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
 import latinize from "latinize";
 
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
 // const PlayerSelection = ({ site }: SitePlayer[]) => {
-const PlayerSelection = ({ site }: { site: SitePlayer[] }) => {
+const PlayerSelection = (
+  { sitePlayers }: { sitePlayers: SitePlayer[] },
+  { site }: { site: Site }
+) => {
   // const PlayerSelection = (site: SitePlayer[]) => {
   const player = useStore(currentPlayer);
 
@@ -24,7 +28,7 @@ const PlayerSelection = ({ site }: { site: SitePlayer[] }) => {
 
   const selectedPlayer = player?.lastName.toLowerCase();
 
-  const possibleMatches = site?.filter((x: SitePlayer) => {
+  const possibleMatches = sitePlayers?.filter((x: SitePlayer) => {
     // const tempName = x.name.toLowerCase();
     // console.log("1:", tempName);
     // const selectedPlayer = player?.lastName.toLowerCase();
@@ -46,9 +50,9 @@ const PlayerSelection = ({ site }: { site: SitePlayer[] }) => {
               </CarouselItem>
             );
           })}
-          {/* <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
-            <SearchCard />
-          </CarouselItem> */}
+          <CarouselItem className="basis-1/3  w-3.5" key={uuidv4()}>
+            <SearchCard player={player} site={site} />
+          </CarouselItem>
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />

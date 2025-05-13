@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
+import { Site } from "@/types/Site";
 import { Button } from "@/components/ui/button";
 
 import {
@@ -17,14 +18,35 @@ import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 import { Form, FormLabel } from "../ui/form";
 
-const SearchCard = () => {
-  const [siteId, setSiteId] = useState(null);
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
-    setSiteId(event.target.value);
-  };
+const SearchCard = (
+  { player }: { player: Player },
+  { site }: { site: Site }
+) => {
+  // const [siteId, setSiteId] = useState(null);
+  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
+  //   setSiteId(event.target.value);
+  // };
 
-  // const nhlPlayer = useStore(currentPlayer);
-  const { playerId, firstName, lastName, birthCity } = useStore(currentPlayer);
+  const nhlPlayer = useStore(currentPlayer);
+  const { playerId, firstName, lastName, birthCity } = nhlPlayer;
+  // const { playerId, firstName, lastName, birthCity } = useStore(currentPlayer);
+  // const pl = useStore(currentPlayer);
+  // console.log("PALYER:", player);
+  // console.log(playerId);
+
+  // export type Player = {
+  //   playerId: number;
+  //   firstName: string;
+  //   lastName: string;
+  //   birthDate: string;
+  //   birthCity: string;
+  //   birthCountry: string;
+
+  //   hrId: string | null;
+  //   hdbId: string | null;
+  //   verified: boolean;
+  // } | null;
+
   const hdbLink = `https://www.hockeydb.com/ihdb/stats/find_player.php?full_name=${lastName}&imageField.x=0&imageField.y=0`;
   const hrLink = `https://www.hockey-reference.com/search/search.fcgi?hint=&search=${lastName}&pid=&idx=`;
 
@@ -36,9 +58,13 @@ const SearchCard = () => {
       </CardHeader>
 
       <CardContent>
-        <a href={hdbLink} target="_blank">
-          HockeyDB
-        </a>
+        {site ? (
+          Site.HockeyDB
+        ) : (
+          <a href={hdbLink} target="_blank">
+            HockeyDB
+          </a>
+        )}
         <br />
         <a href={hrLink} target="_blank">
           HockeyReference

@@ -8,6 +8,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
 import { useStore } from "@nanostores/react";
+import { Site } from "@/types/Site";
 
 // Component Imports
 import { PlayerSelection } from "@/components/PlayerSelection";
@@ -33,13 +34,16 @@ const Layout = () => {
         <ResizableHandle />
         <ResizablePanel defaultSize={25}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection site={hrPlayers} />
+            <PlayerSelection
+              sitePlayers={hrPlayers}
+              site={Site.HockeyReference}
+            />
           </div>
         </ResizablePanel>
         <ResizableHandle />
         <ResizablePanel defaultSize={25}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection site={hdbPlayers} />
+            <PlayerSelection sitePlayers={hdbPlayers} site={Site.HockeyDB} />
           </div>
         </ResizablePanel>
       </ResizablePanelGroup>

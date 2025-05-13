@@ -14,9 +14,7 @@ import {
 import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 
-const PlayerCard = ({ player }: SitePlayer) => {
-  // console.log("P:", player);
-
+const PlayerCard = ({ player }: { player: SitePlayer }) => {
   // make sure the player exists
   if (!player)
     return (

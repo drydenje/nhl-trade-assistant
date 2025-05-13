@@ -6,9 +6,9 @@ export type UpdatePlayer = {
   name: string;
   birthDate: string;
   birthCity: string;
-  id: number | string | null;
-  hdbId: null;
-  hrId: null;
+  id: string | null | undefined;
+  hdbId: null | undefined | string;
+  hrId: null | undefined | string;
 };
 
 // {
