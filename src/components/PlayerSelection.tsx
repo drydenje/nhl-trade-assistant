@@ -15,14 +15,22 @@ import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
 import latinize from "latinize";
 
+type PlayerSelection = {
+  sitePlayers: SitePlayer[];
+  site: Site;
+};
+
 // B:\Dev\src\nhl-trade-assistant\src\data\hdb-player-ids.json
 // const PlayerSelection = ({ site }: SitePlayer[]) => {
+// const PlayerSelection = ({}PlayerSelection
+// ) => {
 const PlayerSelection = (
   { sitePlayers }: { sitePlayers: SitePlayer[] },
-  { site }: { site: Site }
+  site: Site
 ) => {
   // const PlayerSelection = (site: SitePlayer[]) => {
   const player = useStore(currentPlayer);
+  console.log("PLAYER_SELECTION SITE:", site);
 
   if (player === null) return <h2>No Player Selected</h2>;
 

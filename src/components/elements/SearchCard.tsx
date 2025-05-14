@@ -18,17 +18,15 @@ import { useStore } from "@nanostores/react";
 import { addPlayerToUpdate, currentPlayer } from "@/stores/playerStore";
 import { Form, FormLabel } from "../ui/form";
 
-const SearchCard = (
-  { player }: { player: Player },
-  { site }: { site: Site }
-) => {
+const SearchCard = ({ player }: { player: Player }, site: { site: Site }) => {
   // const [siteId, setSiteId] = useState(null);
   // const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
   //   setSiteId(event.target.value);
   // };
 
-  const nhlPlayer = useStore(currentPlayer);
-  const { playerId, firstName, lastName, birthCity } = nhlPlayer;
+  // const nhlPlayer = useStore(currentPlayer);
+  console.log("SEARCH_CARD SITE:", site);
+  const { playerId, firstName, lastName, birthCity } = player;
   // const { playerId, firstName, lastName, birthCity } = useStore(currentPlayer);
   // const pl = useStore(currentPlayer);
   // console.log("PALYER:", player);
@@ -66,9 +64,13 @@ const SearchCard = (
           </a>
         )}
         <br />
-        <a href={hrLink} target="_blank">
-          HockeyReference
-        </a>
+        {site ? (
+          Site.HockeyReference
+        ) : (
+          <a href={hrLink} target="_blank">
+            HockeyReference
+          </a>
+        )}
         {/* <Form> */}
         {/* <FormLabel>Site Id</FormLabel> */}
         {/* <label for="site-id">Site Id</label> */}

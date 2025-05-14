@@ -19,6 +19,7 @@ import hdbPlayers from "@/data/hdb-player-ids.json";
 import hrPlayers from "@/data/hr-player-ids.json";
 
 const Layout = () => {
+  console.log("LAYOUT SITE:", Site.HockeyDB);
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -43,7 +44,7 @@ const Layout = () => {
         <ResizableHandle />
         <ResizablePanel defaultSize={25}>
           <div className="flex h-full items-center justify-center p-6">
-            <PlayerSelection sitePlayers={hdbPlayers} site={Site.HockeyDB} />
+            <PlayerSelection sitePlayers={hdbPlayers} site={1} />
           </div>
         </ResizablePanel>
       </ResizablePanelGroup>

@@ -45,7 +45,8 @@ export function addPlayerToUpdate(
   };
 
   // Used to descide which site the update is for
-  if (!isNaN(id)) {
+  // if (!isNaN(id)) {
+  if (Number(id)) {
     p.hdbId = id;
   } else {
     p.hrId = id;
@@ -913,6 +914,5 @@ export function updateLocalStorage() {
   //     hdbId: "216250",
   //   },
   // ];
-
-  playersToUpdate.set(players);
+  // playersToUpdate.set(players);
 }
