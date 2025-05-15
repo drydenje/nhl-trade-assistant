@@ -15,7 +15,7 @@ import { SitePlayer } from "@/types/SitePlayer";
 import { currentPlayer } from "@/stores/playerStore";
 import latinize from "latinize";
 
-type PlayerSelection = {
+type Props = {
   sitePlayers: SitePlayer[];
   site: Site;
 };
@@ -25,8 +25,9 @@ type PlayerSelection = {
 // const PlayerSelection = ({}PlayerSelection
 // ) => {
 const PlayerSelection = (
-  { sitePlayers }: { sitePlayers: SitePlayer[] },
-  site: Site
+  // { sitePlayers }: { sitePlayers: SitePlayer[] },
+  // site: { site: Site }
+  { sitePlayers, site }: Props
 ) => {
   // const PlayerSelection = (site: SitePlayer[]) => {
   const player = useStore(currentPlayer);

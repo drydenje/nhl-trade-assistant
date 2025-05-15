@@ -1,9 +1,10 @@
 ---
 // import "../styles/global.css";
 // import { Layout } from "@/components/Layout";
-import { useStore } from "@nanostores/react";
-import { isCartOpen } from "@/stores/cartStore";
-import Test from "@/components/containers/test/Test";
+// import { useStore } from "@nanostores/react";
+// import { isCartOpen } from "@/stores/cartStore";
+// import Test from "@/components/containers/test/Test";
+import { Job } from "@/components/elements/Job";
 ---
 
 <html lang="en">
@@ -20,7 +21,8 @@ import Test from "@/components/containers/test/Test";
     <div class="h-auto">
       <!-- <div class="h-screen flex items-center justify-center m-4"> -->
       <!-- <Layout client:load /> -->
-      <Test client:load />
+      <!-- <Test client:load /> -->
+      <Job title="Hey a title" isActive={true} />
     </div>
     <!-- </div> -->
   </body>
