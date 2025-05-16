@@ -31,7 +31,6 @@ const PlayerSelection = (
 ) => {
   // const PlayerSelection = (site: SitePlayer[]) => {
   const player = useStore(currentPlayer);
-  console.log("PLAYER_SELECTION SITE:", site);
 
   if (player === null) return <h2>No Player Selected</h2>;
 

@@ -35,7 +35,7 @@ describe("PlayerCard", () => {
     });
     keepMount(currentPlayer);
 
-    const { container } = render(<SearchCard />);
+    const { container } = render(<SearchCard player={currentPlayer} />);
     expect(await axe(container)).toHaveNoViolations();
 
     expect(screen.getByTestId("card")).toHaveTextContent(/adam sykora/i);

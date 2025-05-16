@@ -31,7 +31,7 @@ const SearchCard = ({ player, site }: Props) => {
 
   // const nhlPlayer = useStore(currentPlayer);
   // console.log("SEARCH_CARD SITE:", site);
-  console.log(player);
+
   const { playerId, firstName, lastName, birthCity } = player;
   // const { playerId, firstName, lastName, birthCity } = useStore(currentPlayer);
   // const pl = useStore(currentPlayer);
@@ -62,17 +62,13 @@ const SearchCard = ({ player, site }: Props) => {
       </CardHeader>
 
       <CardContent>
-        {site ? (
-          Site.HockeyDB
-        ) : (
+        {site === Site.HockeyDB && (
           <a href={hdbLink} target="_blank">
             HockeyDB
           </a>
         )}
-        <br />
-        {site ? (
-          Site.HockeyReference
-        ) : (
+        {/* <br /> */}
+        {site === Site.HockeyReference && (
           <a href={hrLink} target="_blank">
             HockeyReference
           </a>
