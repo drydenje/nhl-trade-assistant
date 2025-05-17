@@ -82,9 +82,22 @@ const SearchCard = ({ player, site }: Props) => {
 
       <CardFooter className="self-center">
         <Button
-          onClick={() => {
+          onClick={(e) => {
+            e.preventDefault();
             // addPlayerToUpdate(nhlPlayer.playerId, player);
             console.log(`${firstName} ${lastName}: ${playerId} -> `);
+            console.log(`${playerId} -> `);
+            console.log(player);
+            console.log(e);
+
+            // uuid: uuidv4(),
+            // playerId,
+            // name,
+            // birthCity,
+            // birthDate,
+            // id: null,
+            // hdbId: undefined,
+            // hrId: undefined,
           }}
         >
           Select
