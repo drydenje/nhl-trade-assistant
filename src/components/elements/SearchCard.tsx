@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, ChangeEvent, MouseEvent } from "react";
 import { Player } from "@/types/Player";
 import { SitePlayer } from "@/types/SitePlayer";
+import { UpdatePlayer } from "@/types/UpdatePlayer";
 import { Site } from "@/types/Site";
 import { Button } from "@/components/ui/button";
+import { v4 as uuidv4 } from "uuid";
 
 import {
   Card,
@@ -24,15 +26,54 @@ type Props = {
 };
 
 const SearchCard = ({ player, site }: Props) => {
-  // const [siteId, setSiteId] = useState(null);
-  // const handleChange = (event: React.ChangeEvent<HTMLInputElement>): void => {
-  //   setSiteId(event.target.value);
-  // };
+  // console.log(player);
+  const { playerId, firstName, lastName, birthCity, birthDate }: Player =
+    player;
+  const [siteId, setSiteId] = useState("");
+
+  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setSiteId(event.target.value);
+  };
+
+  const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+    // console.log(player);
+    const p: UpdatePlayer = {
+      playerId,
+      id: siteId,
+      uuid: uuidv4(),
+      name: `${firstName} ${lastName}`,
+      birthCity,
+      birthDate,
+    };
+
+    console.log(p);
+    // console.log(`SITE ID: ${siteId}`);
+
+    // playerId: number, { id, name, birthCity, birthDate };
+
+    // const target = event.target as HTMLButtonElement;
+    // if (target) console.log(`VAL: "${target.value}"`);
+
+    // addPlayerToUpdate(nhlPlayer.playerId, player);
+    // console.log(`${firstName} ${lastName}: ${playerId} -> `);
+    // console.log(`${playerId} -> `);
+    // console.log(player);
+    // console.log(e);
+
+    // uuid: uuidv4(),
+    // playerId,
+    // name,
+    // birthCity,
+    // birthDate,
+    // id: null,
+    // hdbId: undefined,
+    // hrId: undefined,
+  };
 
   // const nhlPlayer = useStore(currentPlayer);
   // console.log("SEARCH_CARD SITE:", site);
 
-  const { playerId, firstName, lastName, birthCity } = player;
   // const { playerId, firstName, lastName, birthCity } = useStore(currentPlayer);
   // const pl = useStore(currentPlayer);
   // console.log("PLAYER:", player);
@@ -76,32 +117,19 @@ const SearchCard = ({ player, site }: Props) => {
         {/* <Form> */}
         {/* <FormLabel>Site Id</FormLabel> */}
         {/* <label for="site-id">Site Id</label> */}
-        <Input id="site-id" name="site-id" type="text" placeholder="Site Id" />
+        <Input
+          id="site-id"
+          name="site-id"
+          type="text"
+          placeholder="Site Id"
+          value={siteId}
+          onChange={handleInputChange}
+        />
         {/* </Form> */}
       </CardContent>
 
       <CardFooter className="self-center">
-        <Button
-          onClick={(e) => {
-            e.preventDefault();
-            // addPlayerToUpdate(nhlPlayer.playerId, player);
-            console.log(`${firstName} ${lastName}: ${playerId} -> `);
-            console.log(`${playerId} -> `);
-            console.log(player);
-            console.log(e);
-
-            // uuid: uuidv4(),
-            // playerId,
-            // name,
-            // birthCity,
-            // birthDate,
-            // id: null,
-            // hdbId: undefined,
-            // hrId: undefined,
-          }}
-        >
-          Select
-        </Button>
+        <Button onClick={handleButtonClick}>Select</Button>
       </CardFooter>
     </Card>
   );
