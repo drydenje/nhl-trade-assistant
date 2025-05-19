@@ -45,6 +45,8 @@ const SearchCard = ({ player, site }: Props) => {
       name: `${firstName} ${lastName}`,
       birthCity,
       birthDate,
+      hdbId: undefined,
+      hrId: undefined,
     };
 
     console.log(p);
