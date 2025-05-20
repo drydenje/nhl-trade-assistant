@@ -63,7 +63,7 @@ describe("addPlayerToUpdate", () => {
   });
 
   it.only("takes a player object (hockeyDB) and adds it to the playersToUpdate store", () => {
-    const rempe: UpdatePlayer = {
+    const rempe = {
       uuid: "26e81d12-692f-47f1-8542-043629280a88",
       playerId: 8482460,
       name: "Matt Rempe",

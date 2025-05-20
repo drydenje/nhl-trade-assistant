@@ -47,9 +47,9 @@ export function addPlayerToUpdate(
   // Used to descide which site the update is for
   // if (!isNaN(id)) {
   if (Number(id)) {
-    p.hdbId = id;
+    p.hdbId = id?.toString();
   } else {
-    p.hrId = id;
+    p.hrId = id?.toString();
   }
 
   playersToUpdate.set([p, ...playersToUpdate.get()]);
