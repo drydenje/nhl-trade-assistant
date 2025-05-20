@@ -27,8 +27,17 @@ type Props = {
 
 const SearchCard = ({ player, site }: Props) => {
   // console.log(player);
-  const { playerId, firstName, lastName, birthCity, birthDate }: Player =
-    player;
+  const {
+    playerId,
+    firstName,
+    lastName,
+    birthDate,
+    birthCity,
+    birthCountry,
+    hrId,
+    hdbId,
+    verified,
+  }: Player = player;
   const [siteId, setSiteId] = useState("");
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
