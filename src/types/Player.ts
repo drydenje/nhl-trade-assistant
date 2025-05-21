@@ -9,4 +9,3 @@ export type Player = {
   hdbId: string | null;
   verified: boolean;
 };
-// | null;
