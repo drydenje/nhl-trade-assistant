@@ -51,7 +51,9 @@ const PlayerCard = ({ player }: { player: SitePlayer }) => {
       <CardFooter className="self-center">
         <Button
           onClick={() => {
-            addPlayerToUpdate(nhlPlayer.playerId, player);
+            if (nhlPlayer) {
+              addPlayerToUpdate(nhlPlayer.playerId, player);
+            }
           }}
         >
           Select

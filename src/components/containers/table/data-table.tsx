@@ -49,7 +49,7 @@ interface DataTableProps<TData, TValue> {
   onRowSelectionChange: (rows: unknown) => void;
 }
 
-export function DataTable<TData, TValue>({
+export function DataTable<TData extends Player, TValue>({
   columns,
   data,
 }: DataTableProps<TData, TValue>) {

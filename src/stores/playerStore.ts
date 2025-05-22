@@ -7,7 +7,7 @@ import { UpdatePlayer } from "@/types/UpdatePlayer";
 
 import { getData } from "@/lib/db_fetch.ts";
 
-export const currentPlayer = atom<Player>(null);
+export const currentPlayer = atom<Player | null>(null);
 /** @type {import('nanostores').MapStore<Record<string, Player>>} */
 
 export const playersMissingIds = atom<null | Player[]>(null);
