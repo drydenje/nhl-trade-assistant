@@ -42,7 +42,6 @@ const SearchCard = ({ player, site }: Props) => {
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSiteId(event.target.value);
-    console.log("Input changed:", event.target.value);
   };
 
   const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
@@ -62,7 +61,6 @@ const SearchCard = ({ player, site }: Props) => {
     let query = null;
     switch (site) {
       case Site.HockeyDB:
-        console.log(Site.HockeyDB);
         query = `
           MATCH (p:Player {playerId: ${playerId}})
           SET p.hdbId = ${siteId}
@@ -70,7 +68,11 @@ const SearchCard = ({ player, site }: Props) => {
         `;
         break;
       case Site.HockeyReference:
-        p.hrId = siteId;
+        query = `
+          MATCH (p:Player {playerId: ${playerId}})
+          SET p.hrId = ${siteId}
+          RETURN p;
+        `;
         break;
       default:
         console.error("Unknown site:", site);
