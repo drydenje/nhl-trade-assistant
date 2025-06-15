@@ -13,7 +13,7 @@ const PlayerDashboard = () => {
     });
   }, []);
 
-  // console.log("Players remaining:", data?.length);
+  console.log("Players remaining:", data?.length);
 
   return data ? <DataTable columns={columns} data={data} /> : null;
 };

@@ -26,7 +26,7 @@ type Props = {
 };
 
 const SearchCard = ({ player, site }: Props) => {
-  // console.log(player);
+  // console.log("SITE:", site);
   const {
     playerId,
     firstName,
@@ -42,6 +42,7 @@ const SearchCard = ({ player, site }: Props) => {
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSiteId(event.target.value);
+    console.log("Input changed:", event.target.value);
   };
 
   const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
@@ -58,7 +59,29 @@ const SearchCard = ({ player, site }: Props) => {
       hrId: undefined,
     };
 
-    console.log(p);
+    let query = null;
+    switch (site) {
+      case Site.HockeyDB:
+        console.log(Site.HockeyDB);
+        query = `
+          MATCH (p:Player {playerId: ${playerId}})
+          SET p.hdbId = ${siteId}
+          RETURN p;
+        `;
+        break;
+      case Site.HockeyReference:
+        p.hrId = siteId;
+        break;
+      default:
+        console.error("Unknown site:", site);
+        return;
+    }
+
+    // MATCH (p:Player {playerId: playerId})
+    // SET p.surname = 'Taylor'
+    // RETURN p;
+
+    console.log(query);
     // console.log(`SITE ID: ${siteId}`);
 
     // playerId: number, { id, name, birthCity, birthDate };
