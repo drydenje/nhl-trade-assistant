@@ -1,5 +1,464 @@
 [
   {
+    "uuid": "2ee982b9-d07e-4004-b346-ca002fa272c7",
+    "playerId": 8480084,
+    "name": "Nick DeSimone",
+    "birthCity": "East Amherst",
+    "birthDate": "1994-11-21",
+    "id": null,
+    "hdbId": "165579"
+  },
+  {
+    "uuid": "b7765226-2860-40f3-87fd-067a4d2d3cc1",
+    "playerId": 8477509,
+    "name": "Mirco Mueller",
+    "birthCity": "Winterthur",
+    "birthDate": "1995-03-21",
+    "id": null,
+    "hrId": "muellmi01"
+  },
+  {
+    "uuid": "d04c8e44-c005-494a-b46c-03865cd75765",
+    "playerId": 8477455,
+    "name": "Jacob de la Rose",
+    "birthCity": "Arvika",
+    "birthDate": "1995-05-20",
+    "id": null,
+    "hdbId": "165996"
+  },
+  {
+    "uuid": "cf41f993-6259-4799-bad2-5c8bef2a82d5",
+    "playerId": 8477455,
+    "name": "Jacob de la Rose",
+    "birthCity": "Arvika",
+    "birthDate": "1995-05-20",
+    "id": null,
+    "hrId": "delarja01"
+  },
+  {
+    "uuid": "578e42fc-4a10-40f4-8bf6-4751e334b431",
+    "playerId": 8478417,
+    "name": "Jakob Forsbacka Karlsson",
+    "birthCity": "Stockholm",
+    "birthDate": "1996-10-31",
+    "id": null,
+    "hdbId": "170291"
+  },
+  {
+    "uuid": "90548315-50b9-4278-b7db-07b158ce7720",
+    "playerId": 8478844,
+    "name": "Mikhail Vorobyev",
+    "birthCity": "Ufa",
+    "birthDate": "1997-01-05",
+    "id": null,
+    "hdbId": "182216"
+  },
+  {
+    "uuid": "bfc05653-5545-430d-a7b5-06e6b3961e21",
+    "playerId": 8479718,
+    "name": "Alex Barre-Boulet",
+    "birthCity": "Montmagny",
+    "birthDate": "1997-05-21",
+    "id": null,
+    "hdbId": "176685"
+  },
+  {
+    "uuid": "5cb4429a-9dbb-4c1c-b02f-ed5491577b96",
+    "playerId": 8479718,
+    "name": "Alex Barre-Boulet",
+    "birthCity": "Montmagny",
+    "birthDate": "1997-05-21",
+    "id": null,
+    "hrId": "barreal01"
+  },
+  {
+    "uuid": "20daf310-dd70-4344-83f8-3beb32bc15bd",
+    "playerId": 8479413,
+    "name": "Sean Day",
+    "birthCity": "Leuven",
+    "birthDate": "1998-01-09",
+    "id": null,
+    "hrId": "dayse01"
+  },
+  {
+    "uuid": "21f8355e-37fd-4b7f-905a-c5ed3b498aeb",
+    "playerId": 8483548,
+    "name": "Brandon Bussi",
+    "birthCity": "Sound Beach",
+    "birthDate": "1998-06-25",
+    "id": null,
+    "hdbId": "195617"
+  },
+  {
+    "uuid": "d1d2179d-089b-4173-a4aa-ecb3a1dfb22c",
+    "playerId": 8483548,
+    "name": "Brandon Bussi",
+    "birthCity": "Sound Beach",
+    "birthDate": "1998-06-25",
+    "id": null,
+    "hrId": "bussibr01"
+  },
+  {
+    "uuid": "2ae6e520-9bda-457f-a9cb-6a6a73878b1c",
+    "playerId": 8484256,
+    "name": "Jake Livingstone",
+    "birthCity": "Creston",
+    "birthDate": "1999-04-16",
+    "id": null,
+    "hrId": "livinja02"
+  },
+  {
+    "uuid": "702f09a6-64ed-4c87-9a53-1d1a9a0e1d81",
+    "playerId": 8481683,
+    "name": "Aidan McDonough",
+    "birthCity": "Milton",
+    "birthDate": "1999-11-06",
+    "id": null,
+    "hdbId": "213716"
+  },
+  {
+    "uuid": "463d0148-d25e-400c-8985-a4363debb788",
+    "playerId": 8484268,
+    "name": "Nikita Tolopilo",
+    "birthCity": "Minsk",
+    "birthDate": "2000-04-06",
+    "id": null,
+    "hdbId": "232637"
+  },
+  {
+    "uuid": "f812e2d7-7d8f-4b4b-aba3-0979becb48d9",
+    "playerId": 8484268,
+    "name": "Nikita Tolopilo",
+    "birthCity": "Minsk",
+    "birthDate": "2000-04-06",
+    "id": null,
+    "hrId": "tolopni01"
+  },
+  {
+    "uuid": "1d665528-446e-4232-afb5-be5981824e89",
+    "playerId": 8481712,
+    "name": "Matej Blumel",
+    "birthCity": "Tabor",
+    "birthDate": "2000-05-31",
+    "id": null,
+    "hdbId": "209494"
+  },
+  {
+    "uuid": "a65bf8a6-bdc4-421e-9fb1-654980856a67",
+    "playerId": 8481712,
+    "name": "Matej Blumel",
+    "birthCity": "Tabor",
+    "birthDate": "2000-05-31",
+    "id": null,
+    "hrId": "blumema01"
+  },
+  {
+    "uuid": "f37f4d7f-3653-47c1-9dd7-6ed3e884b52b",
+    "playerId": 8480885,
+    "name": "Olivier Rodrigue",
+    "birthCity": "Chicoutimi",
+    "birthDate": "2000-07-06",
+    "id": null,
+    "hdbId": "195962"
+  },
+  {
+    "uuid": "d87d82e7-b8a5-47b9-a1fe-6e28992234bf",
+    "playerId": 8480885,
+    "name": "Olivier Rodrigue",
+    "birthCity": "Chicoutimi",
+    "birthDate": "2000-07-06",
+    "id": null,
+    "hrId": "rodriol01"
+  },
+  {
+    "uuid": "87922963-c447-4ede-8331-9a5d3e95dadc",
+    "playerId": 8481520,
+    "name": "Isaiah Saville",
+    "birthCity": "Anchorage",
+    "birthDate": "2000-09-21",
+    "id": null,
+    "hdbId": "208648"
+  },
+  {
+    "uuid": "2b5b71ee-1a3e-42e5-9633-93e7e323ae6a",
+    "playerId": 8481520,
+    "name": "Isaiah Saville",
+    "birthCity": "Anchorage",
+    "birthDate": "2000-09-21",
+    "id": null,
+    "hrId": "savilis01"
+  },
+  {
+    "uuid": "425a8e9c-9497-4377-9752-9d8fec508072",
+    "playerId": 8481537,
+    "name": "Nikita Okhotiuk",
+    "birthCity": "Chelyabinsk",
+    "birthDate": "2000-12-04",
+    "id": null,
+    "hdbId": "208491"
+  },
+  {
+    "uuid": "61fa54e4-1c28-441e-8cf4-eddff76fc117",
+    "playerId": 8481537,
+    "name": "Nikita Okhotiuk",
+    "birthCity": "Chelyabinsk",
+    "birthDate": "2000-12-04",
+    "id": null,
+    "hrId": "okhotni01"
+  },
+  {
+    "uuid": "7ff7d700-c54e-4924-b08f-706d147efcd5",
+    "playerId": 8481570,
+    "name": "Cade Webber",
+    "birthCity": "Worcester",
+    "birthDate": "2001-01-05",
+    "id": null,
+    "hdbId": "217618"
+  },
+  {
+    "uuid": "e69bc755-82d7-4838-ad43-3c57fa04ca59",
+    "playerId": 8481570,
+    "name": "Cade Webber",
+    "birthCity": "Worcester",
+    "birthDate": "2001-01-05",
+    "id": null,
+    "hrId": "webbeca01"
+  },
+  {
+    "uuid": "5b94748c-fe4a-48d0-87d5-c4f8dd91e2a7",
+    "playerId": 8481614,
+    "name": "Mikko Kokkonen",
+    "birthCity": "Mikkeli",
+    "birthDate": "2001-01-18",
+    "id": null,
+    "hdbId": "197159"
+  },
+  {
+    "uuid": "d1d30715-af71-4b4c-a692-d288681be98a",
+    "playerId": 8481614,
+    "name": "Mikko Kokkonen",
+    "birthCity": "Mikkeli",
+    "birthDate": "2001-01-18",
+    "id": null,
+    "hrId": "kokkomi01"
+  },
+  {
+    "uuid": "4f517502-61e1-455c-a293-a83360f04306",
+    "playerId": 8481591,
+    "name": "Sam Poulin",
+    "birthCity": "Blainville",
+    "birthDate": "2001-02-25",
+    "id": null,
+    "hdbId": "209007"
+  },
+  {
+    "uuid": "b9ab7784-d004-4a32-ad81-c3075506bc69",
+    "playerId": 8481591,
+    "name": "Sam Poulin",
+    "birthCity": "Blainville",
+    "birthDate": "2001-02-25",
+    "id": null,
+    "hrId": "poulisa01"
+  },
+  {
+    "uuid": "81d10bc6-b820-41b8-8ad9-6bea7e1fa735",
+    "playerId": 8481525,
+    "name": "Matthew Robertson",
+    "birthCity": "Edmonton",
+    "birthDate": "2001-03-09",
+    "id": null,
+    "hdbId": "200428"
+  },
+  {
+    "uuid": "4c11b817-8505-4aa4-ae39-87f12f9ffc4e",
+    "playerId": 8481525,
+    "name": "Matthew Robertson",
+    "birthCity": "Edmonton",
+    "birthDate": "2001-03-09",
+    "id": null,
+    "hrId": "roberma02"
+  },
+  {
+    "uuid": "6faeee7e-53bf-4f2d-9561-d1382d3c23b8",
+    "playerId": 8482479,
+    "name": "Trevor Kuntar",
+    "birthCity": "Buffalo",
+    "birthDate": "2001-06-20",
+    "id": null,
+    "hdbId": "209501"
+  },
+  {
+    "uuid": "0e71f365-a214-455f-a009-39d5c6835130",
+    "playerId": 8482479,
+    "name": "Trevor Kuntar",
+    "birthCity": "Buffalo",
+    "birthDate": "2001-06-20",
+    "id": null,
+    "hrId": "kuntatr01"
+  },
+  {
+    "uuid": "1df93c55-9b07-4266-a3d8-23df5340d9e4",
+    "playerId": 8482465,
+    "name": "Rémi Poirier",
+    "birthCity": "Farnham",
+    "birthDate": "2001-10-06",
+    "id": null,
+    "hdbId": "217632"
+  },
+  {
+    "uuid": "fe58ec5d-a40f-4922-9849-3b3220937f60",
+    "playerId": 8482465,
+    "name": "Rémi Poirier",
+    "birthCity": "Farnham",
+    "birthDate": "2001-10-06",
+    "id": null,
+    "hrId": "poirire01"
+  },
+  {
+    "uuid": "49970dd6-6f1a-45a6-b69e-ca7473c5e679",
+    "playerId": 8482107,
+    "name": "Mike Benning",
+    "birthCity": "Edmonton",
+    "birthDate": "2002-01-05",
+    "id": null,
+    "hdbId": "215692"
+  },
+  {
+    "uuid": "a4af0158-337a-44f5-9687-6d91088c899f",
+    "playerId": 8482107,
+    "name": "Mike Benning",
+    "birthCity": "Edmonton",
+    "birthDate": "2002-01-05",
+    "id": null,
+    "hrId": "bennimi01"
+  },
+  {
+    "uuid": "17f0c4ca-d1e1-4306-82b4-ea43df600a70",
+    "playerId": 8482138,
+    "name": "Christoffer Sedoff",
+    "birthCity": "Helsinki",
+    "birthDate": "2002-02-20",
+    "id": null,
+    "hdbId": "227546"
+  },
+  {
+    "uuid": "25828efd-d031-4033-a70d-03b539a979fb",
+    "playerId": 8482138,
+    "name": "Christoffer Sedoff",
+    "birthCity": "Helsinki",
+    "birthDate": "2002-02-20",
+    "id": null,
+    "hrId": "sedofch01"
+  },
+  {
+    "uuid": "15b27bb7-626c-4c80-8405-b77f4efb4f17",
+    "playerId": 8482484,
+    "name": "Jesper Vikman",
+    "birthCity": "Danderyd",
+    "birthDate": "2002-03-11",
+    "id": null,
+    "hdbId": "234806"
+  },
+  {
+    "uuid": "7d810c09-3e94-4368-84cd-8765b93ef910",
+    "playerId": 8482484,
+    "name": "Jesper Vikman",
+    "birthCity": "Danderyd",
+    "birthDate": "2002-03-11",
+    "id": null,
+    "hrId": "vikmaje01"
+  },
+  {
+    "uuid": "7624c250-502a-44a0-b311-301f12da69b7",
+    "playerId": 8482158,
+    "name": "Topi Niemela",
+    "birthCity": "Oulu",
+    "birthDate": "2002-03-25",
+    "id": null,
+    "hdbId": "226938"
+  },
+  {
+    "uuid": "7c202c12-4ea8-4177-84bd-e6bf1facce64",
+    "playerId": 8482158,
+    "name": "Topi Niemela",
+    "birthCity": "Oulu",
+    "birthDate": "2002-03-25",
+    "id": null,
+    "hrId": "niemeto01"
+  },
+  {
+    "uuid": "3ef6eccc-6a2c-4b4c-bed8-997639b11527",
+    "playerId": 8482193,
+    "name": "Dylan Garand",
+    "birthCity": "Victoria",
+    "birthDate": "2002-06-07",
+    "id": null,
+    "hdbId": "210112"
+  },
+  {
+    "uuid": "993b0dd2-9481-4555-a75d-7c64805dbc78",
+    "playerId": 8482193,
+    "name": "Dylan Garand",
+    "birthCity": "Victoria",
+    "birthDate": "2002-06-07",
+    "id": null,
+    "hrId": "garandy01"
+  },
+  {
+    "uuid": "4d61436e-1d0e-4096-b106-db1f3ccc6df2",
+    "playerId": 8482187,
+    "name": "Ronan Seeley",
+    "birthCity": "Yellowknife",
+    "birthDate": "2002-08-02",
+    "id": null,
+    "hdbId": "216825"
+  },
+  {
+    "uuid": "f5755aba-8354-4919-a875-adadb6aed5d9",
+    "playerId": 8482187,
+    "name": "Ronan Seeley",
+    "birthCity": "Yellowknife",
+    "birthDate": "2002-08-02",
+    "id": null,
+    "hrId": "seelero01"
+  },
+  {
+    "uuid": "86fdc2cd-2b09-4d1c-9eea-dec95ef52b95",
+    "playerId": 8482673,
+    "name": "Xavier Bourgault",
+    "birthCity": "L'Islet",
+    "birthDate": "2002-10-22",
+    "id": null,
+    "hrId": "bourgxa01"
+  },
+  {
+    "uuid": "41fdca3d-9d4a-4c49-beb6-ef2e1fa4b0a2",
+    "playerId": 8482673,
+    "name": "Xavier Bourgault",
+    "birthCity": "L'Islet",
+    "birthDate": "2002-10-22",
+    "id": null,
+    "hdbId": "216525"
+  },
+  {
+    "uuid": "322baa0b-ad3b-4ed2-b99d-d5daf86b5db3",
+    "playerId": 8482918,
+    "name": "Danila Klimovich",
+    "birthCity": "Pinsk",
+    "birthDate": "2003-01-09",
+    "id": null,
+    "hdbId": "241787"
+  },
+  {
+    "uuid": "2fbd64b2-d1dd-48b8-8a99-9e053ebb8ebb",
+    "playerId": 8482918,
+    "name": "Danila Klimovich",
+    "birthCity": "Pinsk",
+    "birthDate": "2003-01-09",
+    "id": null,
+    "hrId": "klimoda01"
+  },
+  {
     "uuid": "61654a98-a634-4856-b118-85428c327682",
     "playerId": 8483669,
     "name": "Adam Sykora",

@@ -47,8 +47,8 @@ const SearchCard = ({ player, site }: Props) => {
   const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     // console.log(player);
-    console.log("SEARCH_CARD SITE:", siteId);
-    site === Site.HockeyReference ? console.log("HR") : undefined;
+    // console.log("SEARCH_CARD SITE:", siteId);
+    // site === Site.HockeyReference ? console.log("HR") : undefined;
 
     const p: UpdatePlayer = {
       playerId,
@@ -61,8 +61,8 @@ const SearchCard = ({ player, site }: Props) => {
       hrId: site === Site.HockeyReference ? siteId : undefined,
     };
 
-    console.log("hdbId:", p.hdbId);
-    console.log("hrId:", p.hrId);
+    // console.log("hdbId:", p.hdbId);
+    // console.log("hrId:", p.hrId);
 
     addPlayerToUpdate(playerId, p);
 
