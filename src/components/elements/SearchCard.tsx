@@ -47,43 +47,52 @@ const SearchCard = ({ player, site }: Props) => {
   const handleButtonClick = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     // console.log(player);
+    console.log("SEARCH_CARD SITE:", siteId);
+    site === Site.HockeyReference ? console.log("HR") : undefined;
+
     const p: UpdatePlayer = {
       playerId,
-      id: siteId,
+      id: null,
       uuid: uuidv4(),
       name: `${firstName} ${lastName}`,
       birthCity,
       birthDate,
-      hdbId: undefined,
-      hrId: undefined,
+      hdbId: site === Site.HockeyDB ? siteId : undefined,
+      hrId: site === Site.HockeyReference ? siteId : undefined,
     };
 
-    let query = null;
-    switch (site) {
-      case Site.HockeyDB:
-        query = `
-          MATCH (p:Player {playerId: ${playerId}})
-          SET p.hdbId = ${siteId}
-          RETURN p;
-        `;
-        break;
-      case Site.HockeyReference:
-        query = `
-          MATCH (p:Player {playerId: ${playerId}})
-          SET p.hrId = ${siteId}
-          RETURN p;
-        `;
-        break;
-      default:
-        console.error("Unknown site:", site);
-        return;
-    }
+    console.log("hdbId:", p.hdbId);
+    console.log("hrId:", p.hrId);
+
+    addPlayerToUpdate(playerId, p);
+
+    // console.log(p);
+
+    // let query = null;
+    // switch (site) {
+    //   case Site.HockeyDB:
+    //     query = `
+    //       MATCH (p:Player {playerId: ${playerId}})
+    //       SET p.hdbId = ${siteId}
+    //       RETURN p;
+    //     `;
+    //     break;
+    //   case Site.HockeyReference:
+    //     query = `
+    //       MATCH (p:Player {playerId: ${playerId}})
+    //       SET p.hrId = ${siteId}
+    //       RETURN p;
+    //     `;
+    //     break;
+    //   default:
+    //     console.error("Unknown site:", site);
+    //     return;
+    // }
 
     // MATCH (p:Player {playerId: playerId})
     // SET p.surname = 'Taylor'
     // RETURN p;
 
-    console.log(query);
     // console.log(`SITE ID: ${siteId}`);
 
     // playerId: number, { id, name, birthCity, birthDate };
@@ -96,6 +105,16 @@ const SearchCard = ({ player, site }: Props) => {
     // console.log(`${playerId} -> `);
     // console.log(player);
     // console.log(e);
+
+    // {
+    //   "uuid": "7cce9150-9c59-471f-a110-41f55df7f2b9",
+    //   "playerId": 8447348,
+    //   "name": "Jack Laviolette",
+    //   "birthCity": "Belleville",
+    //   "birthDate": "1879-07-17",
+    //   "id": null,
+    //   "hrId": "lavioja01"
+    // },
 
     // uuid: uuidv4(),
     // playerId,

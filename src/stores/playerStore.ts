@@ -31,7 +31,7 @@ export const playersToUpdate = persistentAtom<UpdatePlayer[]>(
 // Add a player to the left menu for connecting the nhl id with another site id
 export function addPlayerToUpdate(
   playerId: number,
-  { id, name, birthCity, birthDate }: UpdatePlayer
+  { id, name, birthCity, birthDate, hdbId, hrId }: UpdatePlayer
 ) {
   let p: UpdatePlayer = {
     uuid: uuidv4(),
@@ -40,16 +40,18 @@ export function addPlayerToUpdate(
     birthCity,
     birthDate,
     id: null,
-    hdbId: undefined,
-    hrId: undefined,
+    hdbId: hdbId || undefined,
+    hrId: hrId || undefined,
   };
 
   // Used to descide which site the update is for
   // if (!isNaN(id)) {
-  if (Number(id)) {
-    p.hdbId = id?.toString();
-  } else {
-    p.hrId = id?.toString();
+  if (p.hdbId === undefined && p.hrId === undefined) {
+    if (Number(id)) {
+      p.hdbId = id?.toString();
+    } else {
+      p.hrId = id?.toString();
+    }
   }
 
   playersToUpdate.set([p, ...playersToUpdate.get()]);
