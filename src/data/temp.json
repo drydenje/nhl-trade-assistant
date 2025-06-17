@@ -1,5 +1,707 @@
 [
   {
+    "uuid": "43a7be39-3656-4d53-b709-c09960c77aba",
+    "playerId": 8479115,
+    "name": "Jorge Alves",
+    "birthCity": "Boston",
+    "birthDate": "1979-01-30",
+    "id": null,
+    "hrId": "alvesjo01"
+  },
+  {
+    "uuid": "72d2070d-5616-4460-bd34-d9ad635b1931",
+    "playerId": 8467387,
+    "name": "Joe Dipenta",
+    "birthCity": "Barrie",
+    "birthDate": "1979-02-25",
+    "id": null,
+    "hdbId": "35562"
+  },
+  {
+    "uuid": "648aefa1-f914-4131-a5e5-77cfd9278250",
+    "playerId": 8467387,
+    "name": "Joe Dipenta",
+    "birthCity": "Barrie",
+    "birthDate": "1979-02-25",
+    "id": null,
+    "hrId": "dipenjo01"
+  },
+  {
+    "uuid": "57c3a4bd-a658-4fb6-8ea4-f16fb2714724",
+    "playerId": 8467340,
+    "name": "Patrick Desrochers",
+    "birthCity": "Penetang",
+    "birthDate": "1979-10-27",
+    "id": null,
+    "hdbId": "23711"
+  },
+  {
+    "uuid": "74cebf87-039f-4fbd-94dd-147e864775d5",
+    "playerId": 8467340,
+    "name": "Patrick Desrochers",
+    "birthCity": "Penetang",
+    "birthDate": "1979-10-27",
+    "id": null,
+    "hrId": "desropa01"
+  },
+  {
+    "uuid": "d0e25224-81af-4f26-9d8f-c1f112be2d42",
+    "playerId": 8467391,
+    "name": "Jason LaBarbera",
+    "birthCity": "Burnaby",
+    "birthDate": "1980-01-18",
+    "id": null,
+    "hdbId": "29212"
+  },
+  {
+    "uuid": "a0acc431-2204-427f-9911-648f70283d27",
+    "playerId": 8467352,
+    "name": "Vitaly Vishnevski",
+    "birthCity": "Kharkov",
+    "birthDate": "1980-03-18",
+    "id": null,
+    "hdbId": "34001"
+  },
+  {
+    "uuid": "679b729d-bc5a-4c95-ba86-b0ea8112d94f",
+    "playerId": 8468750,
+    "name": "Micki Dupont",
+    "birthCity": "Calgary",
+    "birthDate": "1980-04-15",
+    "id": null,
+    "hdbId": "29150"
+  },
+  {
+    "uuid": "b0f18354-033d-4cea-8cba-f2ac036fcab2",
+    "playerId": 8468750,
+    "name": "Micki Dupont",
+    "birthCity": "Calgary",
+    "birthDate": "1980-04-15",
+    "id": null,
+    "hrId": "duponmi01"
+  },
+  {
+    "uuid": "945bde8c-5d46-4dd9-8154-588d0c6f3d6a",
+    "playerId": 8472008,
+    "name": "Kurtis Mclean",
+    "birthCity": "Kirkland Lake",
+    "birthDate": "1980-11-02",
+    "id": null,
+    "hdbId": "84377"
+  },
+  {
+    "uuid": "040eebce-065b-4f7b-ab89-fcad6a66477d",
+    "playerId": 8472008,
+    "name": "Kurtis Mclean",
+    "birthCity": "Kirkland Lake",
+    "birthDate": "1980-11-02",
+    "id": null,
+    "hrId": "mcleaku01"
+  },
+  {
+    "uuid": "97a6b809-3ea8-46bc-b6be-fe7f9d1f2f0b",
+    "playerId": 8468584,
+    "name": "Jon Disalvatore",
+    "birthCity": "Bangor",
+    "birthDate": "1981-03-30",
+    "id": null,
+    "hdbId": "49601"
+  },
+  {
+    "uuid": "0e0f379b-efe1-4fbf-8e3a-788da35fbad8",
+    "playerId": 8468584,
+    "name": "Jon Disalvatore",
+    "birthCity": "Bangor",
+    "birthDate": "1981-03-30",
+    "id": null,
+    "hrId": "disaljo01"
+  },
+  {
+    "uuid": "df4ae27f-041c-4ef0-b729-bf8ce1a51a38",
+    "playerId": 8476086,
+    "name": "Justin Johnson",
+    "birthCity": "Anchorage",
+    "birthDate": "1981-05-05",
+    "id": null,
+    "hrId": "johnsju01"
+  },
+  {
+    "uuid": "0d31fb94-1dfa-456c-b2f5-aad1afa8e986",
+    "playerId": 8469919,
+    "name": "Thomas Pock",
+    "birthCity": "Klagenfurt",
+    "birthDate": "1981-12-02",
+    "id": null,
+    "hdbId": "54532"
+  },
+  {
+    "uuid": "928604a1-c202-40e4-9d37-9bdd7af55d30",
+    "playerId": 8468853,
+    "name": "Brennan Evans",
+    "birthCity": "Camrose",
+    "birthDate": "1982-01-06",
+    "id": null,
+    "hrId": "evansbr01"
+  },
+  {
+    "uuid": "1240148b-f471-4566-9311-47ebbdc98ff8",
+    "playerId": 8469812,
+    "name": "Chad LaRose",
+    "birthCity": "Fraser",
+    "birthDate": "1982-03-27",
+    "id": null,
+    "hdbId": "55298"
+  },
+  {
+    "uuid": "3ec186c4-ab10-4be8-a012-00ef2a0c89aa",
+    "playerId": 8469812,
+    "name": "Chad LaRose",
+    "birthCity": "Fraser",
+    "birthDate": "1982-03-27",
+    "id": null,
+    "hrId": "larosch01"
+  },
+  {
+    "uuid": "bc931f36-adc3-4e28-ad2a-352e72282042",
+    "playerId": 8468529,
+    "name": "Jonas Nordqvist",
+    "birthCity": "Leksand",
+    "birthDate": "1982-04-26",
+    "id": null,
+    "hdbId": "51195"
+  },
+  {
+    "uuid": "161cdb5c-fd8a-4a1b-94b0-576ff3b2a3e8",
+    "playerId": 8473927,
+    "name": "Brad Mills",
+    "birthCity": "Terrace",
+    "birthDate": "1983-05-03",
+    "id": null,
+    "hrId": "millsbr01"
+  },
+  {
+    "uuid": "a3e2e8ab-4ead-4709-ba76-2eb7d1a90554",
+    "playerId": 8470263,
+    "name": "David Leneveu",
+    "birthCity": "Fernie",
+    "birthDate": "1983-05-23",
+    "id": null,
+    "hdbId": "62871"
+  },
+  {
+    "uuid": "167ea95f-7b1e-48b4-b439-b6664ca9a72f",
+    "playerId": 8470263,
+    "name": "David Leneveu",
+    "birthCity": "Fernie",
+    "birthDate": "1983-05-23",
+    "id": null,
+    "hrId": "lenevda01"
+  },
+  {
+    "uuid": "627ccd91-12b6-4c12-b062-3ad54fcf15f1",
+    "playerId": 8470787,
+    "name": "Drew Bagnall",
+    "birthCity": "Oakbank",
+    "birthDate": "1983-10-26",
+    "id": null,
+    "hrId": "bagnadr01"
+  },
+  {
+    "uuid": "3019e62a-4bc1-4b83-9548-1e78b6dcbfbd",
+    "playerId": 8474939,
+    "name": "Mark Van Guilder",
+    "birthCity": "Roseville",
+    "birthDate": "1984-01-17",
+    "id": null,
+    "hrId": "vanguma01"
+  },
+  {
+    "uuid": "05694a83-fc8e-473e-b93e-9de842978415",
+    "playerId": 8470899,
+    "name": "Triston Grant",
+    "birthCity": "Neepawa",
+    "birthDate": "1984-02-02",
+    "id": null,
+    "hrId": "granttr01"
+  },
+  {
+    "uuid": "4c732fa6-17ac-4e65-94b7-a39038e9b9e9",
+    "playerId": 8471408,
+    "name": "Petri Kontiola",
+    "birthCity": "Seinajoki",
+    "birthDate": "1984-10-04",
+    "id": null,
+    "hrId": "kontipe01"
+  },
+  {
+    "uuid": "8a9dfe34-db9e-4c75-8cb9-e6aac6ddc601",
+    "playerId": 8470843,
+    "name": "Nathan McIver",
+    "birthCity": "Summerside",
+    "birthDate": "1985-01-06",
+    "id": null,
+    "hrId": "mcivena01"
+  },
+  {
+    "uuid": "9d3dca54-f17e-4442-9598-e3896c935463",
+    "playerId": 8471288,
+    "name": "Scott Lehman",
+    "birthCity": "Windsor",
+    "birthDate": "1986-01-05",
+    "id": null,
+    "hrId": "lehmasc01"
+  },
+  {
+    "uuid": "d0e9bd85-4bf2-4af0-9b3a-25cdda550b01",
+    "playerId": 8473647,
+    "name": "Frédéric St-Denis",
+    "birthCity": "Greenfield Park",
+    "birthDate": "1986-01-23",
+    "id": null,
+    "hdbId": "70619"
+  },
+  {
+    "uuid": "c5985859-5403-4ade-a669-4c568ecbcae9",
+    "playerId": 8473647,
+    "name": "Frédéric St-Denis",
+    "birthCity": "Greenfield Park",
+    "birthDate": "1986-01-23",
+    "id": null,
+    "hrId": "stdenfr01"
+  },
+  {
+    "uuid": "703487d8-b41e-4075-b008-21a0425c7054",
+    "playerId": 8471261,
+    "name": "Dane Byers",
+    "birthCity": "Nipawin",
+    "birthDate": "1986-02-21",
+    "id": null,
+    "hrId": "byersda01"
+  },
+  {
+    "uuid": "41bd5be2-8af9-411f-a3da-a76b1ba0310c",
+    "playerId": 8471305,
+    "name": "Daniel Lacosta",
+    "birthCity": "Labrador City",
+    "birthDate": "1986-03-28",
+    "id": null,
+    "hdbId": "71811"
+  },
+  {
+    "uuid": "dd0cd1d0-f007-483a-814c-768434bd0466",
+    "playerId": 8471305,
+    "name": "Daniel Lacosta",
+    "birthCity": "Labrador City",
+    "birthDate": "1986-03-28",
+    "id": null,
+    "hrId": "lacosda01"
+  },
+  {
+    "uuid": "d21cee04-bdba-4345-8b9d-d0ed9e078e33",
+    "playerId": 8471778,
+    "name": "Jordan Lavallee-Smotherman",
+    "birthCity": "Corvallis",
+    "birthDate": "1986-05-11",
+    "id": null,
+    "hdbId": "70650"
+  },
+  {
+    "uuid": "c6c3726b-e9c5-45d3-a647-35c860ad66f1",
+    "playerId": 8471778,
+    "name": "Jordan Lavallee-Smotherman",
+    "birthCity": "Corvallis",
+    "birthDate": "1986-05-11",
+    "id": null,
+    "hrId": "lavaljo01"
+  },
+  {
+    "uuid": "ddeed82f-4218-48e7-8304-0f398e298dcd",
+    "playerId": 8471912,
+    "name": "Kevin Henderson",
+    "birthCity": "Toronto",
+    "birthDate": "1986-12-03",
+    "id": null,
+    "hrId": "hendeke01"
+  },
+  {
+    "uuid": "0d7521d2-e1e4-45d6-881e-545e5457f467",
+    "playerId": 8473511,
+    "name": "David McIntyre",
+    "birthCity": "Oakville",
+    "birthDate": "1987-02-04",
+    "id": null,
+    "hdbId": "95354"
+  },
+  {
+    "uuid": "6daadf00-d54d-4cb4-9049-343b1e833d02",
+    "playerId": 8471701,
+    "name": "Joe Finley",
+    "birthCity": "Edina",
+    "birthDate": "1987-06-29",
+    "id": null,
+    "hrId": "finlejo01"
+  },
+  {
+    "uuid": "21b12ec7-a4b3-48b3-a097-79e2f9ded3fa",
+    "playerId": 8473505,
+    "name": "Peter LeBlanc",
+    "birthCity": "Hamilton",
+    "birthDate": "1988-02-03",
+    "id": null,
+    "hdbId": "95390"
+  },
+  {
+    "uuid": "2e8d735e-2152-4dff-a2d9-258a5e4e0b9f",
+    "playerId": 8473505,
+    "name": "Peter LeBlanc",
+    "birthCity": "Hamilton",
+    "birthDate": "1988-02-03",
+    "id": null,
+    "hrId": "leblape01"
+  },
+  {
+    "uuid": "a6e4444a-82a5-4188-9e0c-1692cb14c6a0",
+    "playerId": 8475104,
+    "name": "Evan Oberg",
+    "birthCity": "Forestburg",
+    "birthDate": "1988-02-16",
+    "id": null,
+    "hrId": "obergev01"
+  },
+  {
+    "uuid": "7e8f0b1c-4f7c-4130-9caa-99a5c8c16e02",
+    "playerId": 8473580,
+    "name": "Matthew Corrente",
+    "birthCity": "Mississauga",
+    "birthDate": "1988-03-17",
+    "id": null,
+    "hrId": "correma01"
+  },
+  {
+    "uuid": "5a60211b-2aa8-4925-aa3c-53138dc4de5c",
+    "playerId": 8473580,
+    "name": "Matt Corrente",
+    "birthCity": "Toronto",
+    "birthDate": "1988-03-17",
+    "id": null,
+    "hdbId": "80236"
+  },
+  {
+    "uuid": "6fa2363f-9ab4-4d09-b5ef-f5f2a40e8f28",
+    "playerId": 8474731,
+    "name": "Justin DiBenedetto",
+    "birthCity": "Maple",
+    "birthDate": "1988-08-25",
+    "id": null,
+    "hrId": "dibenju01"
+  },
+  {
+    "uuid": "9bf23965-0788-4993-9e28-bccd593bf45e",
+    "playerId": 8474077,
+    "name": "Carson McMillan",
+    "birthCity": "Brandon",
+    "birthDate": "1988-09-10",
+    "id": null,
+    "hrId": "mcmilca01"
+  },
+  {
+    "uuid": "81f24114-88b4-495f-9b3d-cbbc0cb1e31f",
+    "playerId": 8474050,
+    "name": "Brett MacLean",
+    "birthCity": "London",
+    "birthDate": "1988-12-24",
+    "id": null,
+    "hrId": "maclebr02"
+  },
+  {
+    "uuid": "bbe6cfab-9d5c-4027-83f9-418a813c36fc",
+    "playerId": 8477666,
+    "name": "Simon Moser",
+    "birthCity": "Bern",
+    "birthDate": "1989-03-10",
+    "id": null,
+    "hrId": "mosersi01"
+  },
+  {
+    "uuid": "e6dbf598-fc31-49c2-88fe-c90c54318f90",
+    "playerId": 8474163,
+    "name": "Kevin Marshall",
+    "birthCity": "Boucherville",
+    "birthDate": "1989-03-10",
+    "id": null,
+    "hrId": "marshke01"
+  },
+  {
+    "uuid": "e33ec001-eebe-4753-9880-71d56f6fa4f5",
+    "playerId": 8477082,
+    "name": "Dmitry Korobov",
+    "birthCity": "Novopolotsk",
+    "birthDate": "1989-03-12",
+    "id": null,
+    "hrId": "korobdm01"
+  },
+  {
+    "uuid": "ca4cd510-8181-422c-a94a-79b01b76480f",
+    "playerId": 8474037,
+    "name": "James van Riemsdyk",
+    "birthCity": "Middletown",
+    "birthDate": "1989-05-04",
+    "id": null,
+    "hdbId": "105417"
+  },
+  {
+    "uuid": "3323ee7f-a561-4290-9ca3-410b2eb607f3",
+    "playerId": 8474032,
+    "name": "Nick Petrecki",
+    "birthCity": "Schenectady",
+    "birthDate": "1989-07-11",
+    "id": null,
+    "hrId": "petreni01"
+  },
+  {
+    "uuid": "6267cf01-ee71-42d2-853f-7b3c755d5c54",
+    "playerId": 8474042,
+    "name": "Cody Almond",
+    "birthCity": "Calgary",
+    "birthDate": "1989-07-24",
+    "id": null,
+    "hrId": "almonco01"
+  },
+  {
+    "uuid": "20298764-4632-4740-ba3f-b7a013909767",
+    "playerId": 8477201,
+    "name": "Kellan Lain",
+    "birthCity": "Oakville",
+    "birthDate": "1989-08-11",
+    "id": null,
+    "hrId": "lainke01"
+  },
+  {
+    "uuid": "26529130-3380-4bc9-99cc-24b1c1e7d25a",
+    "playerId": 8475304,
+    "name": "Scott Timmins",
+    "birthCity": "Hamilton",
+    "birthDate": "1989-09-11",
+    "id": null,
+    "hrId": "timmisc01"
+  },
+  {
+    "uuid": "f7bf2106-e8ef-426b-b52f-9fd3481abbc8",
+    "playerId": 8474571,
+    "name": "Mikkel Boedker",
+    "birthCity": "Brondby",
+    "birthDate": "1989-12-16",
+    "id": null,
+    "hrId": "boedkmi01"
+  },
+  {
+    "uuid": "b98c465b-b372-4219-a967-d61038623918",
+    "playerId": 8477923,
+    "name": "Michael Keranen",
+    "birthCity": "Stockholm",
+    "birthDate": "1990-01-04",
+    "id": null,
+    "hrId": "keranmi01"
+  },
+  {
+    "uuid": "659adf98-7e6f-4a2a-9d6b-758a3e3d0fb7",
+    "playerId": 8474598,
+    "name": "Nicolas Deschamps",
+    "birthCity": "LaSalle",
+    "birthDate": "1990-01-06",
+    "id": null,
+    "hrId": "deschni01"
+  },
+  {
+    "uuid": "128e015f-4467-43da-abb2-fccfb7d8249e",
+    "playerId": 8477215,
+    "name": "Danny DeKeyser",
+    "birthCity": "Detroit",
+    "birthDate": "1990-03-07",
+    "id": null,
+    "hdbId": "122124"
+  },
+  {
+    "uuid": "deaa3dc1-ba01-410d-9edb-fa3b944910db",
+    "playerId": 8474754,
+    "name": "Joacim Eriksson",
+    "birthCity": "Gavle",
+    "birthDate": "1990-04-09",
+    "id": null,
+    "hrId": "eriksjo01"
+  },
+  {
+    "uuid": "480ad7ce-3f43-43ce-8fc2-740043fe1618",
+    "playerId": 8475303,
+    "name": "Connor Knapp",
+    "birthCity": "York",
+    "birthDate": "1990-05-01",
+    "id": null,
+    "hrId": "knappco01"
+  },
+  {
+    "uuid": "31842361-872a-4fe7-9773-16865b3360e2",
+    "playerId": 8477832,
+    "name": "Cody Kunyk",
+    "birthCity": "Sherwood Park",
+    "birthDate": "1990-05-20",
+    "id": null,
+    "hrId": "kunykco01"
+  },
+  {
+    "uuid": "4f808dbf-79d4-4817-a40a-53cce8f6d83a",
+    "playerId": 8474708,
+    "name": "Alexander Pechurskiy",
+    "birthCity": "Magnitogorsk",
+    "birthDate": "1990-06-04",
+    "id": null,
+    "hrId": "pechual01"
+  },
+  {
+    "uuid": "a7515946-19ed-4365-a1d9-77746a0aea8d",
+    "playerId": 8474587,
+    "name": "Greg Nemisz",
+    "birthCity": "Courtice",
+    "birthDate": "1990-06-05",
+    "id": null,
+    "hrId": "nemisgr01"
+  },
+  {
+    "uuid": "5714fe03-44d0-4e83-becb-5dc2ddc60464",
+    "playerId": 8475196,
+    "name": "Ben Hanowski",
+    "birthCity": "Little Falls",
+    "birthDate": "1990-10-18",
+    "id": null,
+    "hrId": "hanowbe01"
+  },
+  {
+    "uuid": "f7301527-e574-4759-8050-54fa2c715106",
+    "playerId": 8475198,
+    "name": "Joonas Nattinen",
+    "birthCity": "Jamsa",
+    "birthDate": "1991-01-03",
+    "id": null,
+    "hrId": "nattijo01"
+  },
+  {
+    "uuid": "42bc2bfd-e5a9-4424-ba5e-4b0e7a768a07",
+    "playerId": 8475332,
+    "name": "Adam Almquist",
+    "birthCity": "Jonkoping",
+    "birthDate": "1991-02-27",
+    "id": null,
+    "hrId": "almqvad01"
+  },
+  {
+    "uuid": "4522d793-3b68-4126-893e-aff8e2b14784",
+    "playerId": 8475275,
+    "name": "Patrick Wey",
+    "birthCity": "Pittsburgh",
+    "birthDate": "1991-03-21",
+    "id": null,
+    "hrId": "weypa01"
+  },
+  {
+    "uuid": "9b897c5d-102e-49ac-b091-bca492bb54f6",
+    "playerId": 8475171,
+    "name": "Oliver Ekman-Larsson",
+    "birthCity": "Karlskrona",
+    "birthDate": "1991-07-17",
+    "id": null,
+    "hdbId": "120283"
+  },
+  {
+    "uuid": "b66b7ce8-080a-43ff-bf7e-c44882a3d740",
+    "playerId": 8475889,
+    "name": "Patrick Holland",
+    "birthCity": "Lethbridge",
+    "birthDate": "1992-01-07",
+    "id": null,
+    "hrId": "hollapa01"
+  },
+  {
+    "uuid": "6bf0acef-c658-4082-8fd3-488a4240960a",
+    "playerId": 8475825,
+    "name": "Jani Hakanpaa",
+    "birthCity": "Kirkkonummi",
+    "birthDate": "1992-03-31",
+    "id": null,
+    "hdbId": "127800"
+  },
+  {
+    "uuid": "02bb4b55-fe5d-48b6-9377-b354f4bc5b39",
+    "playerId": 8475825,
+    "name": "Jani Hakanpaa",
+    "birthCity": "",
+    "birthDate": "1992-03-31",
+    "id": null,
+    "hrId": "hakanja01"
+  },
+  {
+    "uuid": "ee6c64d1-cad3-4209-95d1-a4b64a52e192",
+    "playerId": 8475756,
+    "name": "John McFarland",
+    "birthCity": "Richmond Hill",
+    "birthDate": "1992-04-02",
+    "id": null,
+    "hdbId": "115642"
+  },
+  {
+    "uuid": "844583fa-89c9-4ddc-8b4c-8e42e654c1f0",
+    "playerId": 8476367,
+    "name": "John Persson",
+    "birthCity": "Ostersund",
+    "birthDate": "1992-05-18",
+    "id": null,
+    "hrId": "perssjo01"
+  },
+  {
+    "uuid": "f509f7f6-38e8-494f-aeb2-00b5d568bfec",
+    "playerId": 8476983,
+    "name": "Paul LaDue",
+    "birthCity": "Grand Forks",
+    "birthDate": "1992-09-06",
+    "id": null,
+    "hdbId": "129954"
+  },
+  {
+    "uuid": "314134be-5024-4b6b-9b41-3ab19a56578d",
+    "playerId": 8476983,
+    "name": "Paul LaDue",
+    "birthCity": "Grand Forks",
+    "birthDate": "1992-09-06",
+    "id": null,
+    "hrId": "laduepa01"
+  },
+  {
+    "uuid": "051f55b9-f825-4799-bfb6-8891ade35994",
+    "playerId": 8476445,
+    "name": "Johan Sundstrom",
+    "birthCity": "Gothenburg",
+    "birthDate": "1992-09-21",
+    "id": null,
+    "hrId": "sundsjo01"
+  },
+  {
+    "uuid": "98abc010-bfde-4b74-ac66-c6c28a743801",
+    "playerId": 8476425,
+    "name": "Joseph LaBate",
+    "birthCity": "Burnsville",
+    "birthDate": "1993-04-16",
+    "id": null,
+    "hrId": "labatjo01"
+  },
+  {
+    "uuid": "8e1c8f02-fbb4-47e7-8629-2df1766bf974",
+    "playerId": 8477076,
+    "name": "JC Lipon",
+    "birthCity": "Regina",
+    "birthDate": "1993-07-10",
+    "id": null,
+    "hrId": "liponj.01"
+  },
+  {
     "uuid": "2ee982b9-d07e-4004-b346-ca002fa272c7",
     "playerId": 8480084,
     "name": "Nick DeSimone",
